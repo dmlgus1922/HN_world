@@ -210,7 +210,7 @@
             <ul id="placesList"></ul>
             <div id="pagination"></div>
         </div>
-        <form action="http://localhost:3000/toNavi">
+        <form action="http://localhost:3001/toNavi">
             <input type="hidden" name="start" id="start">
             
             <button>클릭</button>
@@ -220,9 +220,10 @@
         <h1><%= minute %>분 걸립니다.</h1>
         <% } %>
     </div>
+    
 
     <script type="text/javascript"
-        src="//dapi.kakao.com/v2/maps/sdk.js?appkey=e67b92f679778369a72327f7fcc1e7ce&libraries=services"></script>
+        src="//dapi.kakao.com/v2/maps/sdk.js?appkey=020f80760a6164da76c35b2fe8b3b28a&libraries=services"></script>
     <script>
         // 마커를 담을 배열입니다
         var markers = [];
@@ -232,7 +233,7 @@
                 center: new kakao.maps.LatLng(37.566826, 126.9786567), // 지도의 중심좌표
                 level: 3 // 지도의 확대 레벨
             };
-
+        
         // 지도를 생성합니다    
         var map = new kakao.maps.Map(mapContainer, mapOption);
 

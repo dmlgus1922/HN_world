@@ -26,8 +26,9 @@ router.get('/test3', (req,res) => {
 router.get('/toNavi', (req, res) => {
     const start = req.query.start;
     const end = '광주 서구 내방로 241번길 10';
-    const naviUrl = 'https://map.kakao.com/?sName=' + start + '&eName=' + end;
-
+    // const naviUrl = 'http://map.kakao.com/?sName=' + start + '&eName=' + end;
+    const naviUrl = 'http://map.kakao.com/?sName=서울 강남구1&eName=광주서구내방로241번길10';
+    console.log(naviUrl)
     // res.redirect(naviUrl);
 
     const getHtml = async () => {
@@ -40,22 +41,16 @@ router.get('/toNavi', (req, res) => {
 
     getHtml()
     .then((html) => {
-        // console.log("start 1");
-        // console.log(html.data);
-        // console.log("end 1");
         const $ = cheerio.load(html.data);
-        const data = $("#info\\.flagsearch > div.CarRouteResultView > ul > li > div.summary > div > div.contents > p > span.time > span.num");
-        console.log("start 2");
-        console.log(data);
-        console.log("end 2");
-        const carTime = data.text();
-        console.log("start 3");
-        console.log(carTime);
-        console.log("end 3");
-        // console.log(carTime);
-        // console.log("start 2");
-        // console.log(data);
-        // console.log("end 2");
+        
+        // const data = JSON.stringify(html[0]);
+        // const carTime = data.text();
+        console.log(html)
+        
+        res.render('test4', {
+            test: html
+        })
+        
         // console.log(carTime);
         // res.render('test3', {
         //     start: start,
@@ -70,6 +65,15 @@ router.get('/toNavi', (req, res) => {
 
     
 });
+router.get('/test4', (req, res) => {
+    res.render('test4', {
+        test:'<h1>hi</h1>'
+    })
+})
+
+router.get('/test5', (req, res) => {
+    res.render('test5')
+})
 
 app.use(router);
-app.listen(3000);
+app.listen(3001);
