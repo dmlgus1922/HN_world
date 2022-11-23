@@ -11,15 +11,25 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 });
 
 const Map1 = () => {
+  
+  // 지도 모달 열고 닫는 상태값
   const [openMap, setOpenMap] = useState(false);
   
+  // 체크 모달 열고 닫는 상태값
   const [openCheck, setOpenCheck] = useState(false);
   
+  // 출발지, 도착지 상태값(도로명 혹은 지번 주소)
   const [startAddr, setStartAddr] = useState('');
   const [endAddr, setEndAddr] = useState('');
 
+  // 출발지, 도착지 상태값(사용자가 보는 주소)
+  const [startUserAddr, setStartUserAddr] = useState('');
+  const [endUserAddr, setEndUserAddr] = useState('');
+  
+  // 지도 검색 버튼 찾기
   const searchButton = useRef();
   
+  // 사용자가 검색하려는게 출발지인지 도착지인지 확인하기
   const [flag, setFlag] = useState('');
 
   // map 열고 닫기
@@ -43,7 +53,7 @@ const Map1 = () => {
     setOpenCheck(false);
   }
 
-
+  // 지도 변수 미리 생성
   var map;
   
   // 마커를 담을 배열입니다
@@ -54,11 +64,13 @@ const Map1 = () => {
   // 검색 결과 목록이나 마커를 클릭했을 때 장소명을 표출할 인포윈도우를 생성합니다
   var infowindow = new kakao.maps.InfoWindow({ zIndex: 1 });
 
-
+  // 모달이 열렸을 때 지도를 띄우기 위해 useEffect 사용.
   useEffect(() => {
+    // 모달 열리자마자 안의 내용들 싹다 선언해버리면 지도가 안 띄워짐
+    // 따라서 setTimeout 설정
     const st = setTimeout(() => {
+      // 지도 모달창이 열렸을 때만 지도 관련 변수 및 함수 선언 
       if (openMap) {
-
         var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
           mapOption = {
             center: new kakao.maps.LatLng(37.566826, 126.9786567), // 지도의 중심좌표
@@ -200,33 +212,39 @@ const Map1 = () => {
           el.innerHTML = itemStr;
           el.className = 'item';
 
+          // 장소 선택하는 버튼 생성, 함수 집어넣기
           const button = document.createElement('button');
           button.innerText = '선택';
           button.addEventListener('click', () => {
             setOpenCheck(true);
           });
 
+          // 버튼을 각 장소 정보 li마다 넣어주기
           el.appendChild(button);
           
 
-
-          // 김의현 작성
           // 사용자가 리스트 내 주소를 클릭했을 때 실행하는 함수
-          // 리스트를 클릭했을 때 해당 위치로 지도가 이동하든가 마커가 커지든가 해야할듯
-          // 마커를 클릭하든 장소 추가 버튼을 새로 만들어서 그걸 클릭하든 했을 때 
-          // DB에 도로명 주소나 그냥 주소 넣도록 해야할듯
-          
           el.addEventListener('click', (e) => {
-            if (places.road_address_name) {
-              if (flag === '출발지') {
+
+            // 출발지인지 도착지인지 확인
+            if (flag === '출발지') {
+              // 출발지 장소 이름 저장
+              setStartUserAddr(places.place_name);
+
+              // 도로명 주소 있는지 확인
+              if (places.road_address_name) {
+                // 도로명 주소 저장
                 setStartAddr(places.road_address_name);
               } else {
-                setEndAddr(places.road_address_name);
-              }
-            } else {
-              if (flag === '출발지') {
+                // 지번 주소 저장
                 setStartAddr(places.address_name);
-              }else{
+              }
+
+            } else {
+              setEndUserAddr(places.place_name);
+              if (places.road_address_name) {
+                setEndAddr(places.road_address_name);
+              } else {
                 setEndAddr(places.address_name);
               }
             }
@@ -321,8 +339,13 @@ const Map1 = () => {
       <button onClick={handleOpenStart}>출발지 선택</button>
       <button onClick={handleOpenEnd}>도착지 선택</button>
 
-      <h2>출발지: {startAddr}</h2>
-      <h2>도착지: {endAddr}</h2>
+      <h2>DB에 담을 주소 - 도로명 혹은 지번 주소</h2>
+      <p>출발지: {startAddr}</p>
+      <p>도착지: {endAddr}</p>
+
+      <h2>사용자 화면에 보일 주소 - 건물 이름 등</h2>
+      <p>출발지: {startUserAddr}</p>
+      <p>도착지: {endUserAddr}</p>
 
       <Dialog open={openMap} onClose={handleClose} fullScreen TransitionComponent={Transition}>
         <div id="menu_wrap" className="bg_white">
