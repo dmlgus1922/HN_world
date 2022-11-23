@@ -26,8 +26,8 @@ router.get('/test3', (req,res) => {
 router.get('/toNavi', (req, res) => {
     const start = req.query.start;
     const end = '광주 서구 내방로 241번길 10';
-    // const naviUrl = 'http://map.kakao.com/?sName=' + start + '&eName=' + end;
-    const naviUrl = 'http://map.kakao.com/?sName=서울 강남구1&eName=광주서구내방로241번길10';
+    const naviUrl = 'http://map.kakao.com/?sName=' + start + '&eName=' + end;
+    // const naviUrl = 'http://map.kakao.com/?sName=서울 강남구1&eName=광주서구내방로241번길10';
     console.log(naviUrl)
     // res.redirect(naviUrl);
 
@@ -47,16 +47,16 @@ router.get('/toNavi', (req, res) => {
         // const carTime = data.text();
         console.log(html)
         
-        res.render('test4', {
-            test: html
-        })
+        // res.render('test4', {
+        //     test: html
+        // })
         
-        // console.log(carTime);
-        // res.render('test3', {
-        //     start: start,
-        //     end: end,
-        //     minute: carTime
-        // });
+        console.log(carTime);
+        res.render('test3', {
+            start: start,
+            end: end,
+            minute: carTime
+        });
 
         // const busTime = $('.TransitRouteItem > .time')
 

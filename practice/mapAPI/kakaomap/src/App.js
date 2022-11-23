@@ -6,7 +6,6 @@ import Map1 from './component/Map1';
 function App() {
   return (
     <>
-      d
       <Map1></Map1>
       {/* <Map2></Map2> */}
     </>
