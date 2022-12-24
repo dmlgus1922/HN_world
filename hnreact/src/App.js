@@ -1,16 +1,33 @@
+import { Routes, Route } from 'react-router-dom';
+
 import Header from './component/Header';
 import Main from './component/Main';
 import Footer from './component/Footer';
-import { Routes, Route } from 'react-router-dom';
+
+import Test from './component/study/Test';
+import Counter from './component/study/Counter';
+import Say from './component/study/Say';
+import EventPractice from './component/study/EventPractice';
+import EventPractice2 from './component/study/EventPractice2';
 
 import './css/App.css';
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
+      {/* <Header></Header>
       <Main></Main>
-      <Footer></Footer>
+      <Footer></Footer> */}
+      <EventPractice2></EventPractice2>
+      <EventPractice></EventPractice>
+      <Say></Say>
+      <Counter></Counter>
+      <Test name={'이름'} favoriteNumber={1}>
+        리액트
+        <div>
+          djdasd
+        </div>
+      </Test>
     </div>
   );
 }
