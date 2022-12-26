@@ -13,6 +13,8 @@ import EventPractice2 from './component/study/EventPractice2';
 import ValidationSample from './component/study/ValidationSample';
 import ScrollBox from './component/study/ScrollBox';
 import Iteration from './component/study/Iteration';
+import LifeCycleSample from './component/study/LifeCycleSample';
+import ErrorBoundary from './component/study/ErrorBoundary';
 
 import './css/App.css';
 
@@ -37,16 +39,45 @@ import './css/App.css';
 //   );
 // }
 
+// class App extends Component {
+//   render() {
+//     return (
+//       <div>
+//         {/* <ValidationSample></ValidationSample> */}
+//         <LifeCycleSample></LifeCycleSample>
+//         <Iteration></Iteration>
+//         {/* <ScrollBox ref={(ref) => this.scrollBox = ref}></ScrollBox>
+//         <button onClick={() => {this.scrollBox.scrollToBottom()}}>맨밑으로 이동</button> */}
+//       </div>
+//     );
+//   }
+// }
+
+function getRandomColor() {
+  return '#' + Math.floor(Math.random() * 16777215).toString(16);
+}
+
 class App extends Component {
+
+  state = {
+    color: '#000000'
+  }
+
+  handleClick = () => {
+    this.setState({
+      color: getRandomColor()
+    });
+  }
+
   render() {
     return (
       <div>
-        {/* <ValidationSample></ValidationSample> */}
-        <Iteration></Iteration>
-        {/* <ScrollBox ref={(ref) => this.scrollBox = ref}></ScrollBox>
-        <button onClick={() => {this.scrollBox.scrollToBottom()}}>맨밑으로 이동</button> */}
+        <button onClick={this.handleClick}>랜덤 색상</button>
+        <ErrorBoundary>
+          <LifeCycleSample color={this.state.color}></LifeCycleSample>
+        </ErrorBoundary>
       </div>
-    );
+    )
   }
 }
 
