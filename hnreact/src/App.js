@@ -12,6 +12,7 @@ import EventPractice from './component/study/EventPractice';
 import EventPractice2 from './component/study/EventPractice2';
 import ValidationSample from './component/study/ValidationSample';
 import ScrollBox from './component/study/ScrollBox';
+import Iteration from './component/study/Iteration';
 
 import './css/App.css';
 
@@ -41,8 +42,9 @@ class App extends Component {
     return (
       <div>
         {/* <ValidationSample></ValidationSample> */}
-        <ScrollBox ref={(ref) => this.scrollBox = ref}></ScrollBox>
-        <button onClick={() => {this.scrollBox.scrollToBottom()}}>맨밑으로 이동</button>
+        <Iteration></Iteration>
+        {/* <ScrollBox ref={(ref) => this.scrollBox = ref}></ScrollBox>
+        <button onClick={() => {this.scrollBox.scrollToBottom()}}>맨밑으로 이동</button> */}
       </div>
     );
   }
