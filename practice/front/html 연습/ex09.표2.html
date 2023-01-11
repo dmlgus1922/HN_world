@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표</title>
+</head>
+
+<body>
+    <section>
+        <article>
+            <table border="1" style="width: 50%;">
+                <caption>
+                    행 통합 테이블
+                </caption>
+                <tr>
+                    <th>1행</th>
+                    <td>1행 2열</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">2행</th>
+                    <td>2행 2열</td>
+                </tr>
+                <tr>
+                    <td>3행 2열</td>
+                </tr>
+            </table>
+        </article>
+    </section>
+    <p></p>
+    <section>
+        <article>
+            <table border="1" style="width: 50%;">
+                <caption>열 통합 테이블</caption>
+                <tr>
+                    <th>1열</th>
+                    <th colspan="2">2열</th>
+                </tr>
+                <tr>
+                    <td>2행 1열</td>
+                    <td>2행 2열</td>
+                    <td>2행 3열</td>
+                </tr>
+            </table>
+        </article>
+    </section>
+    <p></p>
+    <section>
+        <article>
+            <table border="1" style="width: 50%;">
+                <caption>행 열 통합 테이블</caption>
+                <tr>
+                    <td>가</td>
+                    <td>니</td>
+                    <td>다</td>
+                    <td rowspan="4">라</td>
+                </tr>
+                <tr>
+                    <td>마</td>
+                    <td rowspan="3" colspan="2">바</td>
+                </tr>
+                <tr>
+                    <td>사</td>
+                </tr>
+                <tr>
+                    <td>아</td>
+                </tr>
+                <tr>
+                    <td colspan="2">자</td>
+                    <td colspan="2">차</td>
+                </tr>
+                <tr>
+                    <td colspan="4">카</td>
+                </tr>
+            </table>
+        </article>
+    </section>
+    <p></p>
+    <section>
+        <article>
+            <table border="1" style="width: 50%;">
+                <caption>Sementic Table Tag</caption>
+                <thead>
+                    <tr>
+                        <th>태그 명칭</th>
+                        <th>설명</th>
+                        <th>사용여부</th>
+                    </tr>
+                <tbody>
+                    <tr>
+                        <td>thead</td>
+                        <td>표 머리말(head) 부분의 그룹 태그</td>
+                        <td>가능</td>
+                    </tr>
+                    <tr>
+                        <td>tfoot</td>
+                        <td>표 꼬리말(footer)부분의 그룹 태그</td>
+                        <td> 가능</td>
+                    </tr>
+                    <tr>
+                        <td>tbody</td>
+                        <td>표 본문(body) 부분의 그룹 태그</td>
+                        <td>가능</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr><td colspan="3">참고 사이트: http://www.w3.org/</td></tr>
+                </tfoot>
+                </thead>
+            </table>
+        </article>
+    </section>
+</body>
+
+</html>
