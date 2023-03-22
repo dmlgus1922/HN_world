@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Webcam Test</title>
+  </head>
+  <body>
+    <video id="video" width="640" height="480" autoplay></video>
+    <canvas id="canvas" width="640" height="480"></canvas>
+    <script>
+      var video = document.querySelector("#video");
+      var canvas = document.querySelector("#canvas");
+      var ctx = canvas.getContext("2d");
+
+      if (navigator.mediaDevices.getUserMedia) {
+        navigator.mediaDevices.getUserMedia({ video: true })
+          .then(function (stream) {
+            video.srcObject = stream;
+          })
+          .catch(function (err0r) {
+            console.log("Something went wrong!");
+          });
+      }
+
+      setInterval(function () {
+        ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+      }, 16);
+    </script>
+  </body>
+</html>
