@@ -92,10 +92,9 @@ def main():
                     # captured_frame = capture_frame(video_feed)
                     frame = cv2.resize(frame, picture_size)
                     frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-                    captured_picture = Image.fromarray(frame)
+                    st.session_state.picture = Image.fromarray(frame)
                     pic_con.caption('촬영 사진')
-
-                    pic_con.image(captured_picture, channels='BGR')
+                    pic_con.image(st.session_state.picture, channels='BGR')
                     take_pic = False
                     # video_feed.release()
                     # break
