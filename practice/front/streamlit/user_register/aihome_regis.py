@@ -14,23 +14,17 @@ if 'name' not in st.session_state:
 if 'name_regis' not in st.session_state:
     st.session_state.name_regis = False
 
-# 사진 촬영
-if 'photo_take' not in st.session_state:
-    st.session_state.photo_take = False
-
+# 사진 촬영 버튼 이름(한 번 클릭 시 재촬영으로 바뀌기 위함)
 if 'photo_take_btn_name' not in st.session_state:
     st.session_state.photo_take_btn_name = '촬영' 
 
-# 촬영한 사진(캠 화면 프레임)
+# 촬영한 사진
+if 'temp_photo' not in st.session_state:
+    st.session_state.temp_photo = []
+
+# 등록할 사진(캠 화면 프레임)
 if 'photo' not in st.session_state:
     st.session_state.photo = []
-
-# 사진 등록
-if 'photo_regis' not in st.session_state:
-    st.session_state.photo_regis = False
-
-if 'photo_regis_check' not in st.session_state:
-    st.session_state.photo_regis_check = False
 
 # 사용자 음성
 if 'audio' not in st.session_state:
@@ -48,10 +42,6 @@ if 'take_pic_btn' not in st.session_state:
     st.session_state.take_pic_btn = False
 
 
-if 'cam_test' not in st.session_state:
-    st.session_state.cam_test = 0
-
-
 ########################## 함수 생성 ##########################
 
 def name_regis_func():
@@ -60,17 +50,20 @@ def name_regis_func():
     else:
         st.session_state.name_regis = f'✅ {st.session_state.name}님, 반가워요'
 
-def photo_regis_func():
-    take_picture()
+def photo_take_func():
     st.session_state.photo_take_btn_name = '재촬영'
+    st.session_state.photo = st.session_state.temp_photo
+    CAPTURED_PICTURE.image(st.session_state.photo, channels='BGR')
+    PHOTO_REGIS_BTN.button('등록', key='photo_regis_key', on_click = photo_regis_func)
 
 
-def take_picture():
-    if st.session_state.photo_regis_check:
-        return
-    else:
-        st.session_state.photo_take = True
+def photo_regis_func():
+    cv2.imwrite('taked_photo.png', st.session_state.photo) # 우선 사진 저장으로 
+    PHOTO_CHECK.write(f'✅ 사진 등록 완료!')
 
+
+def audio_regis_func():
+    pass
 
 ################################### UI ###################################
 
@@ -128,10 +121,10 @@ with photo_regis_area:
     st.button(
         st.session_state.photo_take_btn_name,
         key='photo_take_key', 
-        on_click=photo_regis_func
+        on_click=photo_take_func
         )
     
-    PHOTO_SAVE_BTN = st.container()
+    PHOTO_REGIS_BTN = st.container()
 
 
 ############## 음성 등록 ##############
@@ -179,21 +172,6 @@ with result_message_area:
 
 ############################# 기능 (버튼 클릭 등) #############################
 
-# 이름 등록 버튼 클릭 시
-# if st.session_state.name_regis:
-#     if not st.session_state.name:
-#         NAME_CHECK.write('❗이름을 확인하세요')
-#     else:
-#         NAME_CHECK.write(f'✅ {st.session_state.name}님, 반가워요')
-
-# 촬영 버튼 클릭 시
-# if st.session_state.take_pic_btn:
-#     # if st.session_state.photo_regis:
-#     #     st.session_state.photo_regis = False
-#     take_picture()
-#     PHOTO_TAKE_BTN.button('재촬영', key='take_agian')
-#     st.session_state.take_pic_btn = False
-
 # 음성 등록 버튼 클릭 시
 if st.session_state.audio_check != '':
     if not st.session_state.audio:
@@ -220,32 +198,8 @@ def show_cam():
         
         frame = cv2.flip(frame, 1)
 
-         # 촬영 후 사진 등록 버튼 클릭 시 (기능 구현 필요)
-        if st.session_state.photo_regis:
-            cv2.imwrite('taked_photo.png', st.session_state.photo) # 우선 사진 저장으로 
-            st.session_state.photo_take = False
-            st.session_state.photo_regis = False
-            st.session_state.photo_regis_check = True
-            # st.session_state.take_pic_btn = False
-            PHOTO_CHECK.write(f'✅ 사진 등록 완료!')
-            # CAPTURED_PICTURE.write('사진등록완료')
-    
-        
-        if 'photo_take' in st.session_state and st.session_state.photo_take:
-            st.session_state.photo_take = False 
-            st.session_state.photo = frame
-            CAPTURED_PICTURE.image(st.session_state.photo, channels='BGR')
-            st.session_state.photo_regis = PHOTO_SAVE_BTN.button('등록', key='photo_regis_key')
-            
-            # False로 안 바뀌는 이유 알아낼 필요. 계속 True로 인식되어 등록을 눌러도 사진이 변경된다.
-            # 등록을 눌렀을 때 photo_take를 False로 바꾸면??
-
-       
-        
         WEB_CAM.image(frame, channels='BGR')
-
-
-
+        st.session_state.temp_photo = frame
 
     video_feed.release()
 
