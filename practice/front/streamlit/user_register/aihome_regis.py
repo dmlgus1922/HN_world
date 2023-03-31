@@ -5,6 +5,7 @@ from audio_recorder_streamlit import audio_recorder
 from st_custom_components import st_audiorec
 
 ########################## 세션 생성 ##########################
+#-------------------------------------------------------------------
 
 # 사용자 이름
 if 'name' not in st.session_state:
@@ -14,9 +15,15 @@ if 'name' not in st.session_state:
 if 'name_regis' not in st.session_state:
     st.session_state.name_regis = False
 
+#-------------------------------------------------------------------
+
 # 사진 촬영 버튼 이름(한 번 클릭 시 재촬영으로 바뀌기 위함)
 if 'photo_take_btn_name' not in st.session_state:
     st.session_state.photo_take_btn_name = '촬영' 
+
+# 사진 촬영 횟수(촬영 버튼, 등록 버튼 갱신될 때마다 unique 키 만들기 위함)
+if 'photo_take_num' not in st.session_state:
+    st.session_state.photo_take_num = 0
 
 # 촬영한 사진
 if 'temp_photo' not in st.session_state:
@@ -25,6 +32,8 @@ if 'temp_photo' not in st.session_state:
 # 등록할 사진(캠 화면 프레임)
 if 'photo' not in st.session_state:
     st.session_state.photo = []
+
+#-------------------------------------------------------------------
 
 # 사용자 음성
 if 'audio' not in st.session_state:
@@ -38,11 +47,17 @@ if 'audio' not in st.session_state:
 if 'audio_check' not in st.session_state:
     st.session_state.audio_check = ''
 
-if 'take_pic_btn' not in st.session_state:
-    st.session_state.take_pic_btn = False
-
 
 ########################## 함수 생성 ##########################
+
+def change_name_func():
+    # st.session_state.name = st.session_state.name
+    if not st.session_state.name:
+        st.session_state.name_regis = '❗이름을 확인하세요'
+    else:
+        st.session_state.name_regis = f'✅ {st.session_state.name}님, 반가워요'
+    # NAME_CHECK.write(st.session_state.name_regis)
+    return st.session_state.name_regis
 
 def name_regis_func():
     if not st.session_state.name:
@@ -50,16 +65,22 @@ def name_regis_func():
     else:
         st.session_state.name_regis = f'✅ {st.session_state.name}님, 반가워요'
 
-def photo_take_func():
-    st.session_state.photo_take_btn_name = '재촬영'
-    st.session_state.photo = st.session_state.temp_photo
-    CAPTURED_PICTURE.image(st.session_state.photo, channels='BGR')
-    PHOTO_REGIS_BTN.button('등록', key='photo_regis_key', on_click = photo_regis_func)
-
 
 def photo_regis_func():
     cv2.imwrite('taked_photo.png', st.session_state.photo) # 우선 사진 저장으로 
     PHOTO_CHECK.write(f'✅ 사진 등록 완료!')
+
+
+def photo_take_func():
+    st.session_state.photo_take_btn_name = '재촬영'
+    st.session_state.photo = st.session_state.temp_photo
+    CAPTURED_PICTURE.image(st.session_state.photo, channels='BGR')
+    PHOTO_REGIS_BTN.button(
+        '등록', 
+        key='photo_regis_key' + str(st.session_state.photo_take_num),
+        on_click = photo_regis_func
+        )
+    st.session_state.photo_take_num += 1
 
 
 def audio_regis_func():
@@ -87,7 +108,27 @@ st.markdown('<hr/>', unsafe_allow_html=True)
 
 ############## 사용자 명 ##############
 
-name_check_area, name_text_area, name_input_area, name_regis_area = st.columns(4)
+# name_check_area, name_text_area, name_input_area, name_regis_area = st.columns(4)
+
+# with name_check_area:
+#     NAME_CHECK = st.container()
+
+# with name_text_area:
+#     st.write('사용자 명')
+
+# with name_input_area:
+#     st.session_state.name = st.text_input(
+#         '이름', label_visibility='collapsed', 
+#         on_change=change_name_func
+#         )
+    
+# with name_regis_area:
+#     st.button('등록', key='name_regis_key', on_click=name_regis_func)
+
+# if st.session_state.name_regis:
+#     NAME_CHECK.write(change_name_func())
+
+name_check_area, name_text_area, name_input_regis_area = st.columns([1,1,2])
 
 with name_check_area:
     NAME_CHECK = st.container()
@@ -95,18 +136,44 @@ with name_check_area:
 with name_text_area:
     st.write('사용자 명')
 
-with name_input_area:
-    st.session_state.name = st.text_input('이름', label_visibility='collapsed')
-    
-with name_regis_area:
-    st.button('등록', key='name_regis_key', on_click=name_regis_func)
+with name_input_regis_area:
+    name_input_area, name_regis_area = st.columns(2)
 
-if st.session_state.name_regis:
-    NAME_CHECK.write(st.session_state.name_regis)
+    with name_input_area:
+        st.session_state.name = st.text_input(
+            '이름', label_visibility='collapsed', 
+            on_change=change_name_func
+            )
+        
+    with name_regis_area:
+        st.button('등록', key='name_regis_key', on_click=name_regis_func)
+
+    if st.session_state.name_regis:
+        NAME_CHECK.write(change_name_func())
 
 ############## 사진 촬영 ##############
 
-photo_check_area, photo_text_area, photo_input_area, photo_regis_area = st.columns(4)
+# photo_check_area, photo_text_area, photo_input_area, photo_regis_area = st.columns(4)
+
+# with photo_check_area:
+#     PHOTO_CHECK = st.container()
+
+# with photo_text_area:
+#     st.write('사진 촬영')
+
+# with photo_input_area:
+#     CAPTURED_PICTURE = st.container()
+    
+# with photo_regis_area:
+#     st.button(
+#         st.session_state.photo_take_btn_name,
+#         key='photo_take_key' + str(st.session_state.photo_take_num), 
+#         on_click=photo_take_func
+#         )
+    
+#     PHOTO_REGIS_BTN = st.container()
+
+photo_check_area, photo_text_area, photo_input_regis_area = st.columns([1,1,2])
 
 with photo_check_area:
     PHOTO_CHECK = st.container()
@@ -114,17 +181,22 @@ with photo_check_area:
 with photo_text_area:
     st.write('사진 촬영')
 
-with photo_input_area:
-    CAPTURED_PICTURE = st.container()
+with photo_input_regis_area:
+    photo_input_area, photo_regis_area = st.columns(2)
     
-with photo_regis_area:
-    st.button(
-        st.session_state.photo_take_btn_name,
-        key='photo_take_key', 
-        on_click=photo_take_func
-        )
-    
-    PHOTO_REGIS_BTN = st.container()
+    with photo_input_area:
+        CAPTURED_PICTURE = st.container()
+        
+    with photo_regis_area:
+        st.button(
+            st.session_state.photo_take_btn_name,
+            key='photo_take_key' + str(st.session_state.photo_take_num), 
+            on_click=photo_take_func
+            )
+        
+        PHOTO_REGIS_BTN = st.container()
+
+
 
 
 ############## 음성 등록 ##############
@@ -139,7 +211,7 @@ with photo_regis_area:
 # print(wav_audio_data)
 # st.audio()
 
-audio_check_area, audio_text_area, audio_input_area, audio_regis_area = st.columns(4)
+audio_check_area, audio_text_area, audio_input_regis_area = st.columns([1,1,2])
 
 with audio_check_area:
     VOICE_CHECK = st.container()
@@ -147,12 +219,13 @@ with audio_check_area:
 with audio_text_area:
     st.write('음성 등록')
 
-with audio_input_area:
-    st.session_state.audio = audio_recorder(text='',icon_name='record-vinyl', icon_size='1x')
+# with audio_input_area:
+#     st.session_state.audio = audio_recorder(text='',icon_name='record-vinyl', icon_size='1x')
 
 
-with audio_regis_area:
-    st.session_state.audio_check = st.button('등록', key = 'audio_regis_key')
+with audio_input_regis_area:
+    # st.session_state.audio_check = st.button('등록', key = 'audio_regis_key')
+    wav_audio_data = st_audiorec()
 
 
 ############## 등록 결과 ##############
@@ -173,37 +246,36 @@ with result_message_area:
 ############################# 기능 (버튼 클릭 등) #############################
 
 # 음성 등록 버튼 클릭 시
-if st.session_state.audio_check != '':
-    if not st.session_state.audio:
-        st.session_state.audio_check = '❗음성을 등록해주세요'
-        VOICE_CHECK.write(st.session_state.audio_check)
-        st.session_state.audio_check = ''
-        # st.session_state.audio_regis = False
-    else:
-        st.session_state.audio_check = f'✅ 음성을 등록했어요'
-        VOICE_CHECK.write(st.session_state.audio_check)
-        st.session_state.audio_check = ''
+# if st.session_state.audio_check != '':
+#     if not st.session_state.audio:
+#         st.session_state.audio_check = '❗음성을 등록해주세요'
+#         VOICE_CHECK.write(st.session_state.audio_check)
+#         st.session_state.audio_check = ''
+#         # st.session_state.audio_regis = False
+#     else:
+#         st.session_state.audio_check = f'✅ 음성을 등록했어요'
+#         VOICE_CHECK.write(st.session_state.audio_check)
+#         st.session_state.audio_check = ''
 
 # @st.cache_resource
-def video_capture():
-    return cv2.VideoCapture(0)
+# def video_capture():
+#     return cv2.VideoCapture(0)
 
-def show_cam():
-    video_feed = video_capture()
-    while True:
-        ret, frame = video_feed.read()
-        if not ret:
-            st.warning('No video feed')
-            break
+# def show_cam():
+#     video_feed = video_capture()
+#     while True:
+#         ret, frame = video_feed.read()
+#         if not ret:
+#             st.warning('No video feed')
+#             break
         
-        frame = cv2.flip(frame, 1)
+#         frame = cv2.flip(frame, 1)
 
-        WEB_CAM.image(frame, channels='BGR')
-        st.session_state.temp_photo = frame
-
-    video_feed.release()
+#         WEB_CAM.image(frame, channels='BGR')
+#         st.session_state.temp_photo = frame
+#     video_feed.release()
 
 
 # 세션 확인 용
 st.container().write(st.session_state)
-show_cam() # 영상 표출 때문에 무한루프 중
+# show_cam() # 영상 표출 때문에 무한루프 중
