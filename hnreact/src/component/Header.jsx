@@ -10,13 +10,9 @@ const Header = () => {
 
   return (
     <div className='header'>
-      <div>
-        
-        <a href="#intro">소개</a>
-        <a href="#info">정보</a>
-        <a href="#skills">기술</a>
-      </div>
-      이것은 헤더
+      나는야 숫자야구왕!
+      <br />
+      <br />
     </div>
   )
 }
