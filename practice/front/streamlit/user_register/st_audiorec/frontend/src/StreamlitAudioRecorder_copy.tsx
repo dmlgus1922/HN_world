@@ -14,10 +14,15 @@ interface State {
   recordState: null
   audioDataURL: string
   reset: boolean
+  regis: boolean
 }
 
 class StAudioRec extends StreamlitComponentBase<State> {
-  public state = { isFocused: false, recordState: null, audioDataURL: '', reset: false }
+  public state = {
+    isFocused: false, recordState: null,
+    audioDataURL: '', reset: false,
+    regis: false
+  }
 
   public render = (): ReactNode => {
     // Arguments that are passed to the plugin in Python are accessible
@@ -90,7 +95,15 @@ class StAudioRec extends StreamlitComponentBase<State> {
               controls
               src={this.state.audioDataURL}
             />
+            {
+            this.state.regis
+              ?
+              <button id='record' style={{float: "right", marginRight:"0"}}>등록</button>
+              :
+              <></>
+            }
           </div>
+          
         </span>
       </>
     )
@@ -110,7 +123,8 @@ class StAudioRec extends StreamlitComponentBase<State> {
     } else {
       this.setState({
         reset: false,
-        recordState: RecordState.STOP
+        recordState: RecordState.STOP,
+        regis: true
       })
       e.target.innerText = '녹음'
       e.target.id = 'record'

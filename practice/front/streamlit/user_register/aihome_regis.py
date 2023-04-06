@@ -1,7 +1,7 @@
 import streamlit as st
 import cv2
-import streamlit_webrtc as webrtc
-from audio_recorder_streamlit import audio_recorder
+# import streamlit_webrtc as webrtc
+# from audio_recorder_streamlit import audio_recorder
 from st_custom_components import st_audiorec
 
 ########################## 세션 생성 ##########################
@@ -257,23 +257,23 @@ with result_message_area:
 #         VOICE_CHECK.write(st.session_state.audio_check)
 #         st.session_state.audio_check = ''
 
-# @st.cache_resource
-# def video_capture():
-#     return cv2.VideoCapture(0)
+@st.cache_resource
+def video_capture():
+    return cv2.VideoCapture(0)
 
-# def show_cam():
-#     video_feed = video_capture()
-#     while True:
-#         ret, frame = video_feed.read()
-#         if not ret:
-#             st.warning('No video feed')
-#             break
+def show_cam():
+    video_feed = video_capture()
+    while True:
+        ret, frame = video_feed.read()
+        if not ret:
+            st.warning('No video feed')
+            break
         
-#         frame = cv2.flip(frame, 1)
+        frame = cv2.flip(frame, 1)
 
-#         WEB_CAM.image(frame, channels='BGR')
-#         st.session_state.temp_photo = frame
-#     video_feed.release()
+        WEB_CAM.image(frame, channels='BGR')
+        st.session_state.temp_photo = frame
+    video_feed.release()
 
 
 # 세션 확인 용
