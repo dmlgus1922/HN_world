@@ -1,0 +1,20 @@
+버튼 클릭
+    1. 버튼 상태값 변경
+    2. 렌더링
+-> 버튼 상태값은 계속 유지됨. 렌더링만 이용
+
+audio = 1, audio_regis = 2, button = 3, check_string = 4
+
+4는 3을 눌렀을 때에 반드시 값이 생김. 사라지지 않음
+3을 4에 부여
+
+
+
+
+
+이름 등록
+캠이 나오지 않을 땐 원하는 대로 잘 된다
+캠을 켰을 때
+
+
+** https://github.com/stefanrmmr/streamlit_audio_recorder  오디오

@@ -1,0 +1,9146 @@
+[{
+  "_id": {
+    "$oid": "616d0fe22721ddf8e9ab129b"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1629763200000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 10,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 1,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-08-24T01:53:00.000",
+      "level": "wake",
+      "seconds": 630
+    },
+    {
+      "dateTime": "2021-08-24T02:03:30.000",
+      "level": "light",
+      "seconds": 2430
+    },
+    {
+      "dateTime": "2021-08-24T02:44:00.000",
+      "level": "rem",
+      "seconds": 1380
+    },
+    {
+      "dateTime": "2021-08-24T03:07:00.000",
+      "level": "light",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-24T03:12:00.000",
+      "level": "wake",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-24T03:17:00.000",
+      "level": "light",
+      "seconds": 1740
+    },
+    {
+      "dateTime": "2021-08-24T03:46:00.000",
+      "level": "deep",
+      "seconds": 2070
+    },
+    {
+      "dateTime": "2021-08-24T04:20:30.000",
+      "level": "light",
+      "seconds": 90
+    },
+    {
+      "dateTime": "2021-08-24T04:22:00.000",
+      "level": "rem",
+      "seconds": 1860
+    },
+    {
+      "dateTime": "2021-08-24T04:53:00.000",
+      "level": "light",
+      "seconds": 3600
+    },
+    {
+      "dateTime": "2021-08-24T05:53:00.000",
+      "level": "rem",
+      "seconds": 1650
+    },
+    {
+      "dateTime": "2021-08-24T06:20:30.000",
+      "level": "wake",
+      "seconds": 270
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616d0fe22731ddf8e9ab129b"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1629676800000"
+    }
+  },
+  "bed_time": "00:15:00",
+  "sleep_time": "00:24:00",
+  "wake_time": "05:25:00",
+  "true_sleep_time": 240,
+  "sleep_efficiency": 88.88,
+  "toss_and_turn": 15,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 10,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 20,
+  "sleep_score": 95,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 15.5,
+  "emo_danger_ratio_30days": 12.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 1,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-08-23T00:23:30.000",
+      "level": "wake",
+      "seconds": 30
+    },
+    {
+      "dateTime": "2021-08-23T00:24:00.000",
+      "level": "light",
+      "seconds": 180
+    },
+    {
+      "dateTime": "2021-08-23T00:27:00.000",
+      "level": "wake",
+      "seconds": 720
+    },
+    {
+      "dateTime": "2021-08-23T00:39:00.000",
+      "level": "light",
+      "seconds": 2610
+    },
+    {
+      "dateTime": "2021-08-23T01:22:30.000",
+      "level": "wake",
+      "seconds": 900
+    },
+    {
+      "dateTime": "2021-08-23T01:37:30.000",
+      "level": "light",
+      "seconds": 1260
+    },
+    {
+      "dateTime": "2021-08-23T01:58:30.000",
+      "level": "deep",
+      "seconds": 1320
+    },
+    {
+      "dateTime": "2021-08-23T02:20:30.000",
+      "level": "light",
+      "seconds": 2640
+    },
+    {
+      "dateTime": "2021-08-23T03:04:30.000",
+      "level": "rem",
+      "seconds": 360
+    },
+    {
+      "dateTime": "2021-08-23T03:10:30.000",
+      "level": "deep",
+      "seconds": 360
+    },
+    {
+      "dateTime": "2021-08-23T03:16:30.000",
+      "level": "wake",
+      "seconds": 390
+    },
+    {
+      "dateTime": "2021-08-23T03:23:00.000",
+      "level": "light",
+      "seconds": 240
+    },
+    {
+      "dateTime": "2021-08-23T03:27:00.000",
+      "level": "rem",
+      "seconds": 330
+    },
+    {
+      "dateTime": "2021-08-23T03:32:30.000",
+      "level": "light",
+      "seconds": 5310
+    },
+    {
+      "dateTime": "2021-08-23T05:01:00.000",
+      "level": "rem",
+      "seconds": 840
+    },
+    {
+      "dateTime": "2021-08-23T05:15:00.000",
+      "level": "light",
+      "seconds": 570
+    },
+    {
+      "dateTime": "2021-08-23T05:24:30.000",
+      "level": "wake",
+      "seconds": 270
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616d0fe22721daf8e9ab129b"
+  },
+  "user_id": "uid_0x4321",
+  "date": {
+    "$date": {
+      "$numberLong": "1629763200000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 1,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-08-24T01:53:00.000",
+      "level": "wake",
+      "seconds": 630
+    },
+    {
+      "dateTime": "2021-08-24T02:03:30.000",
+      "level": "light",
+      "seconds": 2430
+    },
+    {
+      "dateTime": "2021-08-24T02:44:00.000",
+      "level": "rem",
+      "seconds": 1380
+    },
+    {
+      "dateTime": "2021-08-24T03:07:00.000",
+      "level": "light",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-24T03:12:00.000",
+      "level": "wake",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-24T03:17:00.000",
+      "level": "light",
+      "seconds": 1740
+    },
+    {
+      "dateTime": "2021-08-24T03:46:00.000",
+      "level": "deep",
+      "seconds": 2070
+    },
+    {
+      "dateTime": "2021-08-24T04:20:30.000",
+      "level": "light",
+      "seconds": 90
+    },
+    {
+      "dateTime": "2021-08-24T04:22:00.000",
+      "level": "rem",
+      "seconds": 1860
+    },
+    {
+      "dateTime": "2021-08-24T04:53:00.000",
+      "level": "light",
+      "seconds": 3600
+    },
+    {
+      "dateTime": "2021-08-24T05:53:00.000",
+      "level": "rem",
+      "seconds": 1650
+    },
+    {
+      "dateTime": "2021-08-24T06:20:30.000",
+      "level": "wake",
+      "seconds": 270
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616d0fe23731ddf8e9ab129b"
+  },
+  "user_id": "uid_0x4321",
+  "date": {
+    "$date": {
+      "$numberLong": "1629676800000"
+    }
+  },
+  "bed_time": "00:15:00",
+  "sleep_time": "00:24:00",
+  "wake_time": "05:25:00",
+  "true_sleep_time": 240,
+  "sleep_efficiency": 88.88,
+  "toss_and_turn": 5.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 10,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 20,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 15.5,
+  "emo_danger_ratio_30days": 12.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 1,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-08-23T00:23:30.000",
+      "level": "wake",
+      "seconds": 30
+    },
+    {
+      "dateTime": "2021-08-23T00:24:00.000",
+      "level": "light",
+      "seconds": 180
+    },
+    {
+      "dateTime": "2021-08-23T00:27:00.000",
+      "level": "wake",
+      "seconds": 720
+    },
+    {
+      "dateTime": "2021-08-23T00:39:00.000",
+      "level": "light",
+      "seconds": 2610
+    },
+    {
+      "dateTime": "2021-08-23T01:22:30.000",
+      "level": "wake",
+      "seconds": 900
+    },
+    {
+      "dateTime": "2021-08-23T01:37:30.000",
+      "level": "light",
+      "seconds": 1260
+    },
+    {
+      "dateTime": "2021-08-23T01:58:30.000",
+      "level": "deep",
+      "seconds": 1320
+    },
+    {
+      "dateTime": "2021-08-23T02:20:30.000",
+      "level": "light",
+      "seconds": 2640
+    },
+    {
+      "dateTime": "2021-08-23T03:04:30.000",
+      "level": "rem",
+      "seconds": 360
+    },
+    {
+      "dateTime": "2021-08-23T03:10:30.000",
+      "level": "deep",
+      "seconds": 360
+    },
+    {
+      "dateTime": "2021-08-23T03:16:30.000",
+      "level": "wake",
+      "seconds": 390
+    },
+    {
+      "dateTime": "2021-08-23T03:23:00.000",
+      "level": "light",
+      "seconds": 240
+    },
+    {
+      "dateTime": "2021-08-23T03:27:00.000",
+      "level": "rem",
+      "seconds": 330
+    },
+    {
+      "dateTime": "2021-08-23T03:32:30.000",
+      "level": "light",
+      "seconds": 5310
+    },
+    {
+      "dateTime": "2021-08-23T05:01:00.000",
+      "level": "rem",
+      "seconds": 840
+    },
+    {
+      "dateTime": "2021-08-23T05:15:00.000",
+      "level": "light",
+      "seconds": 570
+    },
+    {
+      "dateTime": "2021-08-23T05:24:30.000",
+      "level": "wake",
+      "seconds": 270
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616e6a98b0f61a00f37fd523"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1629590400000"
+    }
+  },
+  "bed_time": "00:40:00",
+  "sleep_time": "00:58:00",
+  "wake_time": "4:13:00",
+  "true_sleep_time": 240.05,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 7.5,
+  "wake": 35.5,
+  "rem": 120.5,
+  "light": 110.5,
+  "deep": 30.5,
+  "wake_ratio": 15,
+  "rem_ratio": 25,
+  "light_ratio": 45,
+  "deep_ratio": 15,
+  "sleep_score": 78,
+  "poor_sleep_ratio": 16.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-08-22T00:51:00.000",
+      "level": "wake",
+      "seconds": 450
+    },
+    {
+      "dateTime": "2021-08-22T00:58:30.000",
+      "level": "light",
+      "seconds": 2160
+    },
+    {
+      "dateTime": "2021-08-22T01:34:30.000",
+      "level": "wake",
+      "seconds": 510
+    },
+    {
+      "dateTime": "2021-08-22T01:43:00.000",
+      "level": "light",
+      "seconds": 1470
+    },
+    {
+      "dateTime": "2021-08-22T02:07:30.000",
+      "level": "wake",
+      "seconds": 210
+    },
+    {
+      "dateTime": "2021-08-22T02:11:00.000",
+      "level": "light",
+      "seconds": 150
+    },
+    {
+      "dateTime": "2021-08-22T02:13:30.000",
+      "level": "deep",
+      "seconds": 2430
+    },
+    {
+      "dateTime": "2021-08-22T02:54:00.000",
+      "level": "light",
+      "seconds": 510
+    },
+    {
+      "dateTime": "2021-08-22T03:02:30.000",
+      "level": "rem",
+      "seconds": 1470
+    },
+    {
+      "dateTime": "2021-08-22T03:27:00.000",
+      "level": "light",
+      "seconds": 2760
+    },
+    {
+      "dateTime": "2021-08-22T04:13:00.000",
+      "level": "wake",
+      "seconds": 390
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616e6add88cda42947965573"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1629504000000"
+    }
+  },
+  "bed_time": "00:55:00",
+  "sleep_time": "01:11:00",
+  "wake_time": "05:52:00",
+  "true_sleep_time": 230.15,
+  "sleep_efficiency": 83.5,
+  "toss_and_turn": 5.5,
+  "wake": 30.5,
+  "rem": 120.5,
+  "light": 115.5,
+  "deep": 30.5,
+  "wake_ratio": 13,
+  "rem_ratio": 25,
+  "light_ratio": 47,
+  "deep_ratio": 15,
+  "sleep_score": 85,
+  "poor_sleep_ratio": 13.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-08-21T01:00:00.000",
+      "level": "wake",
+      "seconds": 660
+    },
+    {
+      "dateTime": "2021-08-21T01:11:00.000",
+      "level": "light",
+      "seconds": 1650
+    },
+    {
+      "dateTime": "2021-08-21T01:38:30.000",
+      "level": "deep",
+      "seconds": 330
+    },
+    {
+      "dateTime": "2021-08-21T01:44:00.000",
+      "level": "light",
+      "seconds": 30
+    },
+    {
+      "dateTime": "2021-08-21T01:44:30.000",
+      "level": "wake",
+      "seconds": 210
+    },
+    {
+      "dateTime": "2021-08-21T01:48:00.000",
+      "level": "light",
+      "seconds": 990
+    },
+    {
+      "dateTime": "2021-08-21T02:04:30.000",
+      "level": "deep",
+      "seconds": 1800
+    },
+    {
+      "dateTime": "2021-08-21T02:34:30.000",
+      "level": "rem",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-21T02:39:30.000",
+      "level": "light",
+      "seconds": 1110
+    },
+    {
+      "dateTime": "2021-08-21T02:58:00.000",
+      "level": "deep",
+      "seconds": 1260
+    },
+    {
+      "dateTime": "2021-08-21T03:19:00.000",
+      "level": "light",
+      "seconds": 2280
+    },
+    {
+      "dateTime": "2021-08-21T03:57:00.000",
+      "level": "rem",
+      "seconds": 1980
+    },
+    {
+      "dateTime": "2021-08-21T04:30:00.000",
+      "level": "light",
+      "seconds": 3720
+    },
+    {
+      "dateTime": "2021-08-21T05:32:00.000",
+      "level": "rem",
+      "seconds": 1200
+    },
+    {
+      "dateTime": "2021-08-21T05:52:00.000",
+      "level": "wake",
+      "seconds": 360
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616e6b251bebda842386dfdc"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1629417600000"
+    }
+  },
+  "bed_time": "23:15:00",
+  "sleep_time": "23:27:00",
+  "wake_time": "05:52:00",
+  "true_sleep_time": 240.15,
+  "sleep_efficiency": 75.5,
+  "toss_and_turn": 20.5,
+  "wake": 30.5,
+  "rem": 125.5,
+  "light": 105.5,
+  "deep": 10.5,
+  "wake_ratio": 20,
+  "rem_ratio": 25,
+  "light_ratio": 40,
+  "deep_ratio": 15,
+  "sleep_score": 85,
+  "poor_sleep_ratio": 17,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-08-19T23:20:30.000",
+      "level": "wake",
+      "seconds": 390
+    },
+    {
+      "dateTime": "2021-08-19T23:27:00.000",
+      "level": "light",
+      "seconds": 660
+    },
+    {
+      "dateTime": "2021-08-19T23:38:00.000",
+      "level": "wake",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-08-19T23:42:30.000",
+      "level": "light",
+      "seconds": 2130
+    },
+    {
+      "dateTime": "2021-08-20T00:18:00.000",
+      "level": "deep",
+      "seconds": 1350
+    },
+    {
+      "dateTime": "2021-08-20T00:40:30.000",
+      "level": "wake",
+      "seconds": 990
+    },
+    {
+      "dateTime": "2021-08-20T00:57:00.000",
+      "level": "light",
+      "seconds": 4650
+    },
+    {
+      "dateTime": "2021-08-20T02:14:30.000",
+      "level": "rem",
+      "seconds": 960
+    },
+    {
+      "dateTime": "2021-08-20T02:30:30.000",
+      "level": "light",
+      "seconds": 930
+    },
+    {
+      "dateTime": "2021-08-20T02:46:00.000",
+      "level": "deep",
+      "seconds": 480
+    },
+    {
+      "dateTime": "2021-08-20T02:54:00.000",
+      "level": "light",
+      "seconds": 1260
+    },
+    {
+      "dateTime": "2021-08-20T03:15:00.000",
+      "level": "rem",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-20T03:20:00.000",
+      "level": "light",
+      "seconds": 510
+    },
+    {
+      "dateTime": "2021-08-20T03:28:30.000",
+      "level": "deep",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-08-20T03:33:00.000",
+      "level": "light",
+      "seconds": 1350
+    },
+    {
+      "dateTime": "2021-08-20T03:55:30.000",
+      "level": "rem",
+      "seconds": 930
+    },
+    {
+      "dateTime": "2021-08-20T04:11:00.000",
+      "level": "light",
+      "seconds": 4680
+    },
+    {
+      "dateTime": "2021-08-20T05:29:00.000",
+      "level": "rem",
+      "seconds": 1290
+    },
+    {
+      "dateTime": "2021-08-20T05:50:30.000",
+      "level": "light",
+      "seconds": 630
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616e6d92e35cbc8faf2bf83d"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1629331200000"
+    }
+  },
+  "bed_time": "23:30:00",
+  "sleep_time": "23:39:00",
+  "wake_time": "06:22:00",
+  "true_sleep_time": 360,
+  "sleep_efficiency": 85,
+  "toss_and_turn": 3.5,
+  "wake": 25.5,
+  "rem": 125.5,
+  "light": 205.5,
+  "deep": 10.5,
+  "wake_ratio": 20,
+  "rem_ratio": 15,
+  "light_ratio": 40,
+  "deep_ratio": 25,
+  "sleep_score": 95,
+  "poor_sleep_ratio": 15,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 22.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-08-18T23:30:30.000",
+      "level": "wake",
+      "seconds": 540
+    },
+    {
+      "dateTime": "2021-08-18T23:39:30.000",
+      "level": "light",
+      "seconds": 1290
+    },
+    {
+      "dateTime": "2021-08-19T00:01:00.000",
+      "level": "deep",
+      "seconds": 2250
+    },
+    {
+      "dateTime": "2021-08-19T00:38:30.000",
+      "level": "light",
+      "seconds": 1080
+    },
+    {
+      "dateTime": "2021-08-19T00:56:30.000",
+      "level": "deep",
+      "seconds": 2190
+    },
+    {
+      "dateTime": "2021-08-19T01:33:00.000",
+      "level": "light",
+      "seconds": 2370
+    },
+    {
+      "dateTime": "2021-08-19T02:12:30.000",
+      "level": "rem",
+      "seconds": 1560
+    },
+    {
+      "dateTime": "2021-08-19T02:38:30.000",
+      "level": "light",
+      "seconds": 2460
+    },
+    {
+      "dateTime": "2021-08-19T03:19:30.000",
+      "level": "wake",
+      "seconds": 420
+    },
+    {
+      "dateTime": "2021-08-19T03:26:30.000",
+      "level": "rem",
+      "seconds": 840
+    },
+    {
+      "dateTime": "2021-08-19T03:40:30.000",
+      "level": "light",
+      "seconds": 570
+    },
+    {
+      "dateTime": "2021-08-19T03:50:00.000",
+      "level": "rem",
+      "seconds": 1800
+    },
+    {
+      "dateTime": "2021-08-19T04:20:00.000",
+      "level": "light",
+      "seconds": 3300
+    },
+    {
+      "dateTime": "2021-08-19T05:15:00.000",
+      "level": "wake",
+      "seconds": 390
+    },
+    {
+      "dateTime": "2021-08-19T05:21:30.000",
+      "level": "light",
+      "seconds": 480
+    },
+    {
+      "dateTime": "2021-08-19T05:29:30.000",
+      "level": "rem",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-19T05:34:30.000",
+      "level": "light",
+      "seconds": 1440
+    },
+    {
+      "dateTime": "2021-08-19T05:58:30.000",
+      "level": "rem",
+      "seconds": 690
+    },
+    {
+      "dateTime": "2021-08-19T06:10:00.000",
+      "level": "light",
+      "seconds": 870
+    },
+    {
+      "dateTime": "2021-08-19T06:22:00.000",
+      "level": "wake",
+      "seconds": 150
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616e6dd9a74a5deef72b4f52"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1629244800000"
+    }
+  },
+  "bed_time": "00:55:00",
+  "sleep_time": "00:55:00",
+  "wake_time": "07:21:00",
+  "true_sleep_time": 380,
+  "sleep_efficiency": 95,
+  "toss_and_turn": 2.5,
+  "wake": 500,
+  "rem": 140,
+  "light": 160,
+  "deep": 30,
+  "wake_ratio": 15,
+  "rem_ratio": 45,
+  "light_ratio": 30,
+  "deep_ratio": 10,
+  "sleep_score": 80,
+  "poor_sleep_ratio": 10,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 55.5,
+  "emo_danger_ratio_30days": 48.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-08-18T00:55:00.000",
+      "level": "wake",
+      "seconds": 30
+    },
+    {
+      "dateTime": "2021-08-18T00:55:30.000",
+      "level": "light",
+      "seconds": 210
+    },
+    {
+      "dateTime": "2021-08-18T00:59:00.000",
+      "level": "wake",
+      "seconds": 780
+    },
+    {
+      "dateTime": "2021-08-18T01:12:00.000",
+      "level": "light",
+      "seconds": 1560
+    },
+    {
+      "dateTime": "2021-08-18T01:38:00.000",
+      "level": "deep",
+      "seconds": 600
+    },
+    {
+      "dateTime": "2021-08-18T01:48:00.000",
+      "level": "light",
+      "seconds": 1260
+    },
+    {
+      "dateTime": "2021-08-18T02:09:00.000",
+      "level": "rem",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-08-18T02:13:30.000",
+      "level": "deep",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-08-18T02:18:00.000",
+      "level": "light",
+      "seconds": 5370
+    },
+    {
+      "dateTime": "2021-08-18T03:47:30.000",
+      "level": "rem",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-18T03:52:30.000",
+      "level": "wake",
+      "seconds": 390
+    },
+    {
+      "dateTime": "2021-08-18T03:59:00.000",
+      "level": "light",
+      "seconds": 1290
+    },
+    {
+      "dateTime": "2021-08-18T04:20:30.000",
+      "level": "deep",
+      "seconds": 330
+    },
+    {
+      "dateTime": "2021-08-18T04:26:00.000",
+      "level": "light",
+      "seconds": 2190
+    },
+    {
+      "dateTime": "2021-08-18T05:02:30.000",
+      "level": "deep",
+      "seconds": 360
+    },
+    {
+      "dateTime": "2021-08-18T05:08:30.000",
+      "level": "light",
+      "seconds": 870
+    },
+    {
+      "dateTime": "2021-08-18T05:23:00.000",
+      "level": "rem",
+      "seconds": 600
+    },
+    {
+      "dateTime": "2021-08-18T05:33:00.000",
+      "level": "light",
+      "seconds": 3930
+    },
+    {
+      "dateTime": "2021-08-18T06:38:30.000",
+      "level": "deep",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-08-18T06:43:00.000",
+      "level": "light",
+      "seconds": 2280
+    },
+    {
+      "dateTime": "2021-08-18T07:21:00.000",
+      "level": "wake",
+      "seconds": 780
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616e6e3578b8e81d3f0ea014"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1629158400000"
+    }
+  },
+  "bed_time": "23:40:00",
+  "sleep_time": "23:50:00",
+  "wake_time": "06:24:00",
+  "true_sleep_time": 350,
+  "sleep_efficiency": 80,
+  "toss_and_turn": 20.5,
+  "wake": 25.5,
+  "rem": 105.5,
+  "light": 215.5,
+  "deep": 10.5,
+  "wake_ratio": 10,
+  "rem_ratio": 15,
+  "light_ratio": 50,
+  "deep_ratio": 25,
+  "sleep_score": 95,
+  "poor_sleep_ratio": 16,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 54.2,
+  "emo_danger_ratio_30days": 49.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-08-16T23:40:00.000",
+      "level": "wake",
+      "seconds": 600
+    },
+    {
+      "dateTime": "2021-08-16T23:50:00.000",
+      "level": "light",
+      "seconds": 120
+    },
+    {
+      "dateTime": "2021-08-16T23:52:00.000",
+      "level": "wake",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-16T23:57:00.000",
+      "level": "light",
+      "seconds": 1560
+    },
+    {
+      "dateTime": "2021-08-17T00:23:00.000",
+      "level": "wake",
+      "seconds": 330
+    },
+    {
+      "dateTime": "2021-08-17T00:28:30.000",
+      "level": "light",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-17T00:33:30.000",
+      "level": "wake",
+      "seconds": 330
+    },
+    {
+      "dateTime": "2021-08-17T00:39:00.000",
+      "level": "light",
+      "seconds": 2460
+    },
+    {
+      "dateTime": "2021-08-17T01:20:00.000",
+      "level": "wake",
+      "seconds": 750
+    },
+    {
+      "dateTime": "2021-08-17T01:32:30.000",
+      "level": "rem",
+      "seconds": 960
+    },
+    {
+      "dateTime": "2021-08-17T01:48:30.000",
+      "level": "light",
+      "seconds": 3780
+    },
+    {
+      "dateTime": "2021-08-17T02:51:30.000",
+      "level": "deep",
+      "seconds": 1530
+    },
+    {
+      "dateTime": "2021-08-17T03:17:00.000",
+      "level": "light",
+      "seconds": 240
+    },
+    {
+      "dateTime": "2021-08-17T03:21:00.000",
+      "level": "wake",
+      "seconds": 240
+    },
+    {
+      "dateTime": "2021-08-17T03:25:00.000",
+      "level": "rem",
+      "seconds": 450
+    },
+    {
+      "dateTime": "2021-08-17T03:32:30.000",
+      "level": "light",
+      "seconds": 5610
+    },
+    {
+      "dateTime": "2021-08-17T05:06:00.000",
+      "level": "rem",
+      "seconds": 330
+    },
+    {
+      "dateTime": "2021-08-17T05:11:30.000",
+      "level": "deep",
+      "seconds": 390
+    },
+    {
+      "dateTime": "2021-08-17T05:18:00.000",
+      "level": "light",
+      "seconds": 210
+    },
+    {
+      "dateTime": "2021-08-17T05:21:30.000",
+      "level": "rem",
+      "seconds": 870
+    },
+    {
+      "dateTime": "2021-08-17T05:36:00.000",
+      "level": "light",
+      "seconds": 1140
+    },
+    {
+      "dateTime": "2021-08-17T05:55:00.000",
+      "level": "deep",
+      "seconds": 1800
+    },
+    {
+      "dateTime": "2021-08-17T06:24:00.000",
+      "level": "wake",
+      "seconds": 60
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616e6e6967831610ae2a49f0"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1629072000000"
+    }
+  },
+  "bed_time": "01:58:00",
+  "sleep_time": "02:05:00",
+  "wake_time": "08:40:00",
+  "true_sleep_time": 240,
+  "sleep_efficiency": 90,
+  "toss_and_turn": 30,
+  "wake": 25.5,
+  "rem": 100.5,
+  "light": 100.5,
+  "deep": 10.5,
+  "wake_ratio": 15,
+  "rem_ratio": 40,
+  "light_ratio": 40,
+  "deep_ratio": 5,
+  "sleep_score": 65,
+  "poor_sleep_ratio": 12,
+  "emo_level_value": 2,
+  "emo_danger_ratio": 18.2,
+  "emo_danger_ratio_30days": 32.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-08-16T01:58:00.000",
+      "level": "wake",
+      "seconds": 450
+    },
+    {
+      "dateTime": "2021-08-16T02:05:30.000",
+      "level": "light",
+      "seconds": 2220
+    },
+    {
+      "dateTime": "2021-08-16T02:42:30.000",
+      "level": "deep",
+      "seconds": 870
+    },
+    {
+      "dateTime": "2021-08-16T02:57:00.000",
+      "level": "wake",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-16T03:02:00.000",
+      "level": "light",
+      "seconds": 5160
+    },
+    {
+      "dateTime": "2021-08-16T04:28:00.000",
+      "level": "rem",
+      "seconds": 1140
+    },
+    {
+      "dateTime": "2021-08-16T04:47:00.000",
+      "level": "wake",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-16T04:52:00.000",
+      "level": "light",
+      "seconds": 5880
+    },
+    {
+      "dateTime": "2021-08-16T06:30:00.000",
+      "level": "rem",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-16T06:35:00.000",
+      "level": "light",
+      "seconds": 30
+    },
+    {
+      "dateTime": "2021-08-16T06:35:30.000",
+      "level": "wake",
+      "seconds": 210
+    },
+    {
+      "dateTime": "2021-08-16T06:39:00.000",
+      "level": "light",
+      "seconds": 3270
+    },
+    {
+      "dateTime": "2021-08-16T07:33:30.000",
+      "level": "rem",
+      "seconds": 420
+    },
+    {
+      "dateTime": "2021-08-16T07:40:30.000",
+      "level": "light",
+      "seconds": 360
+    },
+    {
+      "dateTime": "2021-08-16T07:46:30.000",
+      "level": "rem",
+      "seconds": 330
+    },
+    {
+      "dateTime": "2021-08-16T07:52:00.000",
+      "level": "light",
+      "seconds": 120
+    },
+    {
+      "dateTime": "2021-08-16T07:54:00.000",
+      "level": "wake",
+      "seconds": 240
+    },
+    {
+      "dateTime": "2021-08-16T07:58:00.000",
+      "level": "light",
+      "seconds": 1740
+    },
+    {
+      "dateTime": "2021-08-16T08:27:00.000",
+      "level": "wake",
+      "seconds": 810
+    },
+    {
+      "dateTime": "2021-08-16T08:40:30.000",
+      "level": "light",
+      "seconds": 330
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616e6e9f2a4b10e719c031e6"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1628985600000"
+    }
+  },
+  "bed_time": "00:40:00",
+  "sleep_time": "00:58:00",
+  "wake_time": "4:13:00",
+  "true_sleep_time": 240.05,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 3.5,
+  "wake": 35.5,
+  "rem": 120.5,
+  "light": 110.5,
+  "deep": 30.5,
+  "wake_ratio": 15,
+  "rem_ratio": 25,
+  "light_ratio": 45,
+  "deep_ratio": 15,
+  "sleep_score": 78,
+  "poor_sleep_ratio": 16.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 32.5,
+  "emo_danger_ratio_30days": 29.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-08-15T00:51:00.000",
+      "level": "wake",
+      "seconds": 450
+    },
+    {
+      "dateTime": "2021-08-15T00:58:30.000",
+      "level": "light",
+      "seconds": 2160
+    },
+    {
+      "dateTime": "2021-08-15T01:34:30.000",
+      "level": "wake",
+      "seconds": 510
+    },
+    {
+      "dateTime": "2021-08-15T01:43:00.000",
+      "level": "light",
+      "seconds": 1470
+    },
+    {
+      "dateTime": "2021-08-15T02:07:30.000",
+      "level": "wake",
+      "seconds": 210
+    },
+    {
+      "dateTime": "2021-08-15T02:11:00.000",
+      "level": "light",
+      "seconds": 150
+    },
+    {
+      "dateTime": "2021-08-15T02:13:30.000",
+      "level": "deep",
+      "seconds": 2430
+    },
+    {
+      "dateTime": "2021-08-15T02:54:00.000",
+      "level": "light",
+      "seconds": 510
+    },
+    {
+      "dateTime": "2021-08-15T03:02:30.000",
+      "level": "rem",
+      "seconds": 1470
+    },
+    {
+      "dateTime": "2021-08-15T03:27:00.000",
+      "level": "light",
+      "seconds": 2760
+    },
+    {
+      "dateTime": "2021-08-15T04:13:00.000",
+      "level": "wake",
+      "seconds": 390
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616e6ebf448a8166797d43f1"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1628899200000"
+    }
+  },
+  "bed_time": "23:30:00",
+  "sleep_time": "23:39:00",
+  "wake_time": "06:22:00",
+  "true_sleep_time": 360,
+  "sleep_efficiency": 85,
+  "toss_and_turn": 10,
+  "wake": 25.5,
+  "rem": 125.5,
+  "light": 205.5,
+  "deep": 10.5,
+  "wake_ratio": 20,
+  "rem_ratio": 15,
+  "light_ratio": 40,
+  "deep_ratio": 25,
+  "sleep_score": 95,
+  "poor_sleep_ratio": 15,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-08-13T23:30:30.000",
+      "level": "wake",
+      "seconds": 540
+    },
+    {
+      "dateTime": "2021-08-13T23:39:30.000",
+      "level": "light",
+      "seconds": 1290
+    },
+    {
+      "dateTime": "2021-08-14T00:01:00.000",
+      "level": "deep",
+      "seconds": 2250
+    },
+    {
+      "dateTime": "2021-08-14T00:38:30.000",
+      "level": "light",
+      "seconds": 1080
+    },
+    {
+      "dateTime": "2021-08-14T00:56:30.000",
+      "level": "deep",
+      "seconds": 2140
+    },
+    {
+      "dateTime": "2021-08-14T01:33:00.000",
+      "level": "light",
+      "seconds": 2370
+    },
+    {
+      "dateTime": "2021-08-14T02:12:30.000",
+      "level": "rem",
+      "seconds": 1560
+    },
+    {
+      "dateTime": "2021-08-14T02:38:30.000",
+      "level": "light",
+      "seconds": 2460
+    },
+    {
+      "dateTime": "2021-08-14T03:14:30.000",
+      "level": "wake",
+      "seconds": 420
+    },
+    {
+      "dateTime": "2021-08-14T03:26:30.000",
+      "level": "rem",
+      "seconds": 840
+    },
+    {
+      "dateTime": "2021-08-14T03:40:30.000",
+      "level": "light",
+      "seconds": 570
+    },
+    {
+      "dateTime": "2021-08-14T03:50:00.000",
+      "level": "rem",
+      "seconds": 1800
+    },
+    {
+      "dateTime": "2021-08-14T04:20:00.000",
+      "level": "light",
+      "seconds": 3300
+    },
+    {
+      "dateTime": "2021-08-14T05:15:00.000",
+      "level": "wake",
+      "seconds": 390
+    },
+    {
+      "dateTime": "2021-08-14T05:21:30.000",
+      "level": "light",
+      "seconds": 480
+    },
+    {
+      "dateTime": "2021-08-14T05:29:30.000",
+      "level": "rem",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-14T05:34:30.000",
+      "level": "light",
+      "seconds": 1440
+    },
+    {
+      "dateTime": "2021-08-14T05:58:30.000",
+      "level": "rem",
+      "seconds": 690
+    },
+    {
+      "dateTime": "2021-08-14T06:10:00.000",
+      "level": "light",
+      "seconds": 870
+    },
+    {
+      "dateTime": "2021-08-14T06:22:00.000",
+      "level": "wake",
+      "seconds": 150
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616e6ee085287576f016fdb9"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1628812800000"
+    }
+  },
+  "bed_time": "23:22:00",
+  "sleep_time": "23:36:00",
+  "wake_time": "06:08:00",
+  "true_sleep_time": 400,
+  "sleep_efficiency": 80,
+  "toss_and_turn": 4.5,
+  "wake": 75.5,
+  "rem": 150.5,
+  "light": 150.5,
+  "deep": 10.5,
+  "wake_ratio": 25,
+  "rem_ratio": 35,
+  "light_ratio": 35,
+  "deep_ratio": 5,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 22,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-08-12T23:22:30.000",
+      "level": "wake",
+      "seconds": 810
+    },
+    {
+      "dateTime": "2021-08-12T23:36:00.000",
+      "level": "light",
+      "seconds": 1920
+    },
+    {
+      "dateTime": "2021-08-13T00:08:00.000",
+      "level": "deep",
+      "seconds": 720
+    },
+    {
+      "dateTime": "2021-08-13T00:20:00.000",
+      "level": "light",
+      "seconds": 2040
+    },
+    {
+      "dateTime": "2021-08-13T00:54:00.000",
+      "level": "rem",
+      "seconds": 330
+    },
+    {
+      "dateTime": "2021-08-13T00:59:30.000",
+      "level": "light",
+      "seconds": 1890
+    },
+    {
+      "dateTime": "2021-08-13T01:31:00.000",
+      "level": "wake",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-08-13T01:35:30.000",
+      "level": "light",
+      "seconds": 600
+    },
+    {
+      "dateTime": "2021-08-13T01:45:30.000",
+      "level": "wake",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-08-13T01:50:00.000",
+      "level": "light",
+      "seconds": 2190
+    },
+    {
+      "dateTime": "2021-08-13T02:26:30.000",
+      "level": "rem",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-08-13T02:31:00.000",
+      "level": "wake",
+      "seconds": 210
+    },
+    {
+      "dateTime": "2021-08-13T02:34:30.000",
+      "level": "light",
+      "seconds": 210
+    },
+    {
+      "dateTime": "2021-08-13T02:38:00.000",
+      "level": "rem",
+      "seconds": 1680
+    },
+    {
+      "dateTime": "2021-08-13T03:06:00.000",
+      "level": "light",
+      "seconds": 3030
+    },
+    {
+      "dateTime": "2021-08-13T03:56:30.000",
+      "level": "deep",
+      "seconds": 1110
+    },
+    {
+      "dateTime": "2021-08-13T04:15:00.000",
+      "level": "light",
+      "seconds": 210
+    },
+    {
+      "dateTime": "2021-08-13T04:18:30.000",
+      "level": "rem",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-13T04:23:30.000",
+      "level": "light",
+      "seconds": 3030
+    },
+    {
+      "dateTime": "2021-08-13T05:14:00.000",
+      "level": "rem",
+      "seconds": 3240
+    },
+    {
+      "dateTime": "2021-08-13T06:08:00.000",
+      "level": "light",
+      "seconds": 1080
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616e6f0fa421fe940de8f74b"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1628726400000"
+    }
+  },
+  "bed_time": "23:24:00",
+  "sleep_time": "23:47:00",
+  "wake_time": "06:21:00",
+  "true_sleep_time": 410,
+  "sleep_efficiency": 80,
+  "toss_and_turn": 3.5,
+  "wake": 75.5,
+  "rem": 155.5,
+  "light": 155.5,
+  "deep": 10.5,
+  "wake_ratio": 25,
+  "rem_ratio": 35,
+  "light_ratio": 35,
+  "deep_ratio": 5,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 22,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 28.2,
+  "emo_danger_ratio_30days": 28.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-08-11T23:24:30.000",
+      "level": "wake",
+      "seconds": 1380
+    },
+    {
+      "dateTime": "2021-08-11T23:47:30.000",
+      "level": "light",
+      "seconds": 2670
+    },
+    {
+      "dateTime": "2021-08-12T00:32:00.000",
+      "level": "deep",
+      "seconds": 1020
+    },
+    {
+      "dateTime": "2021-08-12T00:49:00.000",
+      "level": "light",
+      "seconds": 1140
+    },
+    {
+      "dateTime": "2021-08-12T01:08:00.000",
+      "level": "rem",
+      "seconds": 1290
+    },
+    {
+      "dateTime": "2021-08-12T01:29:30.000",
+      "level": "light",
+      "seconds": 720
+    },
+    {
+      "dateTime": "2021-08-12T01:41:30.000",
+      "level": "deep",
+      "seconds": 2880
+    },
+    {
+      "dateTime": "2021-08-12T02:29:30.000",
+      "level": "wake",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-12T02:34:30.000",
+      "level": "light",
+      "seconds": 240
+    },
+    {
+      "dateTime": "2021-08-12T02:38:30.000",
+      "level": "rem",
+      "seconds": 1080
+    },
+    {
+      "dateTime": "2021-08-12T02:56:30.000",
+      "level": "light",
+      "seconds": 600
+    },
+    {
+      "dateTime": "2021-08-12T03:06:30.000",
+      "level": "rem",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-08-12T03:11:00.000",
+      "level": "light",
+      "seconds": 180
+    },
+    {
+      "dateTime": "2021-08-12T03:14:00.000",
+      "level": "wake",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-08-12T03:18:30.000",
+      "level": "light",
+      "seconds": 3840
+    },
+    {
+      "dateTime": "2021-08-12T04:22:30.000",
+      "level": "rem",
+      "seconds": 1740
+    },
+    {
+      "dateTime": "2021-08-12T04:51:30.000",
+      "level": "light",
+      "seconds": 1830
+    },
+    {
+      "dateTime": "2021-08-12T05:22:00.000",
+      "level": "deep",
+      "seconds": 1140
+    },
+    {
+      "dateTime": "2021-08-12T05:41:00.000",
+      "level": "light",
+      "seconds": 2430
+    },
+    {
+      "dateTime": "2021-08-12T06:21:30.000",
+      "level": "wake",
+      "seconds": 210
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616e6f37211c23ddaaf5b83d"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1628640000000"
+    }
+  },
+  "bed_time": "23:23:00",
+  "sleep_time": "23:32:00",
+  "wake_time": "06:21:00",
+  "true_sleep_time": 415,
+  "sleep_efficiency": 75,
+  "toss_and_turn": 11,
+  "wake": 75,
+  "rem": 130,
+  "light": 170,
+  "deep": 35,
+  "wake_ratio": 25,
+  "rem_ratio": 30,
+  "light_ratio": 35,
+  "deep_ratio": 10,
+  "sleep_score": 80,
+  "poor_sleep_ratio": 15,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 29.1,
+  "emo_danger_ratio_30days": 22.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-08-10T23:23:30.000",
+      "level": "wake",
+      "seconds": 510
+    },
+    {
+      "dateTime": "2021-08-10T23:32:00.000",
+      "level": "light",
+      "seconds": 4020
+    },
+    {
+      "dateTime": "2021-08-11T00:39:00.000",
+      "level": "deep",
+      "seconds": 1530
+    },
+    {
+      "dateTime": "2021-08-11T01:04:30.000",
+      "level": "light",
+      "seconds": 720
+    },
+    {
+      "dateTime": "2021-08-11T01:16:30.000",
+      "level": "deep",
+      "seconds": 960
+    },
+    {
+      "dateTime": "2021-08-11T01:32:30.000",
+      "level": "light",
+      "seconds": 570
+    },
+    {
+      "dateTime": "2021-08-11T01:42:00.000",
+      "level": "rem",
+      "seconds": 1020
+    },
+    {
+      "dateTime": "2021-08-11T01:59:00.000",
+      "level": "light",
+      "seconds": 2460
+    },
+    {
+      "dateTime": "2021-08-11T02:40:00.000",
+      "level": "deep",
+      "seconds": 2040
+    },
+    {
+      "dateTime": "2021-08-11T03:14:00.000",
+      "level": "light",
+      "seconds": 540
+    },
+    {
+      "dateTime": "2021-08-11T03:23:00.000",
+      "level": "wake",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-08-11T03:27:30.000",
+      "level": "light",
+      "seconds": 30
+    },
+    {
+      "dateTime": "2021-08-11T03:28:00.000",
+      "level": "rem",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-11T03:33:00.000",
+      "level": "light",
+      "seconds": 1740
+    },
+    {
+      "dateTime": "2021-08-11T04:02:00.000",
+      "level": "wake",
+      "seconds": 210
+    },
+    {
+      "dateTime": "2021-08-11T04:05:30.000",
+      "level": "light",
+      "seconds": 2850
+    },
+    {
+      "dateTime": "2021-08-11T04:53:00.000",
+      "level": "rem",
+      "seconds": 1950
+    },
+    {
+      "dateTime": "2021-08-11T05:25:30.000",
+      "level": "light",
+      "seconds": 60
+    },
+    {
+      "dateTime": "2021-08-11T05:26:30.000",
+      "level": "wake",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-08-11T05:31:00.000",
+      "level": "light",
+      "seconds": 2400
+    },
+    {
+      "dateTime": "2021-08-11T06:11:00.000",
+      "level": "wake",
+      "seconds": 600
+    },
+    {
+      "dateTime": "2021-08-11T06:21:00.000",
+      "level": "light",
+      "seconds": 120
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616e6f50359b61f60b659b95"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1628553600000"
+    }
+  },
+  "bed_time": "23:52:00",
+  "sleep_time": "00:17:00",
+  "wake_time": "06:21:00",
+  "true_sleep_time": 360,
+  "sleep_efficiency": 65,
+  "toss_and_turn": 10.5,
+  "wake": 70,
+  "rem": 130,
+  "light": 170,
+  "deep": 40,
+  "wake_ratio": 25,
+  "rem_ratio": 30,
+  "light_ratio": 35,
+  "deep_ratio": 10,
+  "sleep_score": 80,
+  "poor_sleep_ratio": 17,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-08-09T23:52:00.000",
+      "level": "wake",
+      "seconds": 1500
+    },
+    {
+      "dateTime": "2021-08-10T00:17:00.000",
+      "level": "light",
+      "seconds": 1380
+    },
+    {
+      "dateTime": "2021-08-10T00:40:00.000",
+      "level": "deep",
+      "seconds": 2220
+    },
+    {
+      "dateTime": "2021-08-10T01:17:00.000",
+      "level": "light",
+      "seconds": 1200
+    },
+    {
+      "dateTime": "2021-08-10T01:37:00.000",
+      "level": "deep",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-10T01:42:00.000",
+      "level": "light",
+      "seconds": 840
+    },
+    {
+      "dateTime": "2021-08-10T01:56:00.000",
+      "level": "wake",
+      "seconds": 360
+    },
+    {
+      "dateTime": "2021-08-10T02:02:00.000",
+      "level": "light",
+      "seconds": 2130
+    },
+    {
+      "dateTime": "2021-08-10T02:37:30.000",
+      "level": "rem",
+      "seconds": 2160
+    },
+    {
+      "dateTime": "2021-08-10T03:13:30.000",
+      "level": "light",
+      "seconds": 660
+    },
+    {
+      "dateTime": "2021-08-10T03:24:30.000",
+      "level": "rem",
+      "seconds": 330
+    },
+    {
+      "dateTime": "2021-08-10T03:30:00.000",
+      "level": "light",
+      "seconds": 2100
+    },
+    {
+      "dateTime": "2021-08-10T04:05:00.000",
+      "level": "deep",
+      "seconds": 390
+    },
+    {
+      "dateTime": "2021-08-10T04:11:30.000",
+      "level": "light",
+      "seconds": 2940
+    },
+    {
+      "dateTime": "2021-08-10T05:00:30.000",
+      "level": "rem",
+      "seconds": 780
+    },
+    {
+      "dateTime": "2021-08-10T05:13:30.000",
+      "level": "light",
+      "seconds": 330
+    },
+    {
+      "dateTime": "2021-08-10T05:19:00.000",
+      "level": "rem",
+      "seconds": 480
+    },
+    {
+      "dateTime": "2021-08-10T05:27:00.000",
+      "level": "light",
+      "seconds": 3240
+    },
+    {
+      "dateTime": "2021-08-10T06:21:00.000",
+      "level": "wake",
+      "seconds": 330
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616e6f778bb05c27d04fb672"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1628467200000"
+    }
+  },
+  "bed_time": "23:50:00",
+  "sleep_time": "00:02:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 380,
+  "sleep_efficiency": 85,
+  "toss_and_turn": 7.5,
+  "wake": 80,
+  "rem": 140,
+  "light": 160,
+  "deep": 30,
+  "wake_ratio": 15,
+  "rem_ratio": 35,
+  "light_ratio": 40,
+  "deep_ratio": 10,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 14,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-08-08T23:50:00.000",
+      "level": "wake",
+      "seconds": 750
+    },
+    {
+      "dateTime": "2021-08-09T00:02:30.000",
+      "level": "light",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-09T00:07:30.000",
+      "level": "wake",
+      "seconds": 570
+    },
+    {
+      "dateTime": "2021-08-09T00:17:00.000",
+      "level": "light",
+      "seconds": 2040
+    },
+    {
+      "dateTime": "2021-08-09T00:51:00.000",
+      "level": "deep",
+      "seconds": 1440
+    },
+    {
+      "dateTime": "2021-08-09T01:15:00.000",
+      "level": "light",
+      "seconds": 1980
+    },
+    {
+      "dateTime": "2021-08-09T01:48:00.000",
+      "level": "deep",
+      "seconds": 1050
+    },
+    {
+      "dateTime": "2021-08-09T02:05:30.000",
+      "level": "light",
+      "seconds": 1620
+    },
+    {
+      "dateTime": "2021-08-09T02:32:30.000",
+      "level": "wake",
+      "seconds": 210
+    },
+    {
+      "dateTime": "2021-08-09T02:36:00.000",
+      "level": "light",
+      "seconds": 90
+    },
+    {
+      "dateTime": "2021-08-09T02:37:30.000",
+      "level": "rem",
+      "seconds": 990
+    },
+    {
+      "dateTime": "2021-08-09T02:54:00.000",
+      "level": "light",
+      "seconds": 2160
+    },
+    {
+      "dateTime": "2021-08-09T03:30:00.000",
+      "level": "deep",
+      "seconds": 420
+    },
+    {
+      "dateTime": "2021-08-09T03:37:00.000",
+      "level": "light",
+      "seconds": 840
+    },
+    {
+      "dateTime": "2021-08-09T03:51:00.000",
+      "level": "rem",
+      "seconds": 2040
+    },
+    {
+      "dateTime": "2021-08-09T04:25:00.000",
+      "level": "light",
+      "seconds": 2880
+    },
+    {
+      "dateTime": "2021-08-09T05:13:00.000",
+      "level": "deep",
+      "seconds": 1410
+    },
+    {
+      "dateTime": "2021-08-09T05:36:30.000",
+      "level": "light",
+      "seconds": 1830
+    },
+    {
+      "dateTime": "2021-08-09T06:07:00.000",
+      "level": "rem",
+      "seconds": 900
+    },
+    {
+      "dateTime": "2021-08-09T06:22:00.000",
+      "level": "light",
+      "seconds": 180
+    },
+    {
+      "dateTime": "2021-08-09T06:25:00.000",
+      "level": "wake",
+      "seconds": 240
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616e6f9e7219214ff354b811"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1628380800000"
+    }
+  },
+  "bed_time": "01:34:00",
+  "sleep_time": "01:34:00",
+  "wake_time": "10:04:00",
+  "true_sleep_time": 540,
+  "sleep_efficiency": 95,
+  "toss_and_turn": 5.5,
+  "wake": 100,
+  "rem": 240,
+  "light": 160,
+  "deep": 30,
+  "wake_ratio": 15,
+  "rem_ratio": 45,
+  "light_ratio": 30,
+  "deep_ratio": 10,
+  "sleep_score": 80,
+  "poor_sleep_ratio": 10,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 12.1,
+  "emo_danger_ratio_30days": 18.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-08-08T01:43:30.000",
+      "level": "light",
+      "seconds": 240
+    },
+    {
+      "dateTime": "2021-08-08T01:47:30.000",
+      "level": "wake",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-08-08T01:52:00.000",
+      "level": "light",
+      "seconds": 5670
+    },
+    {
+      "dateTime": "2021-08-08T03:26:30.000",
+      "level": "deep",
+      "seconds": 390
+    },
+    {
+      "dateTime": "2021-08-08T03:33:00.000",
+      "level": "light",
+      "seconds": 2310
+    },
+    {
+      "dateTime": "2021-08-08T04:11:30.000",
+      "level": "rem",
+      "seconds": 900
+    },
+    {
+      "dateTime": "2021-08-08T04:26:30.000",
+      "level": "light",
+      "seconds": 360
+    },
+    {
+      "dateTime": "2021-08-08T04:32:30.000",
+      "level": "rem",
+      "seconds": 480
+    },
+    {
+      "dateTime": "2021-08-08T04:40:30.000",
+      "level": "wake",
+      "seconds": 210
+    },
+    {
+      "dateTime": "2021-08-08T04:44:00.000",
+      "level": "light",
+      "seconds": 1560
+    },
+    {
+      "dateTime": "2021-08-08T05:10:00.000",
+      "level": "deep",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-08-08T05:14:30.000",
+      "level": "light",
+      "seconds": 330
+    },
+    {
+      "dateTime": "2021-08-08T05:20:00.000",
+      "level": "deep",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-08T05:25:00.000",
+      "level": "light",
+      "seconds": 2160
+    },
+    {
+      "dateTime": "2021-08-08T06:01:00.000",
+      "level": "rem",
+      "seconds": 450
+    },
+    {
+      "dateTime": "2021-08-08T06:08:30.000",
+      "level": "light",
+      "seconds": 240
+    },
+    {
+      "dateTime": "2021-08-08T06:12:30.000",
+      "level": "deep",
+      "seconds": 1050
+    },
+    {
+      "dateTime": "2021-08-08T06:30:00.000",
+      "level": "wake",
+      "seconds": 330
+    },
+    {
+      "dateTime": "2021-08-08T06:35:30.000",
+      "level": "light",
+      "seconds": 3180
+    },
+    {
+      "dateTime": "2021-08-08T07:28:30.000",
+      "level": "wake",
+      "seconds": 930
+    },
+    {
+      "dateTime": "2021-08-08T07:44:00.000",
+      "level": "light",
+      "seconds": 150
+    },
+    {
+      "dateTime": "2021-08-08T07:46:30.000",
+      "level": "wake",
+      "seconds": 570
+    },
+    {
+      "dateTime": "2021-08-08T07:56:00.000",
+      "level": "light",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-08-08T08:00:30.000",
+      "level": "wake",
+      "seconds": 240
+    },
+    {
+      "dateTime": "2021-08-08T08:04:30.000",
+      "level": "light",
+      "seconds": 240
+    },
+    {
+      "dateTime": "2021-08-08T08:08:30.000",
+      "level": "deep",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-08-08T08:13:00.000",
+      "level": "light",
+      "seconds": 570
+    },
+    {
+      "dateTime": "2021-08-08T08:22:30.000",
+      "level": "rem",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-08-08T08:27:00.000",
+      "level": "wake",
+      "seconds": 240
+    },
+    {
+      "dateTime": "2021-08-08T08:31:00.000",
+      "level": "light",
+      "seconds": 1650
+    },
+    {
+      "dateTime": "2021-08-08T08:58:30.000",
+      "level": "deep",
+      "seconds": 1470
+    },
+    {
+      "dateTime": "2021-08-08T09:23:00.000",
+      "level": "light",
+      "seconds": 2010
+    },
+    {
+      "dateTime": "2021-08-08T09:56:30.000",
+      "level": "wake",
+      "seconds": 510
+    },
+    {
+      "dateTime": "2021-08-08T10:05:00.000",
+      "level": "light",
+      "seconds": 120
+    },
+    {
+      "dateTime": "2021-08-08T10:07:00.000",
+      "level": "wake",
+      "seconds": 690
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616e6fc752b48ecd325b2524"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1628294400000"
+    }
+  },
+  "bed_time": "00:55:00",
+  "sleep_time": "00:55:00",
+  "wake_time": "07:21:00",
+  "true_sleep_time": 380,
+  "sleep_efficiency": 95,
+  "toss_and_turn": 3.5,
+  "wake": 500,
+  "rem": 140,
+  "light": 160,
+  "deep": 30,
+  "wake_ratio": 15,
+  "rem_ratio": 45,
+  "light_ratio": 30,
+  "deep_ratio": 10,
+  "sleep_score": 80,
+  "poor_sleep_ratio": 10,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 25.8,
+  "emo_danger_ratio_30days": 25.56,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-08-07T00:55:00.000",
+      "level": "wake",
+      "seconds": 30
+    },
+    {
+      "dateTime": "2021-08-07T00:55:30.000",
+      "level": "light",
+      "seconds": 210
+    },
+    {
+      "dateTime": "2021-08-07T00:59:00.000",
+      "level": "wake",
+      "seconds": 780
+    },
+    {
+      "dateTime": "2021-08-07T01:12:00.000",
+      "level": "light",
+      "seconds": 1560
+    },
+    {
+      "dateTime": "2021-08-07T01:38:00.000",
+      "level": "deep",
+      "seconds": 600
+    },
+    {
+      "dateTime": "2021-08-07T01:48:00.000",
+      "level": "light",
+      "seconds": 1260
+    },
+    {
+      "dateTime": "2021-08-07T02:09:00.000",
+      "level": "rem",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-08-07T02:13:30.000",
+      "level": "deep",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-08-07T02:18:00.000",
+      "level": "light",
+      "seconds": 5370
+    },
+    {
+      "dateTime": "2021-08-07T03:47:30.000",
+      "level": "rem",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-07T03:52:30.000",
+      "level": "wake",
+      "seconds": 390
+    },
+    {
+      "dateTime": "2021-08-07T03:59:00.000",
+      "level": "light",
+      "seconds": 1290
+    },
+    {
+      "dateTime": "2021-08-07T04:20:30.000",
+      "level": "deep",
+      "seconds": 330
+    },
+    {
+      "dateTime": "2021-08-07T04:26:00.000",
+      "level": "light",
+      "seconds": 2190
+    },
+    {
+      "dateTime": "2021-08-07T05:02:30.000",
+      "level": "deep",
+      "seconds": 360
+    },
+    {
+      "dateTime": "2021-08-07T05:08:30.000",
+      "level": "light",
+      "seconds": 870
+    },
+    {
+      "dateTime": "2021-08-07T05:23:00.000",
+      "level": "rem",
+      "seconds": 600
+    },
+    {
+      "dateTime": "2021-08-07T05:33:00.000",
+      "level": "light",
+      "seconds": 3930
+    },
+    {
+      "dateTime": "2021-08-07T06:38:30.000",
+      "level": "deep",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-08-07T06:43:00.000",
+      "level": "light",
+      "seconds": 2280
+    },
+    {
+      "dateTime": "2021-08-07T07:21:00.000",
+      "level": "wake",
+      "seconds": 780
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616e6fef7536716ee7482f4a"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1628208000000"
+    }
+  },
+  "bed_time": "23:30:00",
+  "sleep_time": "23:39:00",
+  "wake_time": "06:22:00",
+  "true_sleep_time": 360,
+  "sleep_efficiency": 85,
+  "toss_and_turn": 10,
+  "wake": 25.5,
+  "rem": 125.5,
+  "light": 205.5,
+  "deep": 10.5,
+  "wake_ratio": 20,
+  "rem_ratio": 15,
+  "light_ratio": 40,
+  "deep_ratio": 25,
+  "sleep_score": 95,
+  "poor_sleep_ratio": 15,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 22.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-08-05T23:30:30.000",
+      "level": "wake",
+      "seconds": 540
+    },
+    {
+      "dateTime": "2021-08-05T23:39:30.000",
+      "level": "light",
+      "seconds": 1290
+    },
+    {
+      "dateTime": "2021-08-06T00:01:00.000",
+      "level": "deep",
+      "seconds": 2250
+    },
+    {
+      "dateTime": "2021-08-06T00:38:30.000",
+      "level": "light",
+      "seconds": 1080
+    },
+    {
+      "dateTime": "2021-08-06T00:56:30.000",
+      "level": "deep",
+      "seconds": 2060
+    },
+    {
+      "dateTime": "2021-08-06T01:33:00.000",
+      "level": "light",
+      "seconds": 2370
+    },
+    {
+      "dateTime": "2021-08-06T02:12:30.000",
+      "level": "rem",
+      "seconds": 1560
+    },
+    {
+      "dateTime": "2021-08-06T02:38:30.000",
+      "level": "light",
+      "seconds": 2460
+    },
+    {
+      "dateTime": "2021-08-06T03:06:30.000",
+      "level": "wake",
+      "seconds": 420
+    },
+    {
+      "dateTime": "2021-08-06T03:26:30.000",
+      "level": "rem",
+      "seconds": 840
+    },
+    {
+      "dateTime": "2021-08-06T03:40:30.000",
+      "level": "light",
+      "seconds": 570
+    },
+    {
+      "dateTime": "2021-08-06T03:50:00.000",
+      "level": "rem",
+      "seconds": 1800
+    },
+    {
+      "dateTime": "2021-08-06T04:20:00.000",
+      "level": "light",
+      "seconds": 3300
+    },
+    {
+      "dateTime": "2021-08-06T05:15:00.000",
+      "level": "wake",
+      "seconds": 390
+    },
+    {
+      "dateTime": "2021-08-06T05:21:30.000",
+      "level": "light",
+      "seconds": 480
+    },
+    {
+      "dateTime": "2021-08-06T05:29:30.000",
+      "level": "rem",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-06T05:34:30.000",
+      "level": "light",
+      "seconds": 1440
+    },
+    {
+      "dateTime": "2021-08-06T05:58:30.000",
+      "level": "rem",
+      "seconds": 690
+    },
+    {
+      "dateTime": "2021-08-06T06:10:00.000",
+      "level": "light",
+      "seconds": 870
+    },
+    {
+      "dateTime": "2021-08-06T06:22:00.000",
+      "level": "wake",
+      "seconds": 150
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616e70095943df58581e007b"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1628121600000"
+    }
+  },
+  "bed_time": "00:55:00",
+  "sleep_time": "00:55:00",
+  "wake_time": "07:21:00",
+  "true_sleep_time": 380,
+  "sleep_efficiency": 95,
+  "toss_and_turn": 5,
+  "wake": 500,
+  "rem": 140,
+  "light": 160,
+  "deep": 30,
+  "wake_ratio": 15,
+  "rem_ratio": 45,
+  "light_ratio": 30,
+  "deep_ratio": 10,
+  "sleep_score": 80,
+  "poor_sleep_ratio": 10,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 55.5,
+  "emo_danger_ratio_30days": 48.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-08-05T00:55:00.000",
+      "level": "wake",
+      "seconds": 30
+    },
+    {
+      "dateTime": "2021-08-05T00:55:30.000",
+      "level": "light",
+      "seconds": 210
+    },
+    {
+      "dateTime": "2021-08-05T00:59:00.000",
+      "level": "wake",
+      "seconds": 780
+    },
+    {
+      "dateTime": "2021-08-05T01:12:00.000",
+      "level": "light",
+      "seconds": 1560
+    },
+    {
+      "dateTime": "2021-08-05T01:38:00.000",
+      "level": "deep",
+      "seconds": 600
+    },
+    {
+      "dateTime": "2021-08-05T01:48:00.000",
+      "level": "light",
+      "seconds": 1260
+    },
+    {
+      "dateTime": "2021-08-05T02:09:00.000",
+      "level": "rem",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-08-05T02:13:30.000",
+      "level": "deep",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-08-05T02:05:00.000",
+      "level": "light",
+      "seconds": 5370
+    },
+    {
+      "dateTime": "2021-08-05T03:47:30.000",
+      "level": "rem",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-05T03:52:30.000",
+      "level": "wake",
+      "seconds": 390
+    },
+    {
+      "dateTime": "2021-08-05T03:59:00.000",
+      "level": "light",
+      "seconds": 1290
+    },
+    {
+      "dateTime": "2021-08-05T04:20:30.000",
+      "level": "deep",
+      "seconds": 330
+    },
+    {
+      "dateTime": "2021-08-05T04:26:00.000",
+      "level": "light",
+      "seconds": 2190
+    },
+    {
+      "dateTime": "2021-08-05T05:02:30.000",
+      "level": "deep",
+      "seconds": 360
+    },
+    {
+      "dateTime": "2021-08-05T05:08:30.000",
+      "level": "light",
+      "seconds": 870
+    },
+    {
+      "dateTime": "2021-08-05T05:23:00.000",
+      "level": "rem",
+      "seconds": 600
+    },
+    {
+      "dateTime": "2021-08-05T05:33:00.000",
+      "level": "light",
+      "seconds": 3930
+    },
+    {
+      "dateTime": "2021-08-05T06:38:30.000",
+      "level": "deep",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-08-05T06:43:00.000",
+      "level": "light",
+      "seconds": 2280
+    },
+    {
+      "dateTime": "2021-08-05T07:21:00.000",
+      "level": "wake",
+      "seconds": 780
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616e70250122413b297923fb"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1628035200000"
+    }
+  },
+  "bed_time": "01:58:00",
+  "sleep_time": "02:05:00",
+  "wake_time": "08:40:00",
+  "true_sleep_time": 240,
+  "sleep_efficiency": 90,
+  "toss_and_turn": 35.5,
+  "wake": 25.5,
+  "rem": 100.5,
+  "light": 100.5,
+  "deep": 10.5,
+  "wake_ratio": 15,
+  "rem_ratio": 40,
+  "light_ratio": 40,
+  "deep_ratio": 5,
+  "sleep_score": 65,
+  "poor_sleep_ratio": 12,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-08-04T01:58:00.000",
+      "level": "wake",
+      "seconds": 450
+    },
+    {
+      "dateTime": "2021-08-04T02:05:30.000",
+      "level": "light",
+      "seconds": 2220
+    },
+    {
+      "dateTime": "2021-08-04T02:42:30.000",
+      "level": "deep",
+      "seconds": 870
+    },
+    {
+      "dateTime": "2021-08-04T02:57:00.000",
+      "level": "wake",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-04T03:02:00.000",
+      "level": "light",
+      "seconds": 5040
+    },
+    {
+      "dateTime": "2021-08-04T04:28:00.000",
+      "level": "rem",
+      "seconds": 1140
+    },
+    {
+      "dateTime": "2021-08-04T04:47:00.000",
+      "level": "wake",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-04T04:52:00.000",
+      "level": "light",
+      "seconds": 5880
+    },
+    {
+      "dateTime": "2021-08-04T06:30:00.000",
+      "level": "rem",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-04T06:35:00.000",
+      "level": "light",
+      "seconds": 30
+    },
+    {
+      "dateTime": "2021-08-04T06:35:30.000",
+      "level": "wake",
+      "seconds": 210
+    },
+    {
+      "dateTime": "2021-08-04T06:39:00.000",
+      "level": "light",
+      "seconds": 3270
+    },
+    {
+      "dateTime": "2021-08-04T07:33:30.000",
+      "level": "rem",
+      "seconds": 420
+    },
+    {
+      "dateTime": "2021-08-04T07:40:30.000",
+      "level": "light",
+      "seconds": 360
+    },
+    {
+      "dateTime": "2021-08-04T07:46:30.000",
+      "level": "rem",
+      "seconds": 330
+    },
+    {
+      "dateTime": "2021-08-04T07:52:00.000",
+      "level": "light",
+      "seconds": 120
+    },
+    {
+      "dateTime": "2021-08-04T07:54:00.000",
+      "level": "wake",
+      "seconds": 240
+    },
+    {
+      "dateTime": "2021-08-04T07:58:00.000",
+      "level": "light",
+      "seconds": 1740
+    },
+    {
+      "dateTime": "2021-08-04T08:27:00.000",
+      "level": "wake",
+      "seconds": 810
+    },
+    {
+      "dateTime": "2021-08-04T08:40:30.000",
+      "level": "light",
+      "seconds": 330
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616e7051256c95f85f7ca4ff"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1627948800000"
+    }
+  },
+  "bed_time": "23:40:00",
+  "sleep_time": "23:48:00",
+  "wake_time": "06:22:00",
+  "true_sleep_time": 260,
+  "sleep_efficiency": 85,
+  "toss_and_turn": 8.5,
+  "wake": 25,
+  "rem": 100.5,
+  "light": 110.5,
+  "deep": 20,
+  "wake_ratio": 15,
+  "rem_ratio": 25,
+  "light_ratio": 30,
+  "deep_ratio": 20,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 12,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-08-02T23:40:30.000",
+      "level": "wake",
+      "seconds": 450
+    },
+    {
+      "dateTime": "2021-08-02T23:48:00.000",
+      "level": "light",
+      "seconds": 4020
+    },
+    {
+      "dateTime": "2021-08-03T00:55:00.000",
+      "level": "rem",
+      "seconds": 840
+    },
+    {
+      "dateTime": "2021-08-03T01:09:00.000",
+      "level": "light",
+      "seconds": 4260
+    },
+    {
+      "dateTime": "2021-08-03T02:20:00.000",
+      "level": "deep",
+      "seconds": 570
+    },
+    {
+      "dateTime": "2021-08-03T02:29:30.000",
+      "level": "light",
+      "seconds": 450
+    },
+    {
+      "dateTime": "2021-08-03T02:37:00.000",
+      "level": "rem",
+      "seconds": 960
+    },
+    {
+      "dateTime": "2021-08-03T02:53:00.000",
+      "level": "light",
+      "seconds": 5430
+    },
+    {
+      "dateTime": "2021-08-03T04:23:30.000",
+      "level": "rem",
+      "seconds": 2100
+    },
+    {
+      "dateTime": "2021-08-03T04:58:30.000",
+      "level": "light",
+      "seconds": 2610
+    },
+    {
+      "dateTime": "2021-08-03T05:42:00.000",
+      "level": "deep",
+      "seconds": 360
+    },
+    {
+      "dateTime": "2021-08-03T05:48:00.000",
+      "level": "light",
+      "seconds": 510
+    },
+    {
+      "dateTime": "2021-08-03T05:56:30.000",
+      "level": "wake",
+      "seconds": 420
+    },
+    {
+      "dateTime": "2021-08-03T06:03:30.000",
+      "level": "light",
+      "seconds": 870
+    },
+    {
+      "dateTime": "2021-08-03T06:18:00.000",
+      "level": "wake",
+      "seconds": 240
+    },
+    {
+      "dateTime": "2021-08-03T06:22:00.000",
+      "level": "light",
+      "seconds": 60
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616e7077186756ecb99c4710"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1627862400000"
+    }
+  },
+  "bed_time": "23:41:00",
+  "sleep_time": "23:54:00",
+  "wake_time": "06:18:00",
+  "true_sleep_time": 260,
+  "sleep_efficiency": 80,
+  "toss_and_turn": 10,
+  "wake": 25,
+  "rem": 110,
+  "light": 110,
+  "deep": 20,
+  "wake_ratio": 16,
+  "rem_ratio": 30,
+  "light_ratio": 30,
+  "deep_ratio": 14,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 12,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 87.5,
+  "emo_danger_ratio_30days": 85.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-08-01T23:41:30.000",
+      "level": "wake",
+      "seconds": 750
+    },
+    {
+      "dateTime": "2021-08-01T23:54:00.000",
+      "level": "light",
+      "seconds": 3000
+    },
+    {
+      "dateTime": "2021-08-02T00:44:00.000",
+      "level": "deep",
+      "seconds": 840
+    },
+    {
+      "dateTime": "2021-08-02T00:58:00.000",
+      "level": "wake",
+      "seconds": 330
+    },
+    {
+      "dateTime": "2021-08-02T01:03:30.000",
+      "level": "light",
+      "seconds": 990
+    },
+    {
+      "dateTime": "2021-08-02T01:20:00.000",
+      "level": "wake",
+      "seconds": 540
+    },
+    {
+      "dateTime": "2021-08-02T01:29:00.000",
+      "level": "light",
+      "seconds": 5160
+    },
+    {
+      "dateTime": "2021-08-02T02:55:00.000",
+      "level": "rem",
+      "seconds": 1500
+    },
+    {
+      "dateTime": "2021-08-02T03:20:00.000",
+      "level": "light",
+      "seconds": 3300
+    },
+    {
+      "dateTime": "2021-08-02T04:15:00.000",
+      "level": "deep",
+      "seconds": 900
+    },
+    {
+      "dateTime": "2021-08-02T04:30:00.000",
+      "level": "light",
+      "seconds": 2670
+    },
+    {
+      "dateTime": "2021-08-02T05:14:30.000",
+      "level": "rem",
+      "seconds": 900
+    },
+    {
+      "dateTime": "2021-08-02T05:29:30.000",
+      "level": "light",
+      "seconds": 2940
+    },
+    {
+      "dateTime": "2021-08-02T06:18:30.000",
+      "level": "wake",
+      "seconds": 300
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616e709cf0efaab811903ef2"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1627776000000"
+    }
+  },
+  "bed_time": "01:08:00",
+  "sleep_time": "01:09:00",
+  "wake_time": "08:52:00",
+  "true_sleep_time": 480,
+  "sleep_efficiency": 95,
+  "toss_and_turn": 5.5,
+  "wake": 40,
+  "rem": 200,
+  "light": 200,
+  "deep": 40,
+  "wake_ratio": 10,
+  "rem_ratio": 40,
+  "light_ratio": 40,
+  "deep_ratio": 10,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 10,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 77,
+  "emo_danger_ratio_30days": 71.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-08-01T01:08:30.000",
+      "level": "wake",
+      "seconds": 30
+    },
+    {
+      "dateTime": "2021-08-01T01:09:00.000",
+      "level": "light",
+      "seconds": 2910
+    },
+    {
+      "dateTime": "2021-08-01T01:57:30.000",
+      "level": "wake",
+      "seconds": 390
+    },
+    {
+      "dateTime": "2021-08-01T02:04:00.000",
+      "level": "light",
+      "seconds": 510
+    },
+    {
+      "dateTime": "2021-08-01T02:12:30.000",
+      "level": "deep",
+      "seconds": 2820
+    },
+    {
+      "dateTime": "2021-08-01T02:59:30.000",
+      "level": "light",
+      "seconds": 900
+    },
+    {
+      "dateTime": "2021-08-01T03:14:30.000",
+      "level": "rem",
+      "seconds": 1440
+    },
+    {
+      "dateTime": "2021-08-01T03:38:30.000",
+      "level": "light",
+      "seconds": 2730
+    },
+    {
+      "dateTime": "2021-08-01T04:24:00.000",
+      "level": "deep",
+      "seconds": 1980
+    },
+    {
+      "dateTime": "2021-08-01T04:57:00.000",
+      "level": "light",
+      "seconds": 4890
+    },
+    {
+      "dateTime": "2021-08-01T06:18:30.000",
+      "level": "wake",
+      "seconds": 630
+    },
+    {
+      "dateTime": "2021-08-01T06:29:00.000",
+      "level": "light",
+      "seconds": 330
+    },
+    {
+      "dateTime": "2021-08-01T06:34:30.000",
+      "level": "rem",
+      "seconds": 720
+    },
+    {
+      "dateTime": "2021-08-01T06:46:30.000",
+      "level": "light",
+      "seconds": 5220
+    },
+    {
+      "dateTime": "2021-08-01T08:13:30.000",
+      "level": "rem",
+      "seconds": 1290
+    },
+    {
+      "dateTime": "2021-08-01T08:35:00.000",
+      "level": "light",
+      "seconds": 810
+    },
+    {
+      "dateTime": "2021-08-01T08:48:30.000",
+      "level": "wake",
+      "seconds": 240
+    },
+    {
+      "dateTime": "2021-08-01T08:52:30.000",
+      "level": "light",
+      "seconds": 360
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616e70c0c1d17e59b3c77dff"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1627689600000"
+    }
+  },
+  "bed_time": "00:29:00",
+  "sleep_time": "00:29:00",
+  "wake_time": "10:03:00",
+  "true_sleep_time": 500,
+  "sleep_efficiency": 95,
+  "toss_and_turn": 7.5,
+  "wake": 50,
+  "rem": 200,
+  "light": 200,
+  "deep": 50,
+  "wake_ratio": 10,
+  "rem_ratio": 40,
+  "light_ratio": 40,
+  "deep_ratio": 10,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 10,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 5.1,
+  "emo_danger_ratio_30days": 5.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-07-31T00:29:30.000",
+      "level": "light",
+      "seconds": 30
+    },
+    {
+      "dateTime": "2021-07-31T00:30:00.000",
+      "level": "wake",
+      "seconds": 1140
+    },
+    {
+      "dateTime": "2021-07-31T00:49:00.000",
+      "level": "light",
+      "seconds": 2910
+    },
+    {
+      "dateTime": "2021-07-31T01:37:30.000",
+      "level": "rem",
+      "seconds": 330
+    },
+    {
+      "dateTime": "2021-07-31T01:43:00.000",
+      "level": "wake",
+      "seconds": 360
+    },
+    {
+      "dateTime": "2021-07-31T01:49:00.000",
+      "level": "light",
+      "seconds": 4740
+    },
+    {
+      "dateTime": "2021-07-31T03:08:00.000",
+      "level": "rem",
+      "seconds": 1380
+    },
+    {
+      "dateTime": "2021-07-31T03:31:00.000",
+      "level": "light",
+      "seconds": 720
+    },
+    {
+      "dateTime": "2021-07-31T03:43:00.000",
+      "level": "wake",
+      "seconds": 210
+    },
+    {
+      "dateTime": "2021-07-31T03:46:30.000",
+      "level": "light",
+      "seconds": 150
+    },
+    {
+      "dateTime": "2021-07-31T03:49:00.000",
+      "level": "deep",
+      "seconds": 2850
+    },
+    {
+      "dateTime": "2021-07-31T04:36:30.000",
+      "level": "light",
+      "seconds": 5010
+    },
+    {
+      "dateTime": "2021-07-31T06:00:00.000",
+      "level": "rem",
+      "seconds": 360
+    },
+    {
+      "dateTime": "2021-07-31T06:06:00.000",
+      "level": "light",
+      "seconds": 360
+    },
+    {
+      "dateTime": "2021-07-31T06:12:00.000",
+      "level": "rem",
+      "seconds": 2430
+    },
+    {
+      "dateTime": "2021-07-31T06:52:30.000",
+      "level": "light",
+      "seconds": 1080
+    },
+    {
+      "dateTime": "2021-07-31T07:10:30.000",
+      "level": "wake",
+      "seconds": 1140
+    },
+    {
+      "dateTime": "2021-07-31T07:29:30.000",
+      "level": "light",
+      "seconds": 150
+    },
+    {
+      "dateTime": "2021-07-31T07:32:00.000",
+      "level": "wake",
+      "seconds": 210
+    },
+    {
+      "dateTime": "2021-07-31T07:35:30.000",
+      "level": "light",
+      "seconds": 1590
+    },
+    {
+      "dateTime": "2021-07-31T08:02:00.000",
+      "level": "wake",
+      "seconds": 1080
+    },
+    {
+      "dateTime": "2021-07-31T08:20:00.000",
+      "level": "light",
+      "seconds": 2430
+    },
+    {
+      "dateTime": "2021-07-31T09:00:30.000",
+      "level": "deep",
+      "seconds": 1350
+    },
+    {
+      "dateTime": "2021-07-31T09:23:00.000",
+      "level": "light",
+      "seconds": 2400
+    },
+    {
+      "dateTime": "2021-07-31T10:03:00.000",
+      "level": "wake",
+      "seconds": 270
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616e70e228ffd8823d031fc1"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1627603200000"
+    }
+  },
+  "bed_time": "01:58:00",
+  "sleep_time": "02:05:00",
+  "wake_time": "08:40:00",
+  "true_sleep_time": 240,
+  "sleep_efficiency": 90,
+  "toss_and_turn": 35.5,
+  "wake": 25.5,
+  "rem": 100.5,
+  "light": 100.5,
+  "deep": 10.5,
+  "wake_ratio": 15,
+  "rem_ratio": 40,
+  "light_ratio": 40,
+  "deep_ratio": 5,
+  "sleep_score": 65,
+  "poor_sleep_ratio": 12,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 18.2,
+  "emo_danger_ratio_30days": 32.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-07-30T01:58:00.000",
+      "level": "wake",
+      "seconds": 450
+    },
+    {
+      "dateTime": "2021-07-30T02:05:30.000",
+      "level": "light",
+      "seconds": 2220
+    },
+    {
+      "dateTime": "2021-07-30T02:42:30.000",
+      "level": "deep",
+      "seconds": 870
+    },
+    {
+      "dateTime": "2021-07-30T02:57:00.000",
+      "level": "wake",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-07-30T03:02:00.000",
+      "level": "light",
+      "seconds": 5160
+    },
+    {
+      "dateTime": "2021-07-30T04:28:00.000",
+      "level": "rem",
+      "seconds": 1140
+    },
+    {
+      "dateTime": "2021-07-30T04:47:00.000",
+      "level": "wake",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-07-30T04:52:00.000",
+      "level": "light",
+      "seconds": 5880
+    },
+    {
+      "dateTime": "2021-07-30T06:30:00.000",
+      "level": "rem",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-07-30T06:35:00.000",
+      "level": "light",
+      "seconds": 30
+    },
+    {
+      "dateTime": "2021-07-30T06:35:30.000",
+      "level": "wake",
+      "seconds": 210
+    },
+    {
+      "dateTime": "2021-07-30T06:39:00.000",
+      "level": "light",
+      "seconds": 3270
+    },
+    {
+      "dateTime": "2021-07-30T07:33:30.000",
+      "level": "rem",
+      "seconds": 420
+    },
+    {
+      "dateTime": "2021-07-30T07:40:30.000",
+      "level": "light",
+      "seconds": 360
+    },
+    {
+      "dateTime": "2021-07-30T07:46:30.000",
+      "level": "rem",
+      "seconds": 330
+    },
+    {
+      "dateTime": "2021-07-30T07:52:00.000",
+      "level": "light",
+      "seconds": 120
+    },
+    {
+      "dateTime": "2021-07-30T07:54:00.000",
+      "level": "wake",
+      "seconds": 240
+    },
+    {
+      "dateTime": "2021-07-30T07:58:00.000",
+      "level": "light",
+      "seconds": 1740
+    },
+    {
+      "dateTime": "2021-07-30T08:27:00.000",
+      "level": "wake",
+      "seconds": 810
+    },
+    {
+      "dateTime": "2021-07-30T08:40:30.000",
+      "level": "light",
+      "seconds": 330
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616e70fc273451d9c87fb142"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1627516800000"
+    }
+  },
+  "bed_time": "00:40:00",
+  "sleep_time": "00:58:00",
+  "wake_time": "4:13:00",
+  "true_sleep_time": 240.05,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 6.5,
+  "wake": 35.5,
+  "rem": 120.5,
+  "light": 110.5,
+  "deep": 30.5,
+  "wake_ratio": 15,
+  "rem_ratio": 25,
+  "light_ratio": 45,
+  "deep_ratio": 15,
+  "sleep_score": 78,
+  "poor_sleep_ratio": 16.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 32.5,
+  "emo_danger_ratio_30days": 29.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-07-29T00:51:00.000",
+      "level": "wake",
+      "seconds": 450
+    },
+    {
+      "dateTime": "2021-07-29T00:58:30.000",
+      "level": "light",
+      "seconds": 2160
+    },
+    {
+      "dateTime": "2021-07-29T01:34:30.000",
+      "level": "wake",
+      "seconds": 510
+    },
+    {
+      "dateTime": "2021-07-29T01:43:00.000",
+      "level": "light",
+      "seconds": 1470
+    },
+    {
+      "dateTime": "2021-07-29T02:07:30.000",
+      "level": "wake",
+      "seconds": 210
+    },
+    {
+      "dateTime": "2021-07-29T02:11:00.000",
+      "level": "light",
+      "seconds": 150
+    },
+    {
+      "dateTime": "2021-07-29T02:13:30.000",
+      "level": "deep",
+      "seconds": 2430
+    },
+    {
+      "dateTime": "2021-07-29T02:54:00.000",
+      "level": "light",
+      "seconds": 510
+    },
+    {
+      "dateTime": "2021-07-29T03:02:30.000",
+      "level": "rem",
+      "seconds": 1470
+    },
+    {
+      "dateTime": "2021-07-29T03:27:00.000",
+      "level": "light",
+      "seconds": 2760
+    },
+    {
+      "dateTime": "2021-07-29T04:13:00.000",
+      "level": "wake",
+      "seconds": 390
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616e7115e6b70be5028da801"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1627430400000"
+    }
+  },
+  "bed_time": "23:30:00",
+  "sleep_time": "23:39:00",
+  "wake_time": "06:22:00",
+  "true_sleep_time": 360,
+  "sleep_efficiency": 85,
+  "toss_and_turn": 17.5,
+  "wake": 25.5,
+  "rem": 125.5,
+  "light": 205.5,
+  "deep": 10.5,
+  "wake_ratio": 20,
+  "rem_ratio": 15,
+  "light_ratio": 40,
+  "deep_ratio": 25,
+  "sleep_score": 95,
+  "poor_sleep_ratio": 15,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-07-27T23:30:30.000",
+      "level": "wake",
+      "seconds": 540
+    },
+    {
+      "dateTime": "2021-07-27T23:39:30.000",
+      "level": "light",
+      "seconds": 1290
+    },
+    {
+      "dateTime": "2021-07-28T00:01:00.000",
+      "level": "deep",
+      "seconds": 2250
+    },
+    {
+      "dateTime": "2021-07-28T00:38:30.000",
+      "level": "light",
+      "seconds": 1080
+    },
+    {
+      "dateTime": "2021-07-28T00:56:30.000",
+      "level": "deep",
+      "seconds": 2140
+    },
+    {
+      "dateTime": "2021-07-28T01:33:00.000",
+      "level": "light",
+      "seconds": 2370
+    },
+    {
+      "dateTime": "2021-07-28T02:12:30.000",
+      "level": "rem",
+      "seconds": 1560
+    },
+    {
+      "dateTime": "2021-07-28T02:38:30.000",
+      "level": "light",
+      "seconds": 2460
+    },
+    {
+      "dateTime": "2021-07-28T03:14:30.000",
+      "level": "wake",
+      "seconds": 420
+    },
+    {
+      "dateTime": "2021-07-28T03:26:30.000",
+      "level": "rem",
+      "seconds": 840
+    },
+    {
+      "dateTime": "2021-07-28T03:40:30.000",
+      "level": "light",
+      "seconds": 570
+    },
+    {
+      "dateTime": "2021-07-28T03:50:00.000",
+      "level": "rem",
+      "seconds": 1800
+    },
+    {
+      "dateTime": "2021-07-28T04:20:00.000",
+      "level": "light",
+      "seconds": 3300
+    },
+    {
+      "dateTime": "2021-07-28T05:15:00.000",
+      "level": "wake",
+      "seconds": 390
+    },
+    {
+      "dateTime": "2021-07-28T05:21:30.000",
+      "level": "light",
+      "seconds": 480
+    },
+    {
+      "dateTime": "2021-07-28T05:29:30.000",
+      "level": "rem",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-07-28T05:34:30.000",
+      "level": "light",
+      "seconds": 1440
+    },
+    {
+      "dateTime": "2021-07-28T05:58:30.000",
+      "level": "rem",
+      "seconds": 690
+    },
+    {
+      "dateTime": "2021-07-28T06:10:00.000",
+      "level": "light",
+      "seconds": 870
+    },
+    {
+      "dateTime": "2021-07-28T06:22:00.000",
+      "level": "wake",
+      "seconds": 150
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616e712b7e8bb78417cbc151"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1627344000000"
+    }
+  },
+  "bed_time": "23:50:00",
+  "sleep_time": "00:02:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 380,
+  "sleep_efficiency": 85,
+  "toss_and_turn": 45,
+  "wake": 80,
+  "rem": 140,
+  "light": 160,
+  "deep": 30,
+  "wake_ratio": 15,
+  "rem_ratio": 35,
+  "light_ratio": 40,
+  "deep_ratio": 10,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 14,
+  "emo_level_value": 1,
+  "emo_danger_ratio": 85,
+  "emo_danger_ratio_30days": 83,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-07-26T23:50:00.000",
+      "level": "wake",
+      "seconds": 750
+    },
+    {
+      "dateTime": "2021-07-27T00:02:30.000",
+      "level": "light",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-07-27T00:07:30.000",
+      "level": "wake",
+      "seconds": 570
+    },
+    {
+      "dateTime": "2021-07-27T00:17:00.000",
+      "level": "light",
+      "seconds": 2040
+    },
+    {
+      "dateTime": "2021-07-27T00:51:00.000",
+      "level": "deep",
+      "seconds": 1440
+    },
+    {
+      "dateTime": "2021-07-27T01:15:00.000",
+      "level": "light",
+      "seconds": 1980
+    },
+    {
+      "dateTime": "2021-07-27T01:48:00.000",
+      "level": "deep",
+      "seconds": 1050
+    },
+    {
+      "dateTime": "2021-07-27T02:05:30.000",
+      "level": "light",
+      "seconds": 1620
+    },
+    {
+      "dateTime": "2021-07-27T02:32:30.000",
+      "level": "wake",
+      "seconds": 210
+    },
+    {
+      "dateTime": "2021-07-27T02:36:00.000",
+      "level": "light",
+      "seconds": 90
+    },
+    {
+      "dateTime": "2021-07-27T02:37:30.000",
+      "level": "rem",
+      "seconds": 990
+    },
+    {
+      "dateTime": "2021-07-27T02:54:00.000",
+      "level": "light",
+      "seconds": 2160
+    },
+    {
+      "dateTime": "2021-07-27T03:30:00.000",
+      "level": "deep",
+      "seconds": 420
+    },
+    {
+      "dateTime": "2021-07-27T03:37:00.000",
+      "level": "light",
+      "seconds": 840
+    },
+    {
+      "dateTime": "2021-07-27T03:51:00.000",
+      "level": "rem",
+      "seconds": 2040
+    },
+    {
+      "dateTime": "2021-07-27T04:25:00.000",
+      "level": "light",
+      "seconds": 2880
+    },
+    {
+      "dateTime": "2021-07-27T05:13:00.000",
+      "level": "deep",
+      "seconds": 1410
+    },
+    {
+      "dateTime": "2021-07-27T05:36:30.000",
+      "level": "light",
+      "seconds": 1830
+    },
+    {
+      "dateTime": "2021-07-27T06:07:00.000",
+      "level": "rem",
+      "seconds": 900
+    },
+    {
+      "dateTime": "2021-07-27T06:22:00.000",
+      "level": "light",
+      "seconds": 180
+    },
+    {
+      "dateTime": "2021-07-27T06:25:00.000",
+      "level": "wake",
+      "seconds": 240
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616e71413f8a392208dfedea"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1627257600000"
+    }
+  },
+  "bed_time": "23:22:00",
+  "sleep_time": "23:36:00",
+  "wake_time": "06:08:00",
+  "true_sleep_time": 400,
+  "sleep_efficiency": 80,
+  "toss_and_turn": 35.5,
+  "wake": 75.5,
+  "rem": 150.5,
+  "light": 150.5,
+  "deep": 10.5,
+  "wake_ratio": 25,
+  "rem_ratio": 35,
+  "light_ratio": 35,
+  "deep_ratio": 5,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 22,
+  "emo_level_value": 2,
+  "emo_danger_ratio": 88,
+  "emo_danger_ratio_30days": 92,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-07-25T23:22:30.000",
+      "level": "wake",
+      "seconds": 810
+    },
+    {
+      "dateTime": "2021-07-25T23:36:00.000",
+      "level": "light",
+      "seconds": 1920
+    },
+    {
+      "dateTime": "2021-07-26T00:08:00.000",
+      "level": "deep",
+      "seconds": 720
+    },
+    {
+      "dateTime": "2021-07-26T00:20:00.000",
+      "level": "light",
+      "seconds": 2040
+    },
+    {
+      "dateTime": "2021-07-26T00:54:00.000",
+      "level": "rem",
+      "seconds": 330
+    },
+    {
+      "dateTime": "2021-07-26T00:59:30.000",
+      "level": "light",
+      "seconds": 1890
+    },
+    {
+      "dateTime": "2021-07-26T01:31:00.000",
+      "level": "wake",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-07-26T01:35:30.000",
+      "level": "light",
+      "seconds": 600
+    },
+    {
+      "dateTime": "2021-07-26T01:45:30.000",
+      "level": "wake",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-07-26T01:50:00.000",
+      "level": "light",
+      "seconds": 2190
+    },
+    {
+      "dateTime": "2021-07-26T02:26:30.000",
+      "level": "rem",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-07-26T02:31:00.000",
+      "level": "wake",
+      "seconds": 210
+    },
+    {
+      "dateTime": "2021-07-26T02:34:30.000",
+      "level": "light",
+      "seconds": 210
+    },
+    {
+      "dateTime": "2021-07-26T02:38:00.000",
+      "level": "rem",
+      "seconds": 1680
+    },
+    {
+      "dateTime": "2021-07-26T03:06:00.000",
+      "level": "light",
+      "seconds": 3030
+    },
+    {
+      "dateTime": "2021-07-26T03:56:30.000",
+      "level": "deep",
+      "seconds": 1110
+    },
+    {
+      "dateTime": "2021-07-26T04:15:00.000",
+      "level": "light",
+      "seconds": 210
+    },
+    {
+      "dateTime": "2021-07-26T04:18:30.000",
+      "level": "rem",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-07-26T04:23:30.000",
+      "level": "light",
+      "seconds": 3030
+    },
+    {
+      "dateTime": "2021-07-26T05:14:00.000",
+      "level": "rem",
+      "seconds": 3240
+    },
+    {
+      "dateTime": "2021-07-26T06:08:00.000",
+      "level": "light",
+      "seconds": 1080
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61765d07921428ba83ac054d"
+  },
+  "user_id": "content_depression_quest_1",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 0,
+  "emotion_result": 3,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765d198075c1964edc08ed"
+  },
+  "user_id": "content_depression_quest_2",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 0,
+  "emotion_result": 7,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765d2f6310091175bc579b"
+  },
+  "user_id": "content_depression_quest_3",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 0,
+  "emotion_result": 12,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765d3b5d33d92c39a92ee7"
+  },
+  "user_id": "content_depression_quest_4",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 0,
+  "emotion_result": 22,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765d55484acf59c8a8961f"
+  },
+  "user_id": "content_emotion_questresult_1",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 0,
+  "emotion_result": 22,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765d638a60c5206288d4e7"
+  },
+  "user_id": "content_emotion_questresult_1",
+  "date": {
+    "$date": {
+      "$numberLong": "1635033600000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 0,
+  "emotion_result": 22,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765d6d0ab76337d636e1e1"
+  },
+  "user_id": "content_emotion_questresult_2",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 0,
+  "emotion_result": 22,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765d7a148c99d81e7d1339"
+  },
+  "user_id": "content_emotion_questresult_2",
+  "date": {
+    "$date": {
+      "$numberLong": "1635033600000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 0,
+  "emotion_result": 12,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765d8d484db8e9c5c8c6b4"
+  },
+  "user_id": "content_emotion_questresult_3",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 0,
+  "emotion_result": 21,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765d9a28262c1e9d3d9ea1"
+  },
+  "user_id": "content_emotion_questresult_3",
+  "date": {
+    "$date": {
+      "$numberLong": "1635033600000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 0,
+  "emotion_result": 8,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765da9fd1418ff6e3145fe"
+  },
+  "user_id": "content_normal_1",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 0,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765dc1e51b47819838839c"
+  },
+  "user_id": "content_sleep_quest_1",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 3,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765dceda3c848a4576ac30"
+  },
+  "user_id": "content_sleep_quest_2",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 8,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765ddf9a00df9c4dc2afe4"
+  },
+  "user_id": "content_sleep_quest_3",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 15,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765df379656d9814f539a7"
+  },
+  "user_id": "content_sleep_questresult_1",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 12,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765dfb3a81f40e3f3482ab"
+  },
+  "user_id": "content_sleep_questresult_1",
+  "date": {
+    "$date": {
+      "$numberLong": "1635033600000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 12,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765ea2197400c81a5f0f9c"
+  },
+  "user_id": "content_sleep_questresult_2",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 10,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765eb0f720332292028f3d"
+  },
+  "user_id": "content_sleep_questresult_2",
+  "date": {
+    "$date": {
+      "$numberLong": "1635033600000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 13,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765ec0cf6453087ba4b84f"
+  },
+  "user_id": "content_sleep_questresult_3",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 15,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765ed0e5ca045e2c6b67a0"
+  },
+  "user_id": "content_sleep_questresult_3",
+  "date": {
+    "$date": {
+      "$numberLong": "1635033600000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 5,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765f0112fa72185f51e102"
+  },
+  "user_id": "emo_feedback_emotion_1",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 90.5,
+  "emo_ha_total": 0,
+  "sleep_result": 0,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765f12f3ee477a369424ce"
+  },
+  "user_id": "emo_feedback_emotion_2",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 51,
+  "emo_ha_total": 0,
+  "sleep_result": 0,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765f25baaf5f70efcc7c4a"
+  },
+  "user_id": "emo_feedback_emotion_3",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 50,
+  "emo_ha_total": 0,
+  "sleep_result": 0,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765f3a9bd47c8fd33780f5"
+  },
+  "user_id": "emo_feedback_sleep_1",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 21.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 0,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765f4d88b85ae94c1130a7"
+  },
+  "user_id": "emo_specific_feedback_1",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 1,
+  "sleep_result": 0,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765f5aecab12941d9bb584"
+  },
+  "user_id": "emo_specific_feedback_2",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 0,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765f6dc62c1feaa197969f"
+  },
+  "user_id": "message_emotion_01",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 0,
+  "emotion_result": 15,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765f7ccac8cf0151d7f3e8"
+  },
+  "user_id": "message_emotion_02",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 0,
+  "emotion_result": 22,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765f90877b03b620aa882b"
+  },
+  "user_id": "message_sleep_01",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 20,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765fac51ff3b72a39ba482"
+  },
+  "user_id": "sleep_feedback_1",
+  "date": {
+    "$date": {
+      "$numberLong": "1635033600000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 80,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 20,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765fba9ee1c96094a3f2a0"
+  },
+  "user_id": "sleep_feedback_1",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 95,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 20,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765fcc5f2766ffc806bc2b"
+  },
+  "user_id": "sleep_feedback_2",
+  "date": {
+    "$date": {
+      "$numberLong": "1635033600000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 90,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 20,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765fd55f41f2947a78444b"
+  },
+  "user_id": "sleep_feedback_2",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 20,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765feddd5eb65e6a022403"
+  },
+  "user_id": "sleep_hygiene_1",
+  "date": {
+    "$date": {
+      "$numberLong": "1635033600000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "06:22:00",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 20,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61765ff871fb5d447f38a055"
+  },
+  "user_id": "sleep_hygiene_1",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "09:22:00",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 20,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "6176600ff0dbb0d905ff1ba8"
+  },
+  "user_id": "sleep_hygiene_2",
+  "date": {
+    "$date": {
+      "$numberLong": "1635033600000"
+    }
+  },
+  "bed_time": "22:00:00",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 20,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "6176601b0a4a9edcdd0770c3"
+  },
+  "user_id": "sleep_hygiene_2",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "23:30:00",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 20,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61766030423f8915bfb65963"
+  },
+  "user_id": "sleep_hygiene_3",
+  "date": {
+    "$date": {
+      "$numberLong": "1635033600000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 360,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 20,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "6176603ebe5faa600bcd81e7"
+  },
+  "user_id": "sleep_hygiene_3",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 490,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 20,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61766055b4d6cde7c1acee17"
+  },
+  "user_id": "sleep_hygiene_4",
+  "date": {
+    "$date": {
+      "$numberLong": "1635033600000"
+    }
+  },
+  "bed_time": "22:35:00",
+  "sleep_time": "22:45:00",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 20,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61766068f785d4766e9e7315"
+  },
+  "user_id": "sleep_hygiene_4",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "22:30:00",
+  "sleep_time": "23:45:00",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 0,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 20,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "617660ad184a953edc05e543"
+  },
+  "user_id": "sleep_specific_feedback_1",
+  "date": {
+    "$date": {
+      "$numberLong": "1635033600000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 85,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 20,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "617660bad6f3de7b2c6a19db"
+  },
+  "user_id": "sleep_specific_feedback_1",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 90,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 20,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "617660ce637c24ca94be7c46"
+  },
+  "user_id": "sleep_specific_feedback_2",
+  "date": {
+    "$date": {
+      "$numberLong": "1635033600000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 91,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 20,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "617660d85ac54e13cee2aaf3"
+  },
+  "user_id": "sleep_specific_feedback_2",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "0",
+  "sleep_time": "0",
+  "wake_time": "0",
+  "true_sleep_time": 0,
+  "sleep_efficiency": 75,
+  "toss_and_turn": 0,
+  "wake": 0,
+  "rem": 0,
+  "light": 0,
+  "deep": 0,
+  "wake_ratio": 0,
+  "rem_ratio": 0,
+  "light_ratio": 0,
+  "deep_ratio": 0,
+  "sleep_score": 0,
+  "poor_sleep_ratio": 0,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 0,
+  "emo_danger_ratio_30days": 0,
+  "emo_ha_total": 0,
+  "sleep_result": 20,
+  "emotion_result": 0,
+  "contents_call_contact": 0,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "616d0fe22721adf8e9ab129b"
+  },
+  "user_id": "uid_0x43210",
+  "date": {
+    "$date": {
+      "$numberLong": "1635379200000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 10,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 2,
+  "emo_danger_ratio": 89,
+  "emo_danger_ratio_30days": 89,
+  "emo_ha_total": 1,
+  "sleep_result": 18,
+  "emotion_result": 20,
+  "contents_call_contact": 1,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-08-24T01:53:00.000",
+      "level": "wake",
+      "seconds": 630
+    },
+    {
+      "dateTime": "2021-08-24T02:03:30.000",
+      "level": "light",
+      "seconds": 2430
+    },
+    {
+      "dateTime": "2021-08-24T02:44:00.000",
+      "level": "rem",
+      "seconds": 1380
+    },
+    {
+      "dateTime": "2021-08-24T03:07:00.000",
+      "level": "light",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-24T03:12:00.000",
+      "level": "wake",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-24T03:17:00.000",
+      "level": "light",
+      "seconds": 1740
+    },
+    {
+      "dateTime": "2021-08-24T03:46:00.000",
+      "level": "deep",
+      "seconds": 2070
+    },
+    {
+      "dateTime": "2021-08-24T04:20:30.000",
+      "level": "light",
+      "seconds": 90
+    },
+    {
+      "dateTime": "2021-08-24T04:22:00.000",
+      "level": "rem",
+      "seconds": 1860
+    },
+    {
+      "dateTime": "2021-08-24T04:53:00.000",
+      "level": "light",
+      "seconds": 3600
+    },
+    {
+      "dateTime": "2021-08-24T05:53:00.000",
+      "level": "rem",
+      "seconds": 1650
+    },
+    {
+      "dateTime": "2021-08-24T06:20:30.000",
+      "level": "wake",
+      "seconds": 270
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "617b7fac80f43cce79c99660"
+  },
+  "user_id": "uid_0x4321",
+  "date": {
+    "$date": {
+      "$numberLong": "1635465600000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "1:25:00",
+  "wake_time": "6:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "617b7fb2d173047dd35b6941"
+  },
+  "user_id": "uid_0x4321",
+  "date": {
+    "$date": {
+      "$numberLong": "1635379200000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "1:25:00",
+  "wake_time": "6:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "617b803b996ece741e6cde9c"
+  },
+  "user_id": "uid_0x4321",
+  "date": {
+    "$date": {
+      "$numberLong": "1635292800000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "1:25:00",
+  "wake_time": "6:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "617b803f77ad7264b8059b8f"
+  },
+  "user_id": "uid_0x4321",
+  "date": {
+    "$date": {
+      "$numberLong": "1635206400000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "1:25:00",
+  "wake_time": "6:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "617f89d4ab060d8ea19a6e0a"
+  },
+  "user_id": "uid_0x4321",
+  "date": {
+    "$date": {
+      "$numberLong": "1635724800000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-11-01T01:53:00.000",
+      "level": "wake",
+      "seconds": 630
+    },
+    {
+      "dateTime": "2021-11-01T02:03:30.000",
+      "level": "light",
+      "seconds": 2430
+    },
+    {
+      "dateTime": "2021-11-01T02:44:00.000",
+      "level": "rem",
+      "seconds": 1380
+    },
+    {
+      "dateTime": "2021-11-01T03:07:00.000",
+      "level": "light",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-11-01T03:12:00.000",
+      "level": "wake",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-11-01T03:17:00.000",
+      "level": "light",
+      "seconds": 1740
+    },
+    {
+      "dateTime": "2021-11-01T03:46:00.000",
+      "level": "deep",
+      "seconds": 2070
+    },
+    {
+      "dateTime": "2021-11-01T04:20:30.000",
+      "level": "light",
+      "seconds": 90
+    },
+    {
+      "dateTime": "2021-11-01T04:22:00.000",
+      "level": "rem",
+      "seconds": 1860
+    },
+    {
+      "dateTime": "2021-11-01T04:53:00.000",
+      "level": "light",
+      "seconds": 3600
+    },
+    {
+      "dateTime": "2021-11-01T05:53:00.000",
+      "level": "rem",
+      "seconds": 1650
+    },
+    {
+      "dateTime": "2021-11-01T06:20:30.000",
+      "level": "wake",
+      "seconds": 270
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "617f89dd0afd7dcde62256d6"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1635724800000"
+    }
+  },
+  "bed_time": "01:10:00",
+  "sleep_time": "01:35:00",
+  "wake_time": "06:35:00",
+  "true_sleep_time": 280.88,
+  "sleep_efficiency": 80.5,
+  "toss_and_turn": 12.5,
+  "wake": 20.5,
+  "rem": 150.5,
+  "light": 80.5,
+  "deep": 30.5,
+  "wake_ratio": 15,
+  "rem_ratio": 40,
+  "light_ratio": 20,
+  "deep_ratio": 25,
+  "sleep_score": 73,
+  "poor_sleep_ratio": 10.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-11-01T01:53:00.000",
+      "level": "wake",
+      "seconds": 630
+    },
+    {
+      "dateTime": "2021-11-01T02:03:30.000",
+      "level": "light",
+      "seconds": 2430
+    },
+    {
+      "dateTime": "2021-11-01T02:44:00.000",
+      "level": "rem",
+      "seconds": 1380
+    },
+    {
+      "dateTime": "2021-11-01T03:07:00.000",
+      "level": "light",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-11-01T03:12:00.000",
+      "level": "wake",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-11-01T03:17:00.000",
+      "level": "light",
+      "seconds": 1740
+    },
+    {
+      "dateTime": "2021-11-01T03:46:00.000",
+      "level": "deep",
+      "seconds": 2070
+    },
+    {
+      "dateTime": "2021-11-01T04:20:30.000",
+      "level": "light",
+      "seconds": 90
+    },
+    {
+      "dateTime": "2021-11-01T04:22:00.000",
+      "level": "rem",
+      "seconds": 1860
+    },
+    {
+      "dateTime": "2021-11-01T04:53:00.000",
+      "level": "light",
+      "seconds": 3600
+    },
+    {
+      "dateTime": "2021-11-01T05:53:00.000",
+      "level": "rem",
+      "seconds": 1650
+    },
+    {
+      "dateTime": "2021-11-01T06:20:30.000",
+      "level": "wake",
+      "seconds": 270
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6180818a056a95442c604fb1"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1635465600000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "6180818e27a3f76c57d24aad"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1635379200000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61808198f7ba18f23c2ea944"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1635292800000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61808265fd956d40333ac84b"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1635552000000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "6180826ed35232fa1168dde8"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1635638400000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61808285401adac8f7a1b354"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1635811200000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 2,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-11-02T01:21:00.000",
+      "level": "wake",
+      "seconds": 630
+    },
+    {
+      "dateTime": "2021-11-02T02:03:30.000",
+      "level": "light",
+      "seconds": 2430
+    },
+    {
+      "dateTime": "2021-11-02T02:44:00.000",
+      "level": "rem",
+      "seconds": 1380
+    },
+    {
+      "dateTime": "2021-11-02T03:07:00.000",
+      "level": "light",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-11-02T03:12:00.000",
+      "level": "wake",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-11-02T03:17:00.000",
+      "level": "light",
+      "seconds": 1740
+    },
+    {
+      "dateTime": "2021-11-02T03:46:00.000",
+      "level": "rem",
+      "seconds": 2070
+    },
+    {
+      "dateTime": "2021-11-02T04:20:30.000",
+      "level": "light",
+      "seconds": 90
+    },
+    {
+      "dateTime": "2021-11-02T04:22:00.000",
+      "level": "rem",
+      "seconds": 1860
+    },
+    {
+      "dateTime": "2021-11-02T04:53:00.000",
+      "level": "deep",
+      "seconds": 3600
+    },
+    {
+      "dateTime": "2021-11-02T05:53:00.000",
+      "level": "rem",
+      "seconds": 1650
+    },
+    {
+      "dateTime": "2021-11-02T06:20:30.000",
+      "level": "wake",
+      "seconds": 270
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6180829e4cf4b7ee0c1745cf"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1635206400000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "618082a8484fd866db03cd4a"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1635120000000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "618082acc6646c228c1b431e"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1635033600000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "618082b0dfac104b4c8d7f3c"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1634947200000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "618082b3fe6b499e0c7dc006"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1634860800000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "618082b696c9fcb7c63f5592"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1634774400000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "618082badb8c81118358194d"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1634688000000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "618082db835015b9fdc3f745"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1634601600000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 90,
+  "emo_danger_ratio_30days": 91,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "618082e0de0195b683982478"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1634515200000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 90,
+  "emo_danger_ratio_30days": 91,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "618082e37b3268dbf08912d5"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1634428800000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 90,
+  "emo_danger_ratio_30days": 91,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "618082ec55f4a993f4b9a088"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1634342400000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 1,
+  "emo_danger_ratio": 90,
+  "emo_danger_ratio_30days": 91,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "618082ee1104f1e3ab6ad683"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1634256000000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 1,
+  "emo_danger_ratio": 90,
+  "emo_danger_ratio_30days": 91,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "618082f14422b3437e9fa382"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1634169600000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 1,
+  "emo_danger_ratio": 90,
+  "emo_danger_ratio_30days": 91,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "618082f4960cc8b3ed62702b"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1634083200000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 1,
+  "emo_danger_ratio": 90,
+  "emo_danger_ratio_30days": 91,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "618082f7a421f76c16ccb6da"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1633996800000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 1,
+  "emo_danger_ratio": 90,
+  "emo_danger_ratio_30days": 91,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "618082fa794f34d9a8d5a08c"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1633910400000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 1,
+  "emo_danger_ratio": 90,
+  "emo_danger_ratio_30days": 91,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "618082fddb0714db0d1730cf"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1633824000000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 1,
+  "emo_danger_ratio": 90,
+  "emo_danger_ratio_30days": 91,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "6180830062946dfeb557b6e6"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1633737600000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 1,
+  "emo_danger_ratio": 90,
+  "emo_danger_ratio_30days": 91,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "6180830dba4c04805909ed9d"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1633651200000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 2,
+  "emo_danger_ratio": 90,
+  "emo_danger_ratio_30days": 91,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "618083133780f76747f9c31c"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1633564800000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 2,
+  "emo_danger_ratio": 90,
+  "emo_danger_ratio_30days": 91,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61808317da8c4e5add7021bd"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1633478400000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 2,
+  "emo_danger_ratio": 90,
+  "emo_danger_ratio_30days": 91,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61808319070b789cbaca7095"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1633392000000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 2,
+  "emo_danger_ratio": 90,
+  "emo_danger_ratio_30days": 91,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "6180831c515c843018cfff26"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1633305600000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 2,
+  "emo_danger_ratio": 90,
+  "emo_danger_ratio_30days": 91,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "618083202ec1d1987ecf5e7c"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1633219200000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 2,
+  "emo_danger_ratio": 90,
+  "emo_danger_ratio_30days": 91,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "6180832336881899d5b8d6f6"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1633132800000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 2,
+  "emo_danger_ratio": 90,
+  "emo_danger_ratio_30days": 91,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "61808326bbc24725f5ce37e6"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1633046400000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 11.5,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 2,
+  "emo_danger_ratio": 90,
+  "emo_danger_ratio_30days": 91,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": []
+},{
+  "_id": {
+    "$oid": "616d0fe22721ddf8e9ab128b"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1635811200000"
+    }
+  },
+  "bed_time": "01:15:00",
+  "sleep_time": "01:17:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 298.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 15,
+  "wake": 43.5,
+  "rem": 100.5,
+  "light": 100.5,
+  "deep": 65.5,
+  "wake_ratio": 10,
+  "rem_ratio": 35,
+  "light_ratio": 35,
+  "deep_ratio": 20,
+  "sleep_score": 80,
+  "poor_sleep_ratio": 18.5,
+  "emo_level_value": 1,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 1,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-11-02T01:15:00.000",
+      "level": "wake",
+      "seconds": 2880
+    },
+    {
+      "dateTime": "2021-11-02T02:03:30.000",
+      "level": "light",
+      "seconds": 2430
+    },
+    {
+      "dateTime": "2021-11-02T02:44:00.000",
+      "level": "rem",
+      "seconds": 1380
+    },
+    {
+      "dateTime": "2021-11-02T03:07:00.000",
+      "level": "light",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-11-024T03:12:00.000",
+      "level": "rem",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-11-02T03:17:00.000",
+      "level": "light",
+      "seconds": 1740
+    },
+    {
+      "dateTime": "2021-11-02T03:46:00.000",
+      "level": "deep",
+      "seconds": 2070
+    },
+    {
+      "dateTime": "2021-11-02T04:20:30.000",
+      "level": "light",
+      "seconds": 90
+    },
+    {
+      "dateTime": "2021-11-02T04:22:00.000",
+      "level": "rem",
+      "seconds": 1860
+    },
+    {
+      "dateTime": "2021-11-02T04:53:00.000",
+      "level": "light",
+      "seconds": 3600
+    },
+    {
+      "dateTime": "2021-11-02T05:53:00.000",
+      "level": "deep",
+      "seconds": 1650
+    },
+    {
+      "dateTime": "2021-11-02T06:20:30.000",
+      "level": "wake",
+      "seconds": 270
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616d0fe22721ddf8e9ab118b"
+  },
+  "user_id": "uid_0x4321",
+  "date": {
+    "$date": {
+      "$numberLong": "1635811200000"
+    }
+  },
+  "bed_time": "01:15:00",
+  "sleep_time": "01:17:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 298.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 15,
+  "wake": 43.5,
+  "rem": 100.5,
+  "light": 100.5,
+  "deep": 65.5,
+  "wake_ratio": 10,
+  "rem_ratio": 35,
+  "light_ratio": 35,
+  "deep_ratio": 20,
+  "sleep_score": 80,
+  "poor_sleep_ratio": 18.5,
+  "emo_level_value": 1,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 1,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-11-02T01:15:00.000",
+      "level": "wake",
+      "seconds": 2880
+    },
+    {
+      "dateTime": "2021-11-02T02:03:30.000",
+      "level": "light",
+      "seconds": 2430
+    },
+    {
+      "dateTime": "2021-11-02T02:44:00.000",
+      "level": "rem",
+      "seconds": 1380
+    },
+    {
+      "dateTime": "2021-11-02T03:07:00.000",
+      "level": "light",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-11-024T03:12:00.000",
+      "level": "rem",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-11-02T03:17:00.000",
+      "level": "light",
+      "seconds": 1740
+    },
+    {
+      "dateTime": "2021-11-02T03:46:00.000",
+      "level": "deep",
+      "seconds": 2070
+    },
+    {
+      "dateTime": "2021-11-02T04:20:30.000",
+      "level": "light",
+      "seconds": 90
+    },
+    {
+      "dateTime": "2021-11-02T04:22:00.000",
+      "level": "rem",
+      "seconds": 1860
+    },
+    {
+      "dateTime": "2021-11-02T04:53:00.000",
+      "level": "light",
+      "seconds": 3600
+    },
+    {
+      "dateTime": "2021-11-02T05:53:00.000",
+      "level": "deep",
+      "seconds": 1650
+    },
+    {
+      "dateTime": "2021-11-02T06:20:30.000",
+      "level": "wake",
+      "seconds": 270
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "616d01e22721adf8e9ab129b"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1635897600000"
+    }
+  },
+  "bed_time": "01:21:00",
+  "sleep_time": "01:25:00",
+  "wake_time": "06:25:00",
+  "true_sleep_time": 304.88,
+  "sleep_efficiency": 85.5,
+  "toss_and_turn": 10,
+  "wake": 40.5,
+  "rem": 150.5,
+  "light": 180.5,
+  "deep": 60.5,
+  "wake_ratio": 14,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 16,
+  "sleep_score": 75,
+  "poor_sleep_ratio": 15.5,
+  "emo_level_value": 1,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 1,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-08-24T01:53:00.000",
+      "level": "wake",
+      "seconds": 630
+    },
+    {
+      "dateTime": "2021-08-24T02:03:30.000",
+      "level": "light",
+      "seconds": 2430
+    },
+    {
+      "dateTime": "2021-08-24T02:44:00.000",
+      "level": "rem",
+      "seconds": 1380
+    },
+    {
+      "dateTime": "2021-08-24T03:07:00.000",
+      "level": "light",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-24T03:12:00.000",
+      "level": "wake",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-08-24T03:17:00.000",
+      "level": "light",
+      "seconds": 1740
+    },
+    {
+      "dateTime": "2021-08-24T03:46:00.000",
+      "level": "deep",
+      "seconds": 2070
+    },
+    {
+      "dateTime": "2021-08-24T04:20:30.000",
+      "level": "light",
+      "seconds": 90
+    },
+    {
+      "dateTime": "2021-08-24T04:22:00.000",
+      "level": "rem",
+      "seconds": 1860
+    },
+    {
+      "dateTime": "2021-08-24T04:53:00.000",
+      "level": "light",
+      "seconds": 3600
+    },
+    {
+      "dateTime": "2021-08-24T05:53:00.000",
+      "level": "rem",
+      "seconds": 1650
+    },
+    {
+      "dateTime": "2021-08-24T06:20:30.000",
+      "level": "wake",
+      "seconds": 270
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6188830d6189e6f62fd5724f"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1635724800000"
+    }
+  },
+  "bed_time": "23:15:00",
+  "sleep_time": "23:27:00",
+  "wake_time": "05:52:00",
+  "true_sleep_time": 240.15,
+  "sleep_efficiency": 75.5,
+  "toss_and_turn": 15.5,
+  "wake": 33.5,
+  "rem": 122.5,
+  "light": 109.5,
+  "deep": 16.5,
+  "wake_ratio": 20,
+  "rem_ratio": 22,
+  "light_ratio": 43,
+  "deep_ratio": 15,
+  "sleep_score": 79,
+  "poor_sleep_ratio": 16,
+  "emo_level_value": 1,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-10-31T23:20:30.000",
+      "level": "wake",
+      "seconds": 390
+    },
+    {
+      "dateTime": "2021-10-31T23:27:00.000",
+      "level": "light",
+      "seconds": 660
+    },
+    {
+      "dateTime": "2021-10-31T23:38:00.000",
+      "level": "wake",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-10-31T23:42:30.000",
+      "level": "light",
+      "seconds": 2130
+    },
+    {
+      "dateTime": "2021-11-01T00:18:00.000",
+      "level": "deep",
+      "seconds": 1350
+    },
+    {
+      "dateTime": "2021-11-01T00:40:30.000",
+      "level": "wake",
+      "seconds": 990
+    },
+    {
+      "dateTime": "2021-11-01T00:57:00.000",
+      "level": "light",
+      "seconds": 4650
+    },
+    {
+      "dateTime": "2021-11-01T02:14:30.000",
+      "level": "rem",
+      "seconds": 960
+    },
+    {
+      "dateTime": "2021-11-01T02:30:30.000",
+      "level": "light",
+      "seconds": 930
+    },
+    {
+      "dateTime": "2021-11-01T02:46:00.000",
+      "level": "deep",
+      "seconds": 480
+    },
+    {
+      "dateTime": "2021-11-01T02:54:00.000",
+      "level": "light",
+      "seconds": 1260
+    },
+    {
+      "dateTime": "2021-11-01T03:15:00.000",
+      "level": "rem",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-11-01T03:20:00.000",
+      "level": "light",
+      "seconds": 510
+    },
+    {
+      "dateTime": "2021-11-01T03:28:30.000",
+      "level": "deep",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-11-01T03:33:00.000",
+      "level": "light",
+      "seconds": 1950
+    },
+    {
+      "dateTime": "2021-11-01T03:45:30.000",
+      "level": "deep",
+      "seconds": 330
+    },
+    {
+      "dateTime": "2021-11-01T04:11:00.000",
+      "level": "light",
+      "seconds": 4680
+    },
+    {
+      "dateTime": "2021-11-01T05:29:00.000",
+      "level": "deep",
+      "seconds": 1290
+    },
+    {
+      "dateTime": "2021-11-01T05:50:30.000",
+      "level": "light",
+      "seconds": 630
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6188836e86371886d4516660"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1635811200000"
+    }
+  },
+  "bed_time": "23:00:00",
+  "sleep_time": "23:27:00",
+  "wake_time": "05:52:00",
+  "true_sleep_time": 390.15,
+  "sleep_efficiency": 94.8,
+  "toss_and_turn": 22.5,
+  "wake": 12.5,
+  "rem": 145.5,
+  "light": 195.5,
+  "deep": 15.5,
+  "wake_ratio": 13,
+  "rem_ratio": 29,
+  "light_ratio": 44,
+  "deep_ratio": 14,
+  "sleep_score": 89,
+  "poor_sleep_ratio": 17,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 85.5,
+  "emo_danger_ratio_30days": 89,
+  "emo_ha_total": 2,
+  "sleep_result": 12,
+  "emotion_result": 2,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-11-01T23:00:30.000",
+      "level": "wake",
+      "seconds": 390
+    },
+    {
+      "dateTime": "2021-11-01T23:07:00.000",
+      "level": "light",
+      "seconds": 660
+    },
+    {
+      "dateTime": "2021-11-01T23:18:00.000",
+      "level": "rem",
+      "seconds": 1200
+    },
+    {
+      "dateTime": "2021-11-01T23:38:00.000",
+      "level": "wake",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-11-01T23:42:30.000",
+      "level": "light",
+      "seconds": 2130
+    },
+    {
+      "dateTime": "2021-11-02T00:18:00.000",
+      "level": "deep",
+      "seconds": 1350
+    },
+    {
+      "dateTime": "2021-11-02T00:40:30.000",
+      "level": "wake",
+      "seconds": 990
+    },
+    {
+      "dateTime": "2021-11-02T00:57:00.000",
+      "level": "light",
+      "seconds": 4650
+    },
+    {
+      "dateTime": "2021-11-02T02:14:30.000",
+      "level": "rem",
+      "seconds": 960
+    },
+    {
+      "dateTime": "2021-11-02T02:30:30.000",
+      "level": "light",
+      "seconds": 930
+    },
+    {
+      "dateTime": "2021-11-02T02:46:00.000",
+      "level": "wake",
+      "seconds": 480
+    },
+    {
+      "dateTime": "2021-11-02T02:54:00.000",
+      "level": "light",
+      "seconds": 1560
+    },
+    {
+      "dateTime": "2021-11-02T03:20:00.000",
+      "level": "rem",
+      "seconds": 510
+    },
+    {
+      "dateTime": "2021-11-02T03:28:30.000",
+      "level": "deep",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-11-02T03:33:00.000",
+      "level": "light",
+      "seconds": 1350
+    },
+    {
+      "dateTime": "2021-11-02T03:55:30.000",
+      "level": "rem",
+      "seconds": 930
+    },
+    {
+      "dateTime": "2021-11-02T04:11:00.000",
+      "level": "light",
+      "seconds": 4680
+    },
+    {
+      "dateTime": "2021-11-02T05:29:00.000",
+      "level": "rem",
+      "seconds": 1290
+    },
+    {
+      "dateTime": "2021-11-02T05:50:30.000",
+      "level": "light",
+      "seconds": 630
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "618883b62663aa6a8dab0121"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1635897600000"
+    }
+  },
+  "bed_time": "23:25:00",
+  "sleep_time": "23:27:00",
+  "wake_time": "05:52:00",
+  "true_sleep_time": 300.15,
+  "sleep_efficiency": 89.1,
+  "toss_and_turn": 12.5,
+  "wake": 27.5,
+  "rem": 118.5,
+  "light": 131.5,
+  "deep": 20.5,
+  "wake_ratio": 22,
+  "rem_ratio": 20,
+  "light_ratio": 42,
+  "deep_ratio": 16,
+  "sleep_score": 85,
+  "poor_sleep_ratio": 17,
+  "emo_level_value": 1,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-11-02T23:27:30.000",
+      "level": "wake",
+      "seconds": 630
+    },
+    {
+      "dateTime": "2021-11-02T23:38:00.000",
+      "level": "deep",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-11-02T23:42:30.000",
+      "level": "light",
+      "seconds": 2130
+    },
+    {
+      "dateTime": "2021-11-03T00:18:00.000",
+      "level": "deep",
+      "seconds": 1350
+    },
+    {
+      "dateTime": "2021-11-03T00:40:30.000",
+      "level": "wake",
+      "seconds": 990
+    },
+    {
+      "dateTime": "2021-11-03T00:57:00.000",
+      "level": "light",
+      "seconds": 4650
+    },
+    {
+      "dateTime": "2021-11-03T02:14:30.000",
+      "level": "deep",
+      "seconds": 960
+    },
+    {
+      "dateTime": "2021-11-03T02:30:30.000",
+      "level": "light",
+      "seconds": 930
+    },
+    {
+      "dateTime": "2021-11-03T02:46:00.000",
+      "level": "deep",
+      "seconds": 480
+    },
+    {
+      "dateTime": "2021-11-03T02:54:00.000",
+      "level": "light",
+      "seconds": 1260
+    },
+    {
+      "dateTime": "2021-11-03T03:15:00.000",
+      "level": "rem",
+      "seconds": 900
+    },
+    {
+      "dateTime": "2021-11-03T03:10:00.000",
+      "level": "light",
+      "seconds": 1110
+    },
+    {
+      "dateTime": "2021-11-03T03:28:30.000",
+      "level": "deep",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-11-03T03:33:00.000",
+      "level": "light",
+      "seconds": 1350
+    },
+    {
+      "dateTime": "2021-11-03T03:55:30.000",
+      "level": "rem",
+      "seconds": 930
+    },
+    {
+      "dateTime": "2021-11-03T04:11:00.000",
+      "level": "light",
+      "seconds": 4680
+    },
+    {
+      "dateTime": "2021-11-03T05:29:00.000",
+      "level": "rem",
+      "seconds": 1290
+    },
+    {
+      "dateTime": "2021-11-03T05:50:30.000",
+      "level": "light",
+      "seconds": 630
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61888405f3f80fa147e6232d"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1635984000000"
+    }
+  },
+  "bed_time": "23:15:00",
+  "sleep_time": "23:27:00",
+  "wake_time": "06:04:30",
+  "true_sleep_time": 240.15,
+  "sleep_efficiency": 57.3,
+  "toss_and_turn": 32.5,
+  "wake": 100,
+  "rem": 202.5,
+  "light": 101.5,
+  "deep": 4.5,
+  "wake_ratio": 5,
+  "rem_ratio": 60,
+  "light_ratio": 30,
+  "deep_ratio": 5,
+  "sleep_score": 66,
+  "poor_sleep_ratio": 19,
+  "emo_level_value": 2,
+  "emo_danger_ratio": 11.5,
+  "emo_danger_ratio_30days": 0.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 18,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-11-03T23:20:30.000",
+      "level": "wake",
+      "seconds": 390
+    },
+    {
+      "dateTime": "2021-11-03T23:27:00.000",
+      "level": "light",
+      "seconds": 660
+    },
+    {
+      "dateTime": "2021-11-03T23:38:00.000",
+      "level": "wake",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-11-03T23:42:30.000",
+      "level": "light",
+      "seconds": 2130
+    },
+    {
+      "dateTime": "2021-11-04T00:18:00.000",
+      "level": "rem",
+      "seconds": 1350
+    },
+    {
+      "dateTime": "2021-11-04T00:40:30.000",
+      "level": "wake",
+      "seconds": 990
+    },
+    {
+      "dateTime": "2021-11-04T00:57:00.000",
+      "level": "light",
+      "seconds": 4650
+    },
+    {
+      "dateTime": "2021-11-04T02:14:30.000",
+      "level": "rem",
+      "seconds": 960
+    },
+    {
+      "dateTime": "2021-11-04T02:30:30.000",
+      "level": "wake",
+      "seconds": 930
+    },
+    {
+      "dateTime": "2021-11-04T02:46:00.000",
+      "level": "deep",
+      "seconds": 480
+    },
+    {
+      "dateTime": "2021-11-04T02:54:00.000",
+      "level": "light",
+      "seconds": 1260
+    },
+    {
+      "dateTime": "2021-11-04T03:15:00.000",
+      "level": "rem",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-11-04T03:20:00.000",
+      "level": "light",
+      "seconds": 510
+    },
+    {
+      "dateTime": "2021-11-04T03:28:30.000",
+      "level": "rem",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-11-04T03:33:00.000",
+      "level": "light",
+      "seconds": 1350
+    },
+    {
+      "dateTime": "2021-11-04T03:55:30.000",
+      "level": "rem",
+      "seconds": 930
+    },
+    {
+      "dateTime": "2021-11-04T04:11:00.000",
+      "level": "light",
+      "seconds": 4680
+    },
+    {
+      "dateTime": "2021-11-04T05:29:00.000",
+      "level": "rem",
+      "seconds": 1860
+    },
+    {
+      "dateTime": "2021-11-04T06:00:30.000",
+      "level": "light",
+      "seconds": 240
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6188844d95fdd226409be9b8"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1636070400000"
+    }
+  },
+  "bed_time": "23:30:00",
+  "sleep_time": "23:38:00",
+  "wake_time": "05:52:00",
+  "true_sleep_time": 180.15,
+  "sleep_efficiency": 45.5,
+  "toss_and_turn": 32.5,
+  "wake": 50.5,
+  "rem": 105.5,
+  "light": 85.5,
+  "deep": 3.5,
+  "wake_ratio": 20,
+  "rem_ratio": 48,
+  "light_ratio": 30,
+  "deep_ratio": 2,
+  "sleep_score": 67,
+  "poor_sleep_ratio": 21,
+  "emo_level_value": 1,
+  "emo_danger_ratio": 35.5,
+  "emo_danger_ratio_30days": 3.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 0,
+  "emotion_quest": 0,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-11-04T23:30:30.000",
+      "level": "wake",
+      "seconds": 390
+    },
+    {
+      "dateTime": "2021-11-04T23:38:00.000",
+      "level": "deep",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-11-04T23:42:30.000",
+      "level": "light",
+      "seconds": 2190
+    },
+    {
+      "dateTime": "2021-11-05T00:17:00.000",
+      "level": "deep",
+      "seconds": 1290
+    },
+    {
+      "dateTime": "2021-11-05T00:40:30.000",
+      "level": "wake",
+      "seconds": 990
+    },
+    {
+      "dateTime": "2021-11-05T00:57:00.000",
+      "level": "light",
+      "seconds": 4650
+    },
+    {
+      "dateTime": "2021-11-05T02:14:30.000",
+      "level": "rem",
+      "seconds": 960
+    },
+    {
+      "dateTime": "2021-11-05T02:30:30.000",
+      "level": "light",
+      "seconds": 930
+    },
+    {
+      "dateTime": "2021-11-05T02:46:00.000",
+      "level": "rem",
+      "seconds": 480
+    },
+    {
+      "dateTime": "2021-11-05T02:54:00.000",
+      "level": "light",
+      "seconds": 1260
+    },
+    {
+      "dateTime": "2021-11-05T03:15:00.000",
+      "level": "rem",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-11-05T03:20:00.000",
+      "level": "light",
+      "seconds": 510
+    },
+    {
+      "dateTime": "2021-11-05T03:28:30.000",
+      "level": "rem",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-11-05T03:33:00.000",
+      "level": "light",
+      "seconds": 1350
+    },
+    {
+      "dateTime": "2021-11-05T03:55:30.000",
+      "level": "rem",
+      "seconds": 930
+    },
+    {
+      "dateTime": "2021-11-05T04:11:00.000",
+      "level": "light",
+      "seconds": 4680
+    },
+    {
+      "dateTime": "2021-11-05T05:29:00.000",
+      "level": "rem",
+      "seconds": 1290
+    },
+    {
+      "dateTime": "2021-11-05T05:50:30.000",
+      "level": "light",
+      "seconds": 630
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61888486dea70ff8f5cfc81a"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1636156800000"
+    }
+  },
+  "bed_time": "22:15:00",
+  "sleep_time": "22:27:00",
+  "wake_time": "05:52:00",
+  "true_sleep_time": 344.15,
+  "sleep_efficiency": 75.5,
+  "toss_and_turn": 18.5,
+  "wake": 40.5,
+  "rem": 110.5,
+  "light": 99.5,
+  "deep": 5.5,
+  "wake_ratio": 25,
+  "rem_ratio": 60,
+  "light_ratio": 10,
+  "deep_ratio": 5,
+  "sleep_score": 65,
+  "poor_sleep_ratio": 23,
+  "emo_level_value": 2,
+  "emo_danger_ratio": 88.5,
+  "emo_danger_ratio_30days": 91.34,
+  "emo_ha_total": 0,
+  "sleep_result": 12,
+  "emotion_result": 5,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-11-05T22:20:30.000",
+      "level": "wake",
+      "seconds": 390
+    },
+    {
+      "dateTime": "2021-11-05T22:27:30.000",
+      "level": "rem",
+      "seconds": 1320
+    },
+    {
+      "dateTime": "2021-11-05T22:49:00.000",
+      "level": "light",
+      "seconds": 1360
+    },
+    {
+      "dateTime": "2021-11-05T23:11:30.000",
+      "level": "rem",
+      "seconds": 510
+    },
+    {
+      "dateTime": "2021-11-05T23:20:30.000",
+      "level": "wake",
+      "seconds": 390
+    },
+    {
+      "dateTime": "2021-11-05T23:27:00.000",
+      "level": "light",
+      "seconds": 660
+    },
+    {
+      "dateTime": "2021-11-05T23:38:00.000",
+      "level": "wake",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-11-05T23:42:30.000",
+      "level": "light",
+      "seconds": 2130
+    },
+    {
+      "dateTime": "2021-11-06T00:18:00.000",
+      "level": "deep",
+      "seconds": 750
+    },
+    {
+      "dateTime": "2021-11-06T00:30:30.000",
+      "level": "rem",
+      "seconds": 1590
+    },
+    {
+      "dateTime": "2021-11-06T00:57:00.000",
+      "level": "light",
+      "seconds": 4650
+    },
+    {
+      "dateTime": "2021-11-06T02:14:30.000",
+      "level": "rem",
+      "seconds": 960
+    },
+    {
+      "dateTime": "2021-11-06T02:30:30.000",
+      "level": "deep",
+      "seconds": 930
+    },
+    {
+      "dateTime": "2021-11-06T02:46:00.000",
+      "level": "deep",
+      "seconds": 360
+    },
+    {
+      "dateTime": "2021-11-06T02:52:00.000",
+      "level": "light",
+      "seconds": 1380
+    },
+    {
+      "dateTime": "2021-11-06T03:15:00.000",
+      "level": "rem",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-11-06T03:20:00.000",
+      "level": "light",
+      "seconds": 480
+    },
+    {
+      "dateTime": "2021-11-06T03:28:00.000",
+      "level": "deep",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-11-06T03:33:00.000",
+      "level": "light",
+      "seconds": 1350
+    },
+    {
+      "dateTime": "2021-11-06T03:55:30.000",
+      "level": "rem",
+      "seconds": 930
+    },
+    {
+      "dateTime": "2021-11-06T04:11:00.000",
+      "level": "light",
+      "seconds": 4680
+    },
+    {
+      "dateTime": "2021-11-06T05:29:00.000",
+      "level": "rem",
+      "seconds": 1290
+    },
+    {
+      "dateTime": "2021-11-06T05:50:30.000",
+      "level": "light",
+      "seconds": 630
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "618884c37a63738bb999867a"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1636243200000"
+    }
+  },
+  "bed_time": "23:18:00",
+  "sleep_time": "23:25:00",
+  "wake_time": "05:52:00",
+  "true_sleep_time": 240.15,
+  "sleep_efficiency": 60.1,
+  "toss_and_turn": 18.5,
+  "wake": 38.5,
+  "rem": 144.5,
+  "light": 99.5,
+  "deep": 20.5,
+  "wake_ratio": 20,
+  "rem_ratio": 30,
+  "light_ratio": 40,
+  "deep_ratio": 15,
+  "sleep_score": 78,
+  "poor_sleep_ratio": 15,
+  "emo_level_value": 0,
+  "emo_danger_ratio": 30.5,
+  "emo_danger_ratio_30days": 21.34,
+  "emo_ha_total": 1,
+  "sleep_result": 12,
+  "emotion_result": 10,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-11-06T23:20:30.000",
+      "level": "wake",
+      "seconds": 390
+    },
+    {
+      "dateTime": "2021-11-06T23:27:00.000",
+      "level": "light",
+      "seconds": 660
+    },
+    {
+      "dateTime": "2021-11-06T23:38:00.000",
+      "level": "wake",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-11-06T23:42:30.000",
+      "level": "light",
+      "seconds": 2130
+    },
+    {
+      "dateTime": "2021-11-07T00:18:00.000",
+      "level": "deep",
+      "seconds": 1350
+    },
+    {
+      "dateTime": "2021-11-07T00:40:30.000",
+      "level": "wake",
+      "seconds": 990
+    },
+    {
+      "dateTime": "2021-11-07T00:57:00.000",
+      "level": "light",
+      "seconds": 4650
+    },
+    {
+      "dateTime": "2021-11-07T02:14:30.000",
+      "level": "rem",
+      "seconds": 960
+    },
+    {
+      "dateTime": "2021-11-07T02:30:30.000",
+      "level": "light",
+      "seconds": 930
+    },
+    {
+      "dateTime": "2021-11-07T02:46:00.000",
+      "level": "deep",
+      "seconds": 480
+    },
+    {
+      "dateTime": "2021-11-07T02:54:00.000",
+      "level": "light",
+      "seconds": 1260
+    },
+    {
+      "dateTime": "2021-11-07T03:15:00.000",
+      "level": "rem",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-11-07T03:20:00.000",
+      "level": "light",
+      "seconds": 510
+    },
+    {
+      "dateTime": "2021-11-07T03:28:30.000",
+      "level": "deep",
+      "seconds": 270
+    },
+    {
+      "dateTime": "2021-11-07T03:33:00.000",
+      "level": "light",
+      "seconds": 1350
+    },
+    {
+      "dateTime": "2021-11-07T03:55:30.000",
+      "level": "rem",
+      "seconds": 930
+    },
+    {
+      "dateTime": "2021-11-07T04:11:00.000",
+      "level": "light",
+      "seconds": 4680
+    },
+    {
+      "dateTime": "2021-11-07T05:29:00.000",
+      "level": "rem",
+      "seconds": 1290
+    },
+    {
+      "dateTime": "2021-11-07T05:50:30.000",
+      "level": "light",
+      "seconds": 630
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "618885026ecbb328a564702d"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1636329600000"
+    }
+  },
+  "bed_time": "00:15:00",
+  "sleep_time": "00:32:00",
+  "wake_time": "05:52:00",
+  "true_sleep_time": 240.15,
+  "sleep_efficiency": 86.7,
+  "toss_and_turn": 32.5,
+  "wake": 26.5,
+  "rem": 129.5,
+  "light": 109.5,
+  "deep": 6.5,
+  "wake_ratio": 29,
+  "rem_ratio": 29,
+  "light_ratio": 29,
+  "deep_ratio": 29,
+  "sleep_score": 82,
+  "poor_sleep_ratio": 19,
+  "emo_level_value": 2,
+  "emo_danger_ratio": 60,
+  "emo_danger_ratio_30days": 60,
+  "emo_ha_total": 0,
+  "sleep_result": 12,
+  "emotion_result": 18,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-11-08T00:18:00.000",
+      "level": "wake",
+      "seconds": 720
+    },
+    {
+      "dateTime": "2021-11-08T00:32:00.000",
+      "level": "rem",
+      "seconds": 1500
+    },
+    {
+      "dateTime": "2021-11-08T00:57:00.000",
+      "level": "light",
+      "seconds": 4650
+    },
+    {
+      "dateTime": "2021-11-08T02:14:30.000",
+      "level": "rem",
+      "seconds": 960
+    },
+    {
+      "dateTime": "2021-11-08T02:30:30.000",
+      "level": "light",
+      "seconds": 990
+    },
+    {
+      "dateTime": "2021-11-08T02:47:00.000",
+      "level": "deep",
+      "seconds": 420
+    },
+    {
+      "dateTime": "2021-11-08T02:54:00.000",
+      "level": "light",
+      "seconds": 1380
+    },
+    {
+      "dateTime": "2021-11-08T03:13:00.000",
+      "level": "rem",
+      "seconds": 180
+    },
+    {
+      "dateTime": "2021-11-08T03:20:00.000",
+      "level": "light",
+      "seconds": 540
+    },
+    {
+      "dateTime": "2021-11-08T03:28:00.000",
+      "level": "deep",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-11-08T03:33:00.000",
+      "level": "light",
+      "seconds": 1350
+    },
+    {
+      "dateTime": "2021-11-08T03:55:30.000",
+      "level": "rem",
+      "seconds": 930
+    },
+    {
+      "dateTime": "2021-11-08T04:11:00.000",
+      "level": "light",
+      "seconds": 4680
+    },
+    {
+      "dateTime": "2021-11-08T05:29:00.000",
+      "level": "rem",
+      "seconds": 1290
+    },
+    {
+      "dateTime": "2021-11-08T05:50:30.000",
+      "level": "light",
+      "seconds": 630
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "618885026ecab328a564702d"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1636416000000"
+    }
+  },
+  "bed_time": "00:15:00",
+  "sleep_time": "00:32:00",
+  "wake_time": "05:52:00",
+  "true_sleep_time": 29,
+  "sleep_efficiency": 29,
+  "toss_and_turn": 29,
+  "wake": 29,
+  "rem": 29,
+  "light": 29,
+  "deep": 29,
+  "wake_ratio": 29,
+  "rem_ratio": 29,
+  "light_ratio": 29,
+  "deep_ratio": 29,
+  "sleep_score": 29,
+  "poor_sleep_ratio": 29,
+  "emo_level_value": 2,
+  "emo_danger_ratio": 29,
+  "emo_danger_ratio_30days": 29,
+  "emo_ha_total": 0,
+  "sleep_result": 12,
+  "emotion_result": 0,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-11-09T00:18:00.000",
+      "level": "wake",
+      "seconds": 720
+    },
+    {
+      "dateTime": "2021-11-09T00:32:00.000",
+      "level": "rem",
+      "seconds": 1500
+    },
+    {
+      "dateTime": "2021-11-09T00:57:00.000",
+      "level": "light",
+      "seconds": 4650
+    },
+    {
+      "dateTime": "2021-11-09T02:14:30.000",
+      "level": "rem",
+      "seconds": 960
+    },
+    {
+      "dateTime": "2021-11-09T02:30:30.000",
+      "level": "light",
+      "seconds": 990
+    },
+    {
+      "dateTime": "2021-11-09T02:47:00.000",
+      "level": "deep",
+      "seconds": 420
+    },
+    {
+      "dateTime": "2021-11-09T02:54:00.000",
+      "level": "light",
+      "seconds": 1380
+    },
+    {
+      "dateTime": "2021-11-09T03:13:00.000",
+      "level": "rem",
+      "seconds": 180
+    },
+    {
+      "dateTime": "2021-11-09T03:20:00.000",
+      "level": "light",
+      "seconds": 540
+    },
+    {
+      "dateTime": "2021-11-09T03:28:00.000",
+      "level": "deep",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-11-09T03:33:00.000",
+      "level": "light",
+      "seconds": 1350
+    },
+    {
+      "dateTime": "2021-11-09T03:55:30.000",
+      "level": "rem",
+      "seconds": 930
+    },
+    {
+      "dateTime": "2021-11-09T04:11:00.000",
+      "level": "light",
+      "seconds": 4680
+    },
+    {
+      "dateTime": "2021-11-09T05:29:00.000",
+      "level": "rem",
+      "seconds": 1290
+    },
+    {
+      "dateTime": "2021-11-09T05:50:30.000",
+      "level": "light",
+      "seconds": 630
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "618885026ecab328d564702d"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1636502400000"
+    }
+  },
+  "bed_time": "00:15:00",
+  "sleep_time": "00:32:00",
+  "wake_time": "05:52:00",
+  "true_sleep_time": 29,
+  "sleep_efficiency": 29,
+  "toss_and_turn": 29,
+  "wake": 29,
+  "rem": 29,
+  "light": 29,
+  "deep": 29,
+  "wake_ratio": 29,
+  "rem_ratio": 29,
+  "light_ratio": 29,
+  "deep_ratio": 29,
+  "sleep_score": 29,
+  "poor_sleep_ratio": 29,
+  "emo_level_value": 2,
+  "emo_danger_ratio": 29,
+  "emo_danger_ratio_30days": 29,
+  "emo_ha_total": 0,
+  "sleep_result": 15,
+  "emotion_result": 14,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-11-09T00:18:00.000",
+      "level": "wake",
+      "seconds": 720
+    },
+    {
+      "dateTime": "2021-11-09T00:32:00.000",
+      "level": "rem",
+      "seconds": 1500
+    },
+    {
+      "dateTime": "2021-11-09T00:57:00.000",
+      "level": "light",
+      "seconds": 4650
+    },
+    {
+      "dateTime": "2021-11-09T02:14:30.000",
+      "level": "rem",
+      "seconds": 960
+    },
+    {
+      "dateTime": "2021-11-09T02:30:30.000",
+      "level": "light",
+      "seconds": 990
+    },
+    {
+      "dateTime": "2021-11-09T02:47:00.000",
+      "level": "deep",
+      "seconds": 420
+    },
+    {
+      "dateTime": "2021-11-09T02:54:00.000",
+      "level": "light",
+      "seconds": 1380
+    },
+    {
+      "dateTime": "2021-11-09T03:13:00.000",
+      "level": "rem",
+      "seconds": 180
+    },
+    {
+      "dateTime": "2021-11-09T03:20:00.000",
+      "level": "light",
+      "seconds": 540
+    },
+    {
+      "dateTime": "2021-11-09T03:28:00.000",
+      "level": "deep",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-11-09T03:33:00.000",
+      "level": "light",
+      "seconds": 1350
+    },
+    {
+      "dateTime": "2021-11-09T03:55:30.000",
+      "level": "rem",
+      "seconds": 930
+    },
+    {
+      "dateTime": "2021-11-09T04:11:00.000",
+      "level": "light",
+      "seconds": 4680
+    },
+    {
+      "dateTime": "2021-11-09T05:29:00.000",
+      "level": "rem",
+      "seconds": 1290
+    },
+    {
+      "dateTime": "2021-11-09T05:50:30.000",
+      "level": "light",
+      "seconds": 630
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "618885026ecab325d564702d"
+  },
+  "user_id": "uid_0x1234",
+  "date": {
+    "$date": {
+      "$numberLong": "1636588800000"
+    }
+  },
+  "bed_time": "00:15:00",
+  "sleep_time": "00:32:00",
+  "wake_time": "05:52:00",
+  "true_sleep_time": 29,
+  "sleep_efficiency": 29,
+  "toss_and_turn": 29,
+  "wake": 29,
+  "rem": 29,
+  "light": 29,
+  "deep": 29,
+  "wake_ratio": 29,
+  "rem_ratio": 29,
+  "light_ratio": 29,
+  "deep_ratio": 29,
+  "sleep_score": 29,
+  "poor_sleep_ratio": 29,
+  "emo_level_value": 2,
+  "emo_danger_ratio": 29,
+  "emo_danger_ratio_30days": 29,
+  "emo_ha_total": 0,
+  "sleep_result": 15,
+  "emotion_result": 14,
+  "contents_call_contact": 2,
+  "sleep_quest": 1,
+  "emotion_quest": 1,
+  "sleep_graph_data": [
+    {
+      "dateTime": "2021-11-09T00:18:00.000",
+      "level": "wake",
+      "seconds": 720
+    },
+    {
+      "dateTime": "2021-11-09T00:32:00.000",
+      "level": "rem",
+      "seconds": 1500
+    },
+    {
+      "dateTime": "2021-11-09T00:57:00.000",
+      "level": "light",
+      "seconds": 4650
+    },
+    {
+      "dateTime": "2021-11-09T02:14:30.000",
+      "level": "rem",
+      "seconds": 960
+    },
+    {
+      "dateTime": "2021-11-09T02:30:30.000",
+      "level": "light",
+      "seconds": 990
+    },
+    {
+      "dateTime": "2021-11-09T02:47:00.000",
+      "level": "deep",
+      "seconds": 420
+    },
+    {
+      "dateTime": "2021-11-09T02:54:00.000",
+      "level": "light",
+      "seconds": 1380
+    },
+    {
+      "dateTime": "2021-11-09T03:13:00.000",
+      "level": "rem",
+      "seconds": 180
+    },
+    {
+      "dateTime": "2021-11-09T03:20:00.000",
+      "level": "light",
+      "seconds": 540
+    },
+    {
+      "dateTime": "2021-11-09T03:28:00.000",
+      "level": "deep",
+      "seconds": 300
+    },
+    {
+      "dateTime": "2021-11-09T03:33:00.000",
+      "level": "light",
+      "seconds": 1350
+    },
+    {
+      "dateTime": "2021-11-09T03:55:30.000",
+      "level": "rem",
+      "seconds": 930
+    },
+    {
+      "dateTime": "2021-11-09T04:11:00.000",
+      "level": "light",
+      "seconds": 4680
+    },
+    {
+      "dateTime": "2021-11-09T05:29:00.000",
+      "level": "rem",
+      "seconds": 1290
+    },
+    {
+      "dateTime": "2021-11-09T05:50:30.000",
+      "level": "light",
+      "seconds": 630
+    }
+  ]
+}]

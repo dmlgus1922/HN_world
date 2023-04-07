@@ -3,6 +3,10 @@ import cv2
 # import streamlit_webrtc as webrtc
 # from audio_recorder_streamlit import audio_recorder
 from st_custom_components import st_audiorec
+import base64
+import json
+import paho.mqtt.client as mqtt
+
 
 ########################## 세션 생성 ##########################
 #-------------------------------------------------------------------
@@ -47,9 +51,26 @@ if 'audio' not in st.session_state:
 if 'audio_check' not in st.session_state:
     st.session_state.audio_check = ''
 
+########################## 함수 생성(MQTT) ##########################
+
+def user_regis_pub(topic_name, data):
+    base_topic = 'aihome/powervoice/'
+
+    if topic_name == 'photo':
+        topic = base_topic + 'face_engine/register'
+    
+    regis_client = mqtt.Client() # puclisher 이름
+    regis_client.connect("localhost", 1883)
+    regis_client.loop_start()
+    # common topic 으로 메세지 발행
+    regis_client.publish(topic, data, 1) # topic, message
+    regis_client.loop_stop()
+    # 연결 종료
+    regis_client.disconnect()
 
 
-########################## 함수 생성 ##########################
+
+########################## 함수 생성(UI/UX) ##########################
 
 def change_name_func():
     # st.session_state.name = st.session_state.name
@@ -69,7 +90,28 @@ def name_regis_func():
 
 def photo_regis_func():
     cv2.imwrite('taked_photo.png', st.session_state.photo) # 우선 사진 저장으로 
-    PHOTO_CHECK.write(f'✅ 사진 등록 완료!')
+
+    # photo_bytes = st.session_state.photo.tobytes()
+    # photo_base64 = base64.b64encode(photo_bytes)
+
+    # json_dict = {
+    #     'file_name': f'aihome_powervoice_register_{st.session_state.name}.png',
+    #     'file_body': photo_base64
+    # }
+
+    # json_data = json.dumps(json_dict)
+    # photo_list = st.session_state.photo.tolist()
+    # photo_bytearray = bytearray(photo_bytes)
+    photo_data = base64.urlsafe_b64encode(st.session_state.photo).decode('utf-8')
+    data = json.dumps({
+        'file_name': f'aihome_powervoice_register_{st.session_state.name}.png',
+        'file_body': photo_data
+    })
+
+
+    user_regis_pub('photo', data)
+
+    # PHOTO_CHECK.write(f'✅ 사진 등록 완료!')
 
 
 def photo_take_func():
@@ -286,4 +328,4 @@ def show_cam():
 
 # 세션 확인 용
 st.container().write(st.session_state)
-# show_cam() # 영상 표출 때문에 무한루프 중
+show_cam() # 영상 표출 때문에 무한루프 중

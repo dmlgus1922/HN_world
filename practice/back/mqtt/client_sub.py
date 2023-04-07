@@ -23,6 +23,7 @@ def on_message(client, userdata, message):
         print("message retain flag= ", message.retain)
 
 
+
 broker_address = "localhost"
 
 client1 = mqtt.Client()
@@ -35,6 +36,8 @@ client1.on_message = on_message
 
 client1.connect(broker_address, 1883)
 
-client1.subscribe("김의현/출근상태", 1)
+client1.subscribe("김의현/상태", 1)
 
 client1.loop_forever()
+
+print('루프 후')
