@@ -95,13 +95,16 @@ class StAudioRec extends StreamlitComponentBase<State> {
               controls
               src={this.state.audioDataURL}
             />
-            {
+            {/* {
             this.state.regis
               ?
-              <button id='record' style={{float: "right", marginRight:"0"}}>등록</button>
+              <button id='record' 
+                style={{float: "right", marginRight:"0"}}
+                onClick={this.onClick_continue}
+                >등록</button>
               :
               <></>
-            }
+            } */}
           </div>
           
         </span>
@@ -120,6 +123,7 @@ class StAudioRec extends StreamlitComponentBase<State> {
       Streamlit.setComponentValue('')
       e.target.innerText = '중지'
       e.target.id = 'stop'
+      return true
     } else {
       this.setState({
         reset: false,
@@ -130,6 +134,10 @@ class StAudioRec extends StreamlitComponentBase<State> {
       e.target.id = 'record'
     }
     // console.log(e)
+  }
+
+  private onClick_regis = (e) => {
+
   }
 
   // private onClick_stop = () => {

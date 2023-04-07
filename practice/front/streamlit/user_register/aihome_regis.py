@@ -48,6 +48,7 @@ if 'audio_check' not in st.session_state:
     st.session_state.audio_check = ''
 
 
+
 ########################## 함수 생성 ##########################
 
 def change_name_func():
@@ -91,7 +92,6 @@ def audio_regis_func():
 ############## 상단 제목 및 영상 ##############
 
 st.markdown('<h1 style="text-align: center">사용자 등록</h1>', unsafe_allow_html=True)
-
 blank1, cam_area, blank2 = st.columns(3)
 
 with blank1:
@@ -150,6 +150,7 @@ with name_input_regis_area:
 
     if st.session_state.name_regis:
         NAME_CHECK.write(change_name_func())
+st.markdown('<hr/>', unsafe_allow_html=True)
 
 ############## 사진 촬영 ##############
 
@@ -198,6 +199,7 @@ with photo_input_regis_area:
 
 
 
+st.markdown('<hr/>', unsafe_allow_html=True)
 
 ############## 음성 등록 ##############
 
@@ -225,8 +227,14 @@ with audio_text_area:
 
 with audio_input_regis_area:
     # st.session_state.audio_check = st.button('등록', key = 'audio_regis_key')
-    wav_audio_data = st_audiorec()
+    st.session_state.audio = st_audiorec()
 
+    _1, audio_regis_btn_area = st.columns(2)
+    with audio_regis_btn_area:
+        if st.session_state.audio:
+            st.button('등록')
+
+st.markdown('<hr/>', unsafe_allow_html=True)
 
 ############## 등록 결과 ##############
 
