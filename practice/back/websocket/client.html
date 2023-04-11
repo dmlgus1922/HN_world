@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <input type="text" id="inputtxt">
+        <input type="button" value="send" onclick="sendMessage()">
+        <input type="button" value="disconnect" onclick="disconnect()">
+
+    </form>
+    <br>
+    <textarea name="" id="msgtxtarea" cols="50" rows="10"></textarea>
+
+    <script type="text/javascript">
+        const webSocket = new WebSocket('ws://localhost:9999');
+        const msgtxtarea = document.getElementById('msgtxtarea');
+
+        webSocket.onopen = (msg) => {
+            msgtxtarea.value += 'server connect! \n';
+        };
+
+        webSocket.onclose = (msg) => {
+            msgtxtarea.value += 'server disconnect! \n';
+        };
+        webSocket.onerror = (msg) => {
+            msgtxtarea.value += 'error \n';
+        };
+
+        webSocket.onmessage = (msg) => {
+            msgtxtarea.value += 'recieved from server : ' + msg.data + '\n';
+        };
+
+        const sendMessage = () => {
+            const msg = document.getElementById('inputtxt')
+            msgtxtarea.value += 'send to server : ' + msg.value + '\n'; 
+            webSocket.send(msg.value);
+            msg.value = '';
+        };
+
+        const disconnect = () => {
+            webSocket.close();
+        }
+
+    </script>
+</body>
+</html>
