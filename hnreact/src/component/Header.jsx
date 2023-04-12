@@ -6,11 +6,13 @@ import '../css/Header.css';
 
 const Header = () => {
 
+  const nav = useNavigate();
 
 
   return (
     <div className='header'>
-      나는야 숫자야구왕!
+      <button onClick={() => { nav('/'); }}>홈</button>
+      <button onClick={() => { nav('/baseball'); }}>야구</button>
       <br />
       <br />
     </div>

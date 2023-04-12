@@ -1,7 +1,7 @@
 import { React, useState, useRef } from 'react';
 import '../css/Main.css';
 
-const Main = () => {
+const NumberBaseball = () => {
   // 정답 여부
   const [answer, setAnswer] = useState(false);
   // 만들어낸 숫자
@@ -108,7 +108,9 @@ const Main = () => {
 
   return (
     <div className='main'>
-
+      나는야 숫자야구왕! 
+      <br />
+      <br />
       <button onClick={mkNum}>숫자 만들기~</button>
       <br />
       <br />
@@ -147,4 +149,4 @@ const Main = () => {
   )
 }
 
-export default Main;
+export default NumberBaseball;
