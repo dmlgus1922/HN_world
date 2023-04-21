@@ -24,8 +24,9 @@ stream = p.open(
 #     print(data)
 
 data = stream.read(CHUNK)
+# data = np.fromstring(stream.read(CHUNK), dtype=np.int16)
 
-print(data)
+print(type(data))
 
 
 stream.stop_stream()

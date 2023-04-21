@@ -19,9 +19,10 @@ import rel
 # ssl_context.load_verify_locations()
 
 def on_message(ws, message):
-    # print(message)        
+    print(message)
     # print(1)
-    pass
+    # pass
+
 def on_error(ws, error):
     print(error)
 
@@ -29,32 +30,20 @@ def on_close(ws, close_status_code, close_msg):
     print("### closed ###")
 
 def on_open(ws):
-    CHUNK = 126
-    RATE = 16000
 
-    p = pyaudio.PyAudio()
+    print("receive thread Opened connection")
 
-    stream = p.open(
-        format=pyaudio.paInt16, rate=RATE, input=True, 
-        frames_per_buffer=CHUNK, channels=1
-        )
-    
-    print("Opened connection")
-    while True:
-        data = stream.read(CHUNK)
-        ws.send(data)
 
 
 encoded = parse.quote('김의현')
 
-url =  '' + encoded
+url =  'wss:' + encoded
 
-websocket.enableTrace(True)
+# websocket.enableTrace(True)
 ws = websocket.WebSocketApp(
     url,
     on_open=on_open,
     on_message=on_message,
-
     on_error=on_error,
     on_close=on_close
     )
@@ -63,7 +52,7 @@ ws.run_forever(
                sslopt={
                 "cert_reqs": ssl.CERT_NONE,
                 "check_hostname": False,
-                "ssl_version": ssl.PROTOCOL_TLS,
+                "ssl_version": ssl.PROTOCOL_TLSv1_2,
                 # 'certfile' : 'C:/Temp/openssl-0.9.8e_X64/private.crt',
                 # 'keyfile' : 'C:/Temp/openssl-0.9.8e_X64/private.key'
                }

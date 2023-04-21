@@ -1,28 +1,27 @@
-import websocket
-import _thread
+from websocket import WebSocketApp
+from threading import Thread
+import json
 import time
-import rel
-
-def on_message(ws, message):
-    print(message)
-
-def on_error(ws, error):
-    print(error)
-
-def on_close(ws, close_status_code, close_msg):
-    print("### closed ###")
-
+def on_message(ws, msg):
+    msg = json.loads(msg.decode('utf-8'))
+    print(msg)
+def on_error(ws, msg):
+    print(msg)
+def on_close(ws):
+    print("close")
 def on_open(ws):
-    print("Opened connection")
+    def run(*args):
+        request = '[{"ticket":""},{"type":"ticker","codes":["KRW-BTC"]}]'
+        ws.send(request)
+        time.sleep(5)
+        ws.close()
+    th = Thread(target=run, daemon=True)
+    th.start()
 
 if __name__ == "__main__":
-    websocket.enableTrace(True)
-    ws = websocket.WebSocketApp("wss://api.gemini.com/v1/marketdata/BTCUSD",
-                              on_open=on_open,
-                              on_message=on_message,
-                              on_error=on_error,
-                              on_close=on_close)
-
-    ws.run_forever(dispatcher=rel)  # Set dispatcher to automatic reconnection, 5 second reconnect delay if connection closed unexpectedly
-    # rel.signal(2, rel.abort)  # Keyboard Interrupt
-    # rel.dispatch()
+    ws = WebSocketApp("wss://api.upbit.com/websocket/v1",
+                      on_message=on_message,
+                      on_error=on_error,
+                      on_close=on_close,
+                      on_open=on_open)
+    ws.run_forever()

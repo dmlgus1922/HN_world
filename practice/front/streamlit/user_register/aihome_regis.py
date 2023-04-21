@@ -6,7 +6,9 @@ from st_custom_components import st_audiorec
 import base64
 import json
 import paho.mqtt.client as mqtt
-
+import pyaudio
+import numpy as np
+import matplotlib.pyplot as plt
 
 ########################## 세션 생성 ##########################
 #-------------------------------------------------------------------
@@ -270,11 +272,30 @@ with audio_text_area:
 with audio_input_regis_area:
     # st.session_state.audio_check = st.button('등록', key = 'audio_regis_key')
     st.session_state.audio = st_audiorec()
+    chunk = 1024  # 한 번에 읽어들일 샘플의 개수
+    format = pyaudio.paInt16  # 샘플의 비트 수
+    channels = 1  # 채널 개수 (모노)
+    rate = 44100  # 샘플링 레이트 (Hz)
 
+    p = pyaudio.PyAudio()  # PyAudio 객체 생성
+    stream = p.open(format=format, channels=channels, rate=rate,
+                    input=True, frames_per_buffer=chunk)  # 스트림 열기
+    while True:
+        # 마이크에서 샘플 데이터 읽어오기
+        data = stream.read(chunk)
+        # 바이트 데이터를 numpy 배열로 변환하기
+        samples = np.frombuffer(data, dtype=np.int16)
+        # 파형 그리기
+        plt.plot(samples)
+        st.pyplot()
+        plt.pause(0.1)
+        plt.clf()
+        
     _1, audio_regis_btn_area = st.columns(2)
     with audio_regis_btn_area:
         if st.session_state.audio:
             st.button('등록')
+st.button('audio_regis_hidden', key='audio_regis_hidden')
 
 st.markdown('<hr/>', unsafe_allow_html=True)
 
@@ -328,4 +349,21 @@ def show_cam():
 
 # 세션 확인 용
 st.container().write(st.session_state)
-show_cam() # 영상 표출 때문에 무한루프 중
+# show_cam() # 영상 표출 때문에 무한루프 중
+st.markdown(
+    """
+    <button onclick="test()">
+        asd
+    </button>
+        <script>
+            const test = () => {
+                const btns = document.getElementsByTagName('button')
+                for (let btn of btns) {
+                    if (btn.innerText === 'asd') {
+                        btn.style.display = 'none'
+                    }
+                }
+            }
+        </script>
+    """, unsafe_allow_html=True
+)

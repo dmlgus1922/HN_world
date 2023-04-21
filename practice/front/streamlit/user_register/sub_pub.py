@@ -9,8 +9,8 @@ def on_message(client, userdata, message):
     print("message topic= ", message.topic)
     print("message qos=", message.qos)
     print("message retain flag= ", message.retain)
-    # if message == '끝':
-    #     client.publish("김의현/상태", "신남", 1)
+    if message:
+        client.publish("/aihome/powervoice/face_engine/register/result", "ok", 1)
         # client.disconnect()
 
 broker_address = "localhost"
@@ -20,6 +20,6 @@ client1.on_message = on_message
 
 client1.connect(broker_address, 1883)
 
-client1.subscribe("aihome/powervoice/face_engine/register", 1)
+client1.subscribe("/aihome/powervoice/face_engine/register", 1)
 
 client1.loop_forever()

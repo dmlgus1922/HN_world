@@ -1,5 +1,6 @@
 import logo from './logo.svg';
-import './App.css';
+import Audio from './compo/Audio';
+// import StreamlitAudioRecorder_copy from './compo/StreamlitAudioRecorder_copy';
 
 function App() {
   const changeAttr = (e) => {
@@ -19,6 +20,8 @@ function App() {
   }
   return (
     <div>
+      <Audio></Audio>
+      {/* <StreamlitAudioRecorder_copy></StreamlitAudioRecorder_copy> */}
       <button
 
         onClick={changeAttr}
