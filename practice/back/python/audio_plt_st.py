@@ -2,7 +2,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import numpy as np
 import pyaudio
-
+from PIL import Image
 import io
 import base64
 
@@ -25,10 +25,12 @@ def main():
     st.text("Press 'Start' to begin streaming from microphone")
     
     # 그래프 초기화
-    fig = plt.figure()
+    fig = plt.figure(figsize=(5,1.5))
+
     plt.ion()
-    ax = fig.add_subplot(111)
-    line, = ax.plot([])
+
+    # ax = fig.add_subplot(111)
+    # line, = ax.plot([])
 
     chunk = 1024  # 한 번에 읽어들일 샘플의 개수
     format = pyaudio.paInt16  # 샘플의 비트 수
@@ -41,23 +43,26 @@ def main():
 
     # 'Start' 버튼을 누르면 데이터 스트리밍을 시작함
     if st.button('Start'):
-        with st.spinner("Starting microphone..."):
-            while True:
-                plt.clf()
-                # 마이크로부터 샘플을 읽어들임
-                data = stream.read(chunk)
-                # 파형을 계산함
-                waveform = np.frombuffer(data, dtype=np.int16)
-                plt.plot(waveform)
-                plt.ylim([-1, 1])
-                plt.imshow()
-                # 파형을 그림
-                # line.set_ydata(waveform)
-                # fig = plot_waveform(waveform)
-                # 그래프 출력
-                
-                # 잠시 대기
-                plt.pause(0.001)
+        con = st.pyplot(fig)
+        while True:
+            plt.clf()
+            # 마이크로부터 샘플을 읽어들임
+            data = stream.read(chunk)
+            # 파형을 계산함
+            waveform = np.frombuffer(data, dtype=np.int16)
+            plt.plot(waveform, color='red')
+            plt.ylim([-1200, 1200])
+            plt.xlim([-100, 1100])
+            plt.xticks([])
+            plt.yticks([])
+
+            # plt.show(block=False)
+            # plt.savefig('temp.png')
+            # audio_img = Image.open('temp.png')
+            # st.pyplot(fig)
+            con.pyplot(fig)
+            # con.image(audio_img)
+            plt.pause(0.03)
 
 if __name__ == '__main__':
     main()

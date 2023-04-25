@@ -11,6 +11,8 @@ p = pyaudio.PyAudio()  # PyAudio 객체 생성
 stream = p.open(format=format, channels=channels, rate=rate,
                 input=True, frames_per_buffer=chunk)  # 스트림 열기
 
+fig = plt.figure(figsize=(5,1.5))
+
 while True:
     # 마이크에서 샘플 데이터 읽어오기
     data = stream.read(chunk)
@@ -18,6 +20,11 @@ while True:
     samples = np.frombuffer(data, dtype=np.int16)
     # 파형 그리기
     plt.plot(samples)
+    plt.ylim([-700, 700])
+    plt.xlim([-100, 1100])
+    # plt.xticks([])
+    plt.yticks([])
+
     plt.show(block=False)
-    plt.pause(0.1)
+    plt.pause(0.03)
     plt.clf()
