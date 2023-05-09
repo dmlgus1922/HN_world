@@ -1,10 +1,13 @@
 import streamlit as st
 import matplotlib.pyplot as plt
+import matplotlib
 import numpy as np
 import pyaudio
 from PIL import Image
 import io
 import base64
+import matplotlib.image as mpimg
+import seaborn as sns
 
 # 파형을 그리는 함수
 def plot_waveform(waveform):
@@ -43,26 +46,28 @@ def main():
 
     # 'Start' 버튼을 누르면 데이터 스트리밍을 시작함
     if st.button('Start'):
-        con = st.pyplot(fig)
+        # con = st.pyplot(fig)
+        con = st.empty()
         while True:
-            plt.clf()
+            # plt.clf()
             # 마이크로부터 샘플을 읽어들임
             data = stream.read(chunk)
             # 파형을 계산함
             waveform = np.frombuffer(data, dtype=np.int16)
-            plt.plot(waveform, color='red')
-            plt.ylim([-1200, 1200])
-            plt.xlim([-100, 1100])
-            plt.xticks([])
-            plt.yticks([])
+            # plt.plot(waveform, color='red')
+            # plt.ylim([-1200, 1200])
+            # plt.xlim([-100, 1100])
+            # plt.xticks([])
+            # plt.yticks([])
 
             # plt.show(block=False)
             # plt.savefig('temp.png')
             # audio_img = Image.open('temp.png')
             # st.pyplot(fig)
-            con.pyplot(fig)
+            # con.pyplot(fig)
             # con.image(audio_img)
-            plt.pause(0.03)
+            # plt.pause(0.03)
+            sns.lineplot(data=waveform)
 
 if __name__ == '__main__':
     main()

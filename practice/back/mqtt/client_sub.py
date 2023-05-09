@@ -24,7 +24,7 @@ def on_message(client, userdata, message):
 
 
 
-broker_address = "localhost"
+broker_address = "58.72.111.186"
 
 client1 = mqtt.Client()
 
@@ -36,7 +36,7 @@ client1.on_message = on_message
 
 client1.connect(broker_address, 1883)
 
-client1.subscribe("김의현/상태", 1)
+client1.subscribe("test/test_topic", 1)
 
 client1.loop_forever()
 
