@@ -1,6 +1,17 @@
-# dmlgus1922
+# js
 node_modules
+
+# pyton
+__pycache__/
+
 .vscode
+
+# java
+.classpath
+.project
+.settings
+bin/
+
 # Logs
 logs
 *.log
