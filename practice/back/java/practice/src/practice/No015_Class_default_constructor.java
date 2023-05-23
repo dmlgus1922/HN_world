@@ -11,7 +11,6 @@ class Car2 {
 	
 }
 
-
 public class No015_Class_default_constructor {
 
 	public static void main(String[] args) {
