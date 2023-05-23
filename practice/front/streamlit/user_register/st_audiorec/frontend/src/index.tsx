@@ -1,6 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import StAudioRec from "./StreamlitAudioRecorder_copy2"
+import StAudioRec from "./StreamlitAudioRecorder"
 
 import Audio from "./Audio"
 // import Test from "./Test"
