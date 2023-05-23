@@ -1,13 +1,7 @@
 import streamlit as st
 import matplotlib.pyplot as plt
-import matplotlib
 import numpy as np
 import pyaudio
-from PIL import Image
-import io
-import base64
-import matplotlib.image as mpimg
-import seaborn as sns
 
 # 파형을 그리는 함수
 def plot_waveform(waveform):
@@ -48,26 +42,44 @@ def main():
     if st.button('Start'):
         # con = st.pyplot(fig)
         con = st.empty()
+        max_data = 0
+        min_data = 0
         while True:
-            # plt.clf()
+            plt.clf()
             # 마이크로부터 샘플을 읽어들임
             data = stream.read(chunk)
             # 파형을 계산함
             waveform = np.frombuffer(data, dtype=np.int16)
-            # plt.plot(waveform, color='red')
-            # plt.ylim([-1200, 1200])
-            # plt.xlim([-100, 1100])
-            # plt.xticks([])
-            # plt.yticks([])
+
+            max_data = max(max_data, max(waveform))
+            min_data = min(min_data, min(waveform))
+        
+            plt.plot(waveform, color='red')
+            plt.ylim([min_data - 100, max_data + 100])
+            plt.xlim([-100, 1100])
+            plt.xticks([])
+            plt.yticks([])
 
             # plt.show(block=False)
             # plt.savefig('temp.png')
             # audio_img = Image.open('temp.png')
             # st.pyplot(fig)
-            # con.pyplot(fig)
+            con.pyplot(fig)
             # con.image(audio_img)
             # plt.pause(0.03)
-            sns.lineplot(data=waveform)
+
+'''
+1. 최대, 최소 선언
+2. 최대, 최소 확인
+3. 최대, 최소 갱신
+
+갭으로 따지기
+첫 10 데이터 입력의 갭 평균
+이보다 작거나 같으면 무음
+1000 10000 100
+
+
+'''
 
 if __name__ == '__main__':
     main()
