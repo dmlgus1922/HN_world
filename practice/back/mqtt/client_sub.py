@@ -24,7 +24,7 @@ def on_message(client, userdata, message):
 
 
 
-broker_address = "58.72.111.186"
+broker_address = ""
 
 client1 = mqtt.Client()
 
