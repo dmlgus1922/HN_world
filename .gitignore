@@ -3,7 +3,8 @@ node_modules
 
 # pyton
 __pycache__/
-
+api_key.txt
+data/
 .vscode
 
 # java
