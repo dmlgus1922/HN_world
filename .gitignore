@@ -6,6 +6,7 @@ __pycache__/
 api_key.txt
 data/
 .vscode
+.ipynb_checkpoints/
 
 # java
 .classpath
