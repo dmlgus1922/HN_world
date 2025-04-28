@@ -99,6 +99,12 @@ const NumberBaseball = () => {
     inputRef.current.value = '';
   }
 
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter') {
+        checkNumber();
+    }
+  };
+
   const playAgain = () => {
     alert('😁 제가 잠깐 흥분을 했네요. 숫자 만들기 버튼을 다시 눌러주세요~❤')
     setAnswerNum('');
@@ -114,7 +120,7 @@ const NumberBaseball = () => {
       <button onClick={mkNum}>숫자 만들기~</button>
       <br />
       <br />
-      <input type="text" ref={inputRef} onChange={(e) => { setUserInput(e.target.value); }}
+      <input type="text" ref={inputRef} onChange={(e) => { setUserInput(e.target.value); }} onKeyPress={handleKeyPress}
         placeholder="숫자 네 자리" />
       <button onClick={checkNumber}>이거 맞니?!</button>
       {

@@ -7,6 +7,8 @@ api_key.txt
 data/
 .vscode
 .ipynb_checkpoints/
+venv/
+build/
 
 # java
 .classpath

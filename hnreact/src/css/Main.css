@@ -1,3 +1,32 @@
 #intro {
     border: 1px solid black;
 }
+
+/* 숫자야구 배경 스타일 */
+.number-baseball {
+    background: url('/public/logo192.png') repeat;
+    background-size: 100px 100px;
+    opacity: 0.1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 스트라이크와 볼 표시 스타일 */
+.result-strike {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #4caf50;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.result-ball {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #ff9800;
+    border-radius: 50%;
+    margin: 0 5px;
+}
