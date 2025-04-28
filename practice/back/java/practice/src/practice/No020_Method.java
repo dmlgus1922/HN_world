@@ -7,7 +7,7 @@ class Math {
     int add() { // 인스턴스 메소드
         return a + b;
     }
-
+    
     static int add(int x, int y) { // 클래스 메소드
         return x + y;
     }
@@ -18,6 +18,7 @@ public class No020_Method {
         Math calc = new Math();
         System.out.println(Math.add(10, 30));
         System.out.println(calc.add());
+        System.out.println(calc.add(20,100));
     }
     
 }

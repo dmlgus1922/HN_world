@@ -8,6 +8,7 @@ class Car {
 	private int currentSpeed;
 	private int accelerationTime;
 	
+	// 생성자 constructor
 	Car(String modelName, int modelYear, String color, int maxSpeed) {
 		this.modelName = modelName;
 		this.modelYear = modelYear;

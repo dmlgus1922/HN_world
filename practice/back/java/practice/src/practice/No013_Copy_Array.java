@@ -11,10 +11,10 @@ public class No013_Copy_Array {
 		
 		int[] arr2 = new int[newlen];
 //		System.arraycopy(arr1, 0, arr2, 0, arr1.length);
-		// 1. System 클래스의 arraycopy() 메소드
+		// 1. System 클래스의 arraycop() 메소드
 		// params - 1: 복사할 소스 array, 2: 소스 array에서 복사를 시작할 인덱스
 		// 3: 복사한 원소를 넣을 array, 4: 소스 array 시작 인덱스에서부터 복사할 원소의 개수(소스 array 범위를 벗어나면 error)
-		System.arraycopy(arr1, 2, arr2, 2, 2);
+		System.arraycopy(arr1, 1, arr2, 2, 2);
 		for (int num: arr2) {
 			System.out.print(num + " ");
 		}
