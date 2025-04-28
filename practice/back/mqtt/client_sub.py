@@ -25,6 +25,7 @@ def on_message(client, userdata, message):
 
 
 broker_address = ""
+sub_topic = ""
 
 client1 = mqtt.Client()
 
@@ -36,7 +37,8 @@ client1.on_message = on_message
 
 client1.connect(broker_address, 1883)
 
-client1.subscribe("test/test_topic", 1)
+
+client1.subscribe(sub_topic, 1)
 
 client1.loop_forever()
 

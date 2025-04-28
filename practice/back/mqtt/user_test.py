@@ -27,10 +27,13 @@ def user_regis_pub(topic_name, data):
     def on_publish(client, userdata, mid):
         print('published to ', pub_topic, '\n')
 
-    # address = ''
-    address = 'localhost'
 
-    base_topic = '/sometopic'
+    address = ''
+
+
+    # address = 'localhost'
+
+    base_topic = '/aihome/powervoice/'
     if topic_name == 'photo':
         pub_topic = base_topic + 'engine/register'
         sub_topic = base_topic + 'engine/register/result'
@@ -58,10 +61,11 @@ def user_regis_pub(topic_name, data):
     regis_client.subscribe(sub_topic, 1)
     regis_client.loop_start()
     regis_client.publish(pub_topic, data, 1) # topic, message
-    time.sleep(10)
+    time.sleep(2)
 
 
-data = json.dumps({'user_name' : '김의현'})
+user_name = 'kimTest'
+data = json.dumps({'user_name' : user_name})
 # user_regis_pub('user', data)
 # user_regis_pub('audio_start', data)
 user_regis_pub('delete', data)
